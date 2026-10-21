@@ -92,7 +92,9 @@ Instala en un emulador/TV con Android 7.0+ (API 24). Añade una playlist desde
 - [`docs/ANALISIS_OWNTV.md`](docs/ANALISIS_OWNTV.md) — análisis de arquitectura de OwnTV y qué
   decisiones inspiraron blankTV.
 - [`docs/ROADMAP.md`](docs/ROADMAP.md) — hojas de ruta v0.2 → v0.5.
-- [`NOTICE.md`](NOTICE.md) — licencia, atribución y procedencia de assets.
+- [`third_party/README.md`](third_party/README.md) — código de terceros vendado (OwnTV_Core,
+  GPL-3.0, solo lectura, no se compila).
+- [`NOTICE.md`](NOTICE.md) — licencia, composición del repo y atribución.
 
 ## ⚖️ Licencia
 

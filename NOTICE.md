@@ -4,34 +4,44 @@
 
 blankTV se distribuye bajo la **GNU General Public License v3.0** (ver `LICENSE`).
 
-## Atribución y relación con OwnTV
+## Composición del repositorio
 
-blankTV **estudia** la arquitectura del proyecto [OwnTV](https://github.com/ahXN00/OwnTV) de
-`ahXN00` (y de su librería `OwnTV_Core`), ambos bajo GPL-3.0, y se escribe como **código original
-desde cero**: no se copia, adapta ni transforma código fuente, recursos, textos ni assets de
-OwnTV en este repositorio. La transferencia es de ideas arquitectónicas, documentadas en
-`docs/ANALISIS_OWNTV.md`.
+El repositorio contiene dos clases de código, y es importante distinguirlas:
 
-No obstante, y en el espíritu del copyleft:
+### 1. Código original de blankTV (`app/`, `brand/`, `docs/`, builds)
 
-1. blankTV **elige GPL-3.0** como licencia propia, de modo que cualquier aprendizaje derivado de
-   software GPL regresa a la comunidad bajo los mismos términos.
-2. Se reconoce públicamente a **ahXN00 / OwnTV** como la referencia arquitectónica que inspiró el
-   diseño (separación de módulos, parsing en streaming, estrategia de reproducción y enfoque
-   TV-first con D-pad).
-3. Los únicos archivos binarios no generados por este proyecto son el **Gradle Wrapper**
-   (`gradlew`, `gradlew.bat`, `gradle/wrapper/gradle-wrapper.jar`), que es software de
-   [Gradle](https://gradle.org) bajo **Apache License 2.0**, incluido sin modificaciones para que
-   el proyecto sea construible desde el primer clon.
+Escrito desde cero para este proyecto. Su diseño se inspira en la arquitectura de OwnTV, estudiada
+y documentada en `docs/ANALISIS_OWNTV.md`; no se copió código de ahí para escribirlo.
+
+### 2. Código de terceros vendado verbatim (`third_party/`)
+
+- **`third_party/owntv-core/`** — copia íntegra y sin modificaciones de
+  [OwnTV_Core](https://github.com/ahXN00/OwnTV_Core) de `ahXN00`, commit
+  `c14e944b8d17e5cbb559d116afb30dc3b34864cb`, bajo **GPL-3.0**.
+  Copyright de sus autores originales; se redistribuye respetando dicha licencia.
+  Ver `third_party/README.md` para las reglas de uso (solo lectura, no se compila).
+
+Al distribuir fuente GPL-3.0 junto al proyecto, el conjunto se ofrece bajo GPL-3.0, y cualquier
+adaptación futura de `owntv-core` dentro de `app/` heredará esa licencia y conservará los avisos
+de copyright de OwnTV.
+
+## Atribución
+
+- **ahXN00 / OwnTV / OwnTV_Core** — referencia arquitectónica y autor del código GPL vendado en
+  `third_party/owntv-core/`. Este proyecto no está afiliado ni respaldado por sus autores.
+- Los únicos binarios no generados por este proyecto son el **Gradle Wrapper** (`gradlew`,
+  `gradlew.bat`, `gradle/wrapper/gradle-wrapper.jar`), software de [Gradle](https://gradle.org)
+  bajo **Apache License 2.0**, incluido sin modificaciones.
 
 ## Marca
 
 El nombre, el ícono, el banner y el wordmark de **blankTV** son originales de este proyecto y no
 derivan de la marca OwnTV ni de sus logos.
 
-## Terceros
+## Terceros (dependencias de build)
 
 - Jetpack, AndroidX y Media3 — Apache-2.0 (Google)
 - Kotlin — Apache-2.0 (JetBrains)
 - OkHttp, Coil — Apache-2.0
-- Room/KSP — Apache-2.0
+- Room / KSP — Apache-2.0
+- org.json (solo tests) — licencia propia (JSON Reference Implementation)
