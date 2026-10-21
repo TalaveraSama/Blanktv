@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">blankTV</string>
+
+    <!-- Navigation rail -->
+    <string name="nav_home">Home</string>
+    <string name="nav_live">Live TV</string>
+    <string name="nav_movies">Movies</string>
+    <string name="nav_series">Series</string>
+    <string name="nav_favourites">Favourites</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Home -->
+    <string name="home_greeting">Your library</string>
+    <string name="empty_library_title">No channels yet</string>
+    <string name="empty_library_body">Add an M3U playlist to start watching. blankTV ships no content of its own.</string>
+
+    <!-- Section titles -->
+    <string name="live_title">Live TV</string>
+    <string name="movies_title">Movies</string>
+    <string name="series_title">Series</string>
+    <string name="favourites_title">Favourites</string>
+    <string name="favourites_empty">Nothing saved yet. Press the star on any title to keep it here.</string>
+
+    <!-- Search -->
+    <string name="search_hint">Search channels, movies, series…</string>
+    <string name="search_no_results">No matches.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_playlists">Playlists</string>
+    <string name="settings_add_playlist">Add playlist</string>
+    <string name="settings_playlist_name">Name</string>
+    <string name="settings_playlist_url">M3U / M3U8 URL</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_theme_dark">Dark theme</string>
+    <string name="settings_theme_light">Light theme</string>
+    <string name="settings_about">About</string>
+    <string name="settings_about_body">blankTV is a free, open-source IPTV player. You provide the playlists; blankTV provides the player.</string>
+
+    <!-- Actions -->
+    <string name="action_add">Add</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_remove">Remove</string>
+    <string name="action_sync">Sync now</string>
+    <string name="action_all_groups">All</string>
+
+    <!-- Player -->
+    <string name="player_buffering">Buffering…</string>
+    <string name="player_error">This stream could not be played.</string>
+
+    <!-- States -->
+    <string name="state_loading">Loading…</string>
+    <string name="state_syncing">Syncing…</string>
+</resources>

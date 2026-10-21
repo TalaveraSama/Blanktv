@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--
+      The real UI is Jetpack Compose; this framework theme only governs the window before Compose
+      draws, so it stays minimal and paints the brand background to avoid a flash on cold start.
+    -->
+    <style name="Theme.BlankTV" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/blanktv_window_bg</item>
+        <item name="android:statusBarColor">@color/blanktv_window_bg</item>
+        <item name="android:navigationBarColor">@color/blanktv_window_bg</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- Compat splash so API 24+ shows the mark instead of a blank window while Compose warms up. -->
+    <style name="Theme.BlankTV.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/blanktv_window_bg</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.BlankTV</item>
+    </style>
+</resources>
