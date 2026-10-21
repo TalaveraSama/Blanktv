@@ -5,6 +5,8 @@ import app.blanktv.tv.data.db.BlankTvDatabase
 import app.blanktv.tv.data.net.PlaylistFetcher
 import app.blanktv.tv.data.repo.LibraryRepository
 import app.blanktv.tv.data.repo.SettingsRepository
+import app.blanktv.tv.data.stalker.StalkerClient
+import app.blanktv.tv.data.xtream.XtreamClient
 import app.blanktv.tv.player.PlaybackController
 import java.util.concurrent.TimeUnit
 import okhttp3.OkHttpClient
@@ -38,6 +40,8 @@ class AppContainer(context: Context) {
             channels = database.channelDao(),
             favourites = database.favouriteDao(),
             fetcher = PlaylistFetcher(http),
+            xtream = XtreamClient(http),
+            stalker = StalkerClient(http),
         )
     }
 

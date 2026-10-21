@@ -7,13 +7,25 @@ import androidx.room.Index
 import androidx.room.PrimaryKey
 
 /**
- * A playlist the user added: a remote M3U/M3U8 URL, or a one-off local import (url = null).
+ * A source the user added. Which fields are used depends on [sourceKind]:
+ *  - [app.blanktv.tv.domain.SourceKind.M3U]: [url]
+ *  - [app.blanktv.tv.domain.SourceKind.Xtream]: [baseUrl] + [username] + [password]
+ *  - [app.blanktv.tv.domain.SourceKind.Stalker]: [baseUrl] (portal) + [macAddress]
+ *
+ * Credentials are stored in clear text in the app-private Room database. That matches how every
+ * IPTV client behaves (the panel itself only offers basic auth) but it is why backups must stay
+ * device-local; see ROADMAP for an encrypted-export item.
  */
 @Entity(tableName = "playlists")
 data class PlaylistEntity(
     @PrimaryKey(autoGenerate = true) val id: Long = 0,
     val name: String,
+    @ColumnInfo(name = "source_kind") val sourceKind: Int = 0,
     val url: String?,
+    @ColumnInfo(name = "base_url") val baseUrl: String? = null,
+    val username: String? = null,
+    val password: String? = null,
+    @ColumnInfo(name = "mac_address") val macAddress: String? = null,
     @ColumnInfo(name = "created_at") val createdAt: Long,
     @ColumnInfo(name = "last_synced_at") val lastSyncedAt: Long? = null,
     @ColumnInfo(name = "channel_count") val channelCount: Int = 0,

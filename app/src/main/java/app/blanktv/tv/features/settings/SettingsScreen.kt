@@ -35,6 +35,7 @@ import androidx.compose.ui.unit.dp
 import app.blanktv.tv.R
 import app.blanktv.tv.data.db.PlaylistEntity
 import app.blanktv.tv.di.AppContainer
+import app.blanktv.tv.domain.SourceKind
 import app.blanktv.tv.view.LibraryViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import java.text.DateFormat
@@ -115,10 +116,18 @@ fun SettingsScreen(vm: LibraryViewModel, container: AppContainer) {
     }
 
     if (showAdd) {
-        AddPlaylistDialog(
+        AddSourceDialog(
             onDismiss = { showAdd = false },
-            onConfirm = { name, url ->
-                vm.addPlaylist(name, url)
+            onM3u = { name, url ->
+                vm.addM3u(name, url)
+                showAdd = false
+            },
+            onXtream = { name, host, username, password ->
+                vm.addXtream(name, host, username, password)
+                showAdd = false
+            },
+            onStalker = { name, portal, mac ->
+                vm.addStalker(name, portal, mac)
                 showAdd = false
             },
         )
@@ -138,7 +147,14 @@ private fun PlaylistCard(
             .background(MaterialTheme.colorScheme.surface, RoundedCornerShape(12.dp))
             .padding(16.dp),
     ) {
-        Text(playlist.name, style = MaterialTheme.typography.titleMedium)
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Text(playlist.name, style = MaterialTheme.typography.titleMedium, modifier = Modifier.weight(1f))
+            Text(
+                text = stringResource(SourceKind.fromCode(playlist.sourceKind).labelRes()),
+                style = MaterialTheme.typography.labelLarge,
+                color = MaterialTheme.colorScheme.primary,
+            )
+        }
         val detail = buildString {
             append(playlist.channelCount).append(" entries")
             playlist.lastSyncedAt?.let { at ->
@@ -172,39 +188,4 @@ private fun PlaylistCard(
     }
 }
 
-@Composable
-private fun AddPlaylistDialog(onDismiss: () -> Unit, onConfirm: (String, String) -> Unit) {
-    var name by remember { mutableStateOf("") }
-    var url by remember { mutableStateOf("") }
 
-    AlertDialog(
-        onDismissRequest = onDismiss,
-        title = { Text(stringResource(R.string.settings_add_playlist)) },
-        text = {
-            Column {
-                OutlinedTextField(
-                    value = name,
-                    onValueChange = { name = it },
-                    label = { Text(stringResource(R.string.settings_playlist_name)) },
-                    singleLine = true,
-                )
-                Spacer(Modifier.height(8.dp))
-                OutlinedTextField(
-                    value = url,
-                    onValueChange = { url = it },
-                    label = { Text(stringResource(R.string.settings_playlist_url)) },
-                    singleLine = true,
-                )
-            }
-        },
-        confirmButton = {
-            TextButton(
-                onClick = { onConfirm(name, url.trim()) },
-                enabled = url.isNotBlank(),
-            ) { Text(stringResource(R.string.action_add)) }
-        },
-        dismissButton = {
-            TextButton(onClick = onDismiss) { Text(stringResource(R.string.action_cancel)) }
-        },
-    )
-}

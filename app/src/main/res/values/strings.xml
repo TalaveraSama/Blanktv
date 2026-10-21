@@ -33,6 +33,16 @@
     <string name="settings_add_playlist">Add playlist</string>
     <string name="settings_playlist_name">Name</string>
     <string name="settings_playlist_url">M3U / M3U8 URL</string>
+
+    <!-- Source types -->
+    <string name="source_m3u">M3U</string>
+    <string name="source_xtream">Xtream</string>
+    <string name="source_stalker">MAG</string>
+    <string name="field_host">Panel URL (http://host:port)</string>
+    <string name="field_username">Username</string>
+    <string name="field_password">Password</string>
+    <string name="field_portal">Portal URL (…/portal.php)</string>
+    <string name="field_mac">MAC address (00:1A:79:…)</string>
     <string name="settings_appearance">Appearance</string>
     <string name="settings_theme_dark">Dark theme</string>
     <string name="settings_theme_light">Light theme</string>

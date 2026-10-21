@@ -16,6 +16,11 @@ el build en verde.
 - [x] Room: playlists, channels, favourites
 - [x] Parser M3U/M3U8 en streaming + tests unitarios
 - [x] Import remoto (URL) con Result + estado busy/status
+- [x] **Xtream Codes** (`player_api.php`): auth, categorías, live/VOD/series, expansión acotada de
+      episodios (`get_series_info`, tope 200 series/sync) + tests de URLs
+- [x] **Stalker / MAG** (Ministra): candidatos de ruta de portal, handshake por MAC → token,
+      `get_profile`, géneros, `get_all_channels`, VOD/series opcionales, normalización de `cmd`
+      + tests
 - [x] Navegación por rail (Home, Live, Movies, Series, Favourites, Search, Settings)
 - [x] Reproductor Media3 a pantalla completa con HUD TV y zapping CHANNEL_UP/DOWN
 - [x] MediaSessionService para teclas de transporte
@@ -31,9 +36,12 @@ el build en verde.
 ## v0.3 — Datos
 
 - [ ] EPG XMLTV en streaming (ventana rodante + poda), marcador "Now"
+- [ ] EPG por protocolo: Xtream `get_short_epg`, Stalker `get_epg_info`
 - [ ] Búsqueda FTS4 en Room en vez de `LIKE`
 - [ ] Paging 3 para listas > 5k
-- [ ] Import de archivo local (SAF) y Xtream API
+- [ ] Import de archivo local M3U (SAF)
+- [ ] Refresco del token Stalker en caliente al recibir 401 / "token expired"
+- [ ] Cifrado de credenciales en Room (o al menos en el export de backup)
 
 ## v0.4 — Producto TV
 

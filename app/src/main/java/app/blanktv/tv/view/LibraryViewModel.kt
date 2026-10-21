@@ -96,22 +96,22 @@ class LibraryViewModel(private val container: AppContainer) : ViewModel() {
         _seriesGroup.value = group
     }
 
-    fun addPlaylist(name: String, url: String) {
-        viewModelScope.launch {
-            _busy.value = true
-            repo.addRemote(name, url)
-                .onSuccess { count -> _status.value = "Added $count entries" }
-                .onFailure { error -> _status.value = error.message ?: "Import failed" }
-            _busy.value = false
-        }
-    }
+    fun addM3u(name: String, url: String) = runImport { repo.addM3u(name, url) }
 
-    fun resync(playlistId: Long) {
+    fun addXtream(name: String, baseUrl: String, username: String, password: String) =
+        runImport { repo.addXtream(name, baseUrl, username, password) }
+
+    fun addStalker(name: String, portalUrl: String, macAddress: String) =
+        runImport { repo.addStalker(name, portalUrl, macAddress) }
+
+    fun resync(playlistId: Long) = runImport { repo.resync(playlistId) }
+
+    private fun runImport(block: suspend () -> Result<Int>) {
         viewModelScope.launch {
             _busy.value = true
-            repo.resync(playlistId)
-                .onSuccess { count -> _status.value = "Synced $count entries" }
-                .onFailure { error -> _status.value = error.message ?: "Sync failed" }
+            block()
+                .onSuccess { count -> _status.value = "Imported $count entries" }
+                .onFailure { error -> _status.value = error.message ?: "Import failed" }
             _busy.value = false
         }
     }

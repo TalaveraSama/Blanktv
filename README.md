@@ -25,6 +25,12 @@ tu propia playlist **M3U / M3U8** (por URL) y blankTV se encarga del resto.
 
 ## ✨ Qué hace hoy (v0.1)
 
+- **Tres tipos de fuente**:
+  | Fuente | Protocolo |
+  |---|---|
+  | **M3U / M3U8** | documento único por HTTP, parseado en streaming |
+  | **Xtream Codes** (xui.one y paneles similares) | `player_api.php`: auth, categorías, live/VOD/series + expansión de episodios |
+  | **Stalker / MAG** (Ministra) | handshake por MAC → token, `get_all_channels`, géneros, VOD/series, normalización de `cmd` |
 - **Import de playlists M3U/M3U8** por URL, parseadas en streaming (no se bufferizan enteras).
 - **Live TV · Movies · Series** clasificados automáticamente a partir de la URL y el `group-title`.
 - **Reproductor a pantalla completa** con HUD para TV: `DPAD_CENTER` pausa/reanuda,
@@ -53,9 +59,11 @@ app/src/main/java/app/blanktv/tv/
 ├── BlankTvApp.kt / MainActivity.kt
 ├── di/            AppContainer (grafo manual) + AppViewModelFactory
 ├── data/
-│   ├── db/        Room: playlists, channels, favourites
+│   ├── db/        Room: playlists (multifuente), channels, favourites
 │   ├── net/       PlaylistFetcher (streaming)
 │   ├── parser/    M3uParser (+ tests)
+│   ├── xtream/    XtreamClient + XtreamUrls (player_api.php) (+ tests)
+│   ├── stalker/   StalkerClient + StalkerCmd (Ministra/MAG) (+ tests)
 │   └── repo/      LibraryRepository, SettingsRepository
 ├── domain/        MediaKind
 ├── player/        PlaybackController, MediaSessionService
