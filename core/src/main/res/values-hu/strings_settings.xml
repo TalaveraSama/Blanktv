@@ -31,7 +31,7 @@
     <string name="settings_static">Rögzített</string>
     <string name="settings_dynamic">Dinamikus</string>
     <string name="settings_use_proxy">Proxy használata</string>
-    <string name="settings_proxy_description">Az OwnTV teljes forgalmát és lejátszását HTTP-proxyn keresztül küldi.</string>
+    <string name="settings_proxy_description">Az BlankTV teljes forgalmát és lejátszását HTTP-proxyn keresztül küldi.</string>
     <string name="settings_host">Kiszolgáló</string>
     <string name="settings_proxy_host_hint">proxy.example.com</string>
     <string name="settings_port">Port</string>
@@ -268,8 +268,8 @@
     <string name="settings_auto_frame_rate_warning_suffix">Ezen a TV-n nem ajánlott: Android 12 alatt a frekvencia nem váltható zökkenőmentesen.</string>
     <string name="settings_auto_frame_rate_warning_title">Ezen a TV-n nem ajánlott</string>
     <string name="settings_auto_frame_rate_warning_title_mobile">Ezen az eszközön nem ajánlott</string>
-    <string name="settings_auto_frame_rate_warning_description">Ezen az eszközön Android <xliff:g id="android_version">%1$s</xliff:g> fut. Android 12 alatt a TV nem tudja megmondani az OwnTV-nek, mely frissítési frekvenciákra tud zökkenőmentesen váltani, ezért a frekvenciaváltás egy-két másodpercre elsötétítheti a képet — néha egy műsor alatt többször is.\n\nAzt javasoljuk, hagyd itt kikapcsolva az automatikus képkockasebességet. Ha a TV-d tisztán vált, kapcsold be, és próbáld ki: bármikor visszaállíthatod.</string>
-    <string name="settings_auto_frame_rate_warning_description_mobile">Ezen az eszközön Android <xliff:g id="android_version">%1$s</xliff:g> fut. Android 12 alatt az eszköz nem tudja megmondani az OwnTV-nek, mely frissítési frekvenciákra tud zökkenőmentesen váltani, ezért a frekvenciaváltás egy-két másodpercre elsötétítheti a képet — néha egy műsor alatt többször is.\n\nAzt javasoljuk, hagyd itt kikapcsolva az automatikus képkockasebességet. Ha a kijelződ tisztán vált, kapcsold be, és próbáld ki: bármikor visszaállíthatod.</string>
+    <string name="settings_auto_frame_rate_warning_description">Ezen az eszközön Android <xliff:g id="android_version">%1$s</xliff:g> fut. Android 12 alatt a TV nem tudja megmondani az BlankTV-nek, mely frissítési frekvenciákra tud zökkenőmentesen váltani, ezért a frekvenciaváltás egy-két másodpercre elsötétítheti a képet — néha egy műsor alatt többször is.\n\nAzt javasoljuk, hagyd itt kikapcsolva az automatikus képkockasebességet. Ha a TV-d tisztán vált, kapcsold be, és próbáld ki: bármikor visszaállíthatod.</string>
+    <string name="settings_auto_frame_rate_warning_description_mobile">Ezen az eszközön Android <xliff:g id="android_version">%1$s</xliff:g> fut. Android 12 alatt az eszköz nem tudja megmondani az BlankTV-nek, mely frissítési frekvenciákra tud zökkenőmentesen váltani, ezért a frekvenciaváltás egy-két másodpercre elsötétítheti a képet — néha egy műsor alatt többször is.\n\nAzt javasoljuk, hagyd itt kikapcsolva az automatikus képkockasebességet. Ha a kijelződ tisztán vált, kapcsold be, és próbáld ki: bármikor visszaállíthatod.</string>
     <string name="settings_auto_frame_rate_keep_off">Maradjon ki</string>
     <string name="settings_auto_frame_rate_turn_on_anyway">Mégis bekapcsolom</string>
     <string name="settings_surround_sound">Térhatású hang</string>
@@ -301,7 +301,7 @@
     <string name="settings_player_zoom">Lejátszó nagyítása</string>
     <string name="settings_app_group">Alkalmazás</string>
     <string name="settings_app_startup">Alkalmazás indulása</string>
-    <string name="settings_app_startup_description">Mit nyit meg az OwnTV induláskor</string>
+    <string name="settings_app_startup_description">Mit nyit meg az BlankTV induláskor</string>
     <string name="settings_check_updates">Frissítések keresése</string>
     <string name="settings_check_updates_description">Szerezd meg a legújabb verziót a GitHub Releases oldalról</string>
     <string name="settings_update_startup">Frissítés keresése induláskor</string>
@@ -588,7 +588,7 @@
     <string name="settings_guide_synced">A műsorújság szinkronizálva</string>
     <string name="settings_guide_sync_failed">A műsorújság szinkronizálása nem sikerült</string>
     <string name="settings_restore_remote_title">Visszaállítás másik eszközről</string>
-    <string name="settings_restore_remote_description">Bármelyik böngészős eszközön ugyanazon a Wi-Fin – telefonon, számítógépen vagy egy másik tévén – olvasd be a QR-kódot (vagy nyisd meg az URL-t), add meg ezt a PIN-t, válaszd ki az OwnTV mentésfájlodat, és küldd el. Azt, hogy mit állíts vissza, itt választod ki.</string>
+    <string name="settings_restore_remote_description">Bármelyik böngészős eszközön ugyanazon a Wi-Fin – telefonon, számítógépen vagy egy másik tévén – olvasd be a QR-kódot (vagy nyisd meg az URL-t), add meg ezt a PIN-t, válaszd ki az BlankTV mentésfájlodat, és küldd el. Azt, hogy mit állíts vissza, itt választod ki.</string>
     <string name="settings_try_again">Próbáld újra</string>
     <string name="settings_new_pin">Kezdés elölről új PIN-kóddal</string>
     <string name="settings_download_remote_title">Letöltés másik eszközre</string>
@@ -603,7 +603,7 @@
     <string name="settings_catchup_timezone_automatic">Automatikus</string>
     <string name="settings_catchup_timezone_device">Eszköz</string>
     <string name="settings_catchup_player_ask">Mindig kérdezzen</string>
-    <string name="settings_catchup_player_internal">OwnTV lejátszó</string>
+    <string name="settings_catchup_player_internal">BlankTV lejátszó</string>
     <string name="settings_catchup_player_external">Külső lejátszó</string>
     <string name="settings_download_folder_title">Válaszd ki a letöltési mappát</string>
     <string name="settings_pick_background_title">Válassz háttérképet</string>
@@ -719,9 +719,9 @@
     <string name="settings_sources_info">Információ</string>
     <string name="settings_sources_retest">Újratesztelés</string>
     <string name="settings_sources_probe_title">Teszteli ezt a lejátszási listát?</string>
-    <string name="settings_sources_probe_warning">Sok szolgáltató soha nem árulja el, hány csatornát nézhet egyszerre, ezért az OwnTV úgy deríti ki, hogy megnyit néhányat, és megnézi, melyik marad életben. Minden, ami most szól, le fog állni, és ez akár két percig is eltarthat.</string>
+    <string name="settings_sources_probe_warning">Sok szolgáltató soha nem árulja el, hány csatornát nézhet egyszerre, ezért az BlankTV úgy deríti ki, hogy megnyit néhányat, és megnézi, melyik marad életben. Minden, ami most szól, le fog állni, és ez akár két percig is eltarthat.</string>
     <string name="settings_sources_probe_running">Annak ellenőrzése, hány csatornát enged ez a szolgáltató… (<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>)</string>
-    <string name="settings_sources_probe_unknown">Az OwnTV nem tudta megállapítani, hány csatornát enged ez a szolgáltató.</string>
+    <string name="settings_sources_probe_unknown">Az BlankTV nem tudta megállapítani, hány csatornát enged ez a szolgáltató.</string>
     <string name="settings_sources_probe_skip">Kihagyás</string>
     <string name="settings_sources_auto_refresh">⟳ <xliff:g id="mode">%1$s</xliff:g></string>
     <string name="settings_sources_default">ALAPÉRTELMEZETT</string>
@@ -960,7 +960,7 @@
     <string name="settings_move_category_keep">Maradjon a(z) „<xliff:g id="name">%1$s</xliff:g>” kategóriában is</string>
     <string name="settings_move_category_action">Áthelyezés</string>
     <string name="settings_dns_description">Egyéni DNS-kiszolgáló használata a domainek feloldásához</string>
-    <string name="settings_dns_toggle_description">Az OwnTV összes domainfeloldása egyéni DNS-kiszolgálón keresztül történjen.</string>
+    <string name="settings_dns_toggle_description">Az BlankTV összes domainfeloldása egyéni DNS-kiszolgálón keresztül történjen.</string>
     <string name="settings_dns_use_custom">Egyéni DNS használata</string>
     <string name="settings_dns_server_missing">Az egyéni DNS be van kapcsolva, de nincs beállítva kiszolgáló. Adj meg egy kiszolgálócímet és válaszd a Mentést, vagy kapcsold ki ezt.</string>
     <string name="settings_dns_server">DNS-kiszolgáló</string>
@@ -1006,7 +1006,7 @@
     <string name="settings_live_preroll">Élő adatfolyamok előpufferelése</string>
     <string name="settings_live_preroll_description">Ennyi videót gyűjtsön össze, mielőtt egy élő csatorna elindul, és minden akadozás után újra. Ez videómennyiség, nem visszaszámlálás. A Ki tartja a lehető leggyorsabb indulást, és a legtöbb szolgáltatóhoz ez a helyes. Csak akkor emeld, ha a lejátszás ténylegesen akadozik: sok szolgáltató csak néhány másodperccel az élő adás előtt tesz közzé, és ha többet kérsz, mint amennyit küldenek, az ronthat az akadozáson.</string>
     <string name="settings_live_tune_timeout">Csatorna feladása ennyi után</string>
-    <string name="settings_live_tune_timeout_description">Ha egy élő csatorna eddig sem mutatott képet, az OwnTV abbahagyja a próbálkozást és szól, ahelyett hogy fekete képernyőt hagyna, miközben végigmegy az összes lejátszóján. A Soha tovább próbálkozik, ami jóval egy percnél is tovább tarthat egy olyan csatornánál, amit a szolgáltatód eltávolított. A szolgáltatód által kért várakozások nem számítanak bele.</string>
+    <string name="settings_live_tune_timeout_description">Ha egy élő csatorna eddig sem mutatott képet, az BlankTV abbahagyja a próbálkozást és szól, ahelyett hogy fekete képernyőt hagyna, miközben végigmegy az összes lejátszóján. A Soha tovább próbálkozik, ami jóval egy percnél is tovább tarthat egy olyan csatornánál, amit a szolgáltatód eltávolított. A szolgáltatód által kért várakozások nem számítanak bele.</string>
     <string name="settings_live_preroll_per_playlist">Előpufferelés lejátszási listánként</string>
     <string name="settings_live_preroll_per_playlist_description">A fenti beállítás felülírása egyetlen lejátszási listára, hogy a többi gyors maradjon.</string>
     <string name="settings_live_engine_per_playlist">Élő TV lejátszó lejátszási listánként</string>
@@ -1028,7 +1028,7 @@
     <string name="settings_surround_auto_description_mobile">Automatikus — próbálja meg a Dolby/DTS térhangzást, és váltson vissza automatikusan sztereóra, ha a hangszóró, a fejhallgató vagy a csatlakoztatott vevő nem játssza le. Ajánlott.</string>
     <string name="settings_surround_stereo_description">Csak sztereó — mindig az alkalmazásban dekódoljon, és sima 2.0 hangot küldjön. Ezt használd TV-hangszórón vagy sztereó hangprojektoron, illetve ha a hang lemarad a képhez képest.</string>
     <string name="settings_surround_stereo_description_mobile">Csak sztereó — mindig az alkalmazásban dekódoljon, és sima 2.0 hangot küldjön. Ezt használd a beépített hangszóróhoz, fejhallgatóhoz vagy sztereó hangprojektorhoz, illetve ha a hang lemarad a képhez képest.</string>
-    <string name="settings_surround_forced_description">Térhangzás — Dolby/DTS küldése valódi 5.1/7.1 erősítőnek. Ha elnémul vagy akadozik, az OwnTV akkor is sztereóra vált, és szól róla.</string>
+    <string name="settings_surround_forced_description">Térhangzás — Dolby/DTS küldése valódi 5.1/7.1 erősítőnek. Ha elnémul vagy akadozik, az BlankTV akkor is sztereóra vált, és szól róla.</string>
     <string name="settings_panel_width">Panelszélesség beállítása</string>
     <string name="settings_panel_width_description">A kategória-, lista- és előnézeti panelek átméretezése az Élő TV-ben, a Filmekben és a Sorozatokban.</string>
     <string name="settings_vod_layout">Filmek és Sorozatok elrendezése</string>
@@ -1166,7 +1166,7 @@
     <string name="local_sync_received_items">Fogadott elemek: <xliff:g id="count">%1$d</xliff:g></string>
     <string name="local_sync_sent">Az adatai elküldve</string>
     <string name="local_sync_failed">A szinkronizálás sikertelen</string>
-    <string name="local_sync_error_unreachable">Ez az eszköz nem érhető el. Nyissa meg rajta az OwnTV → Beállítások → Adatok → Helyi szinkronizálás menüpontot, és kapcsolja be a Szinkronizálási módot. Mindkét eszköznek ugyanazon a Wi-Fi-n kell lennie.</string>
+    <string name="local_sync_error_unreachable">Ez az eszköz nem érhető el. Nyissa meg rajta az BlankTV → Beállítások → Adatok → Helyi szinkronizálás menüpontot, és kapcsolja be a Szinkronizálási módot. Mindkét eszköznek ugyanazon a Wi-Fi-n kell lennie.</string>
     <string name="local_sync_error_unauthorized">A másik eszköz elutasította. Lehet, hogy a PIN hibás, vagy elfelejtette ezt az eszközt.</string>
     <string name="local_sync_error_bad_payload">A beérkezett adatokat nem sikerült beolvasni. Ha jelszót használt, ellenőrizze, hogy mindkét eszközön ugyanaz-e.</string>
     <string name="local_sync_error_unknown">Valami hiba történt. Próbálja újra.</string>
@@ -1254,8 +1254,8 @@
     <string name="settings_multiview_keep_two">Maradjon 2</string>
     <string name="settings_multiview_use_anyway">Mégis ennyi legyen</string>
     <string name="settings_app_icon">Alkalmazásikon</string>
-    <string name="settings_app_icon_summary">Az OwnTV ikonjának és logójának színe</string>
-    <string name="settings_app_icon_sheet_mobile">Így jelenik meg az OwnTV a kezdőképernyődön. Az alkalmazás egyszer újraindul.</string>
+    <string name="settings_app_icon_summary">Az BlankTV ikonjának és logójának színe</string>
+    <string name="settings_app_icon_sheet_mobile">Így jelenik meg az BlankTV a kezdőképernyődön. Az alkalmazás egyszer újraindul.</string>
     <string name="settings_brand_accent">Kiemelőszínű logó</string>
     <string name="app_icon_petrol">Petrolkék</string>
     <string name="app_icon_sunflower">Napraforgó</string>
@@ -1266,8 +1266,8 @@
     <string name="app_icon_olive">Olívazöld</string>
     <string name="app_icon_olive_cream">Olívazöld krémen</string>
     <string name="app_icon_pixel">Pixel</string>
-    <string name="app_icon_restart_title">Újraindítja az OwnTV-t?</string>
-    <string name="app_icon_restart_message">Új ikont és logót választott. Az OwnTV újraindítása után lépnek életbe.</string>
+    <string name="app_icon_restart_title">Újraindítja az BlankTV-t?</string>
+    <string name="app_icon_restart_message">Új ikont és logót választott. Az BlankTV újraindítása után lépnek életbe.</string>
     <string name="app_icon_restart_now">Újraindítás most</string>
     <string name="settings_navigation">Navigáció</string>
     <string name="settings_navigation_description">Hogyan viselkedjen a bal oldali menü</string>
@@ -1431,10 +1431,10 @@
     <string name="settings_help_epg_sources">Adjon hozzá XMLTV-műsorforrást a hivatkozásával, frissítse vagy távolítsa el. A források töltik meg a tévéműsort és az élő tévé műsorsorait.</string>
     <string name="settings_help_guide_days">Hány nap műsorát tárolja előre a műsorújság. Kevesebb nap gyorsabb frissítést és kisebb adatbázist jelent.</string>
     <string name="settings_help_catchup_timezone">A visszanézés a szolgáltató archívumából játssza le a műsorokat. Az Automatikus a szolgáltató által jelzett időzónát használja, ha pedig az nem jelez semmit, a tévé saját óráját; ha a visszanézés így is rossz időben indul, válasszon rögzített UTC-eltolást. Itt választhatja ki azt is, melyik lejátszót használja.</string>
-    <string name="settings_help_theme">Az OwnTV sötét témára készült. A Rendszer a tévé saját beállítását követi, ha van ilyen; a Világos világos szobába való.</string>
+    <string name="settings_help_theme">Az BlankTV sötét témára készült. A Rendszer a tévé saját beállítását követi, ha van ilyen; a Világos világos szobába való.</string>
     <string name="settings_help_accent">Mindenhol színezi a gombokat, a kijelölés fényét, a folyamatjelzőket és a kiemeléseket. Válasszon előre beállított színt, vagy nyomja meg az OK gombot a palettához és bármilyen hexakódhoz.</string>
     <string name="settings_help_focus">A kijelölt elem körüli keret. Válassza ki a színét és vastagságát, hogy a kanapéról is könnyen követhető legyen.</string>
-    <string name="settings_help_fonts">Az OwnTV-ben mindenhol használt betűtípus és a szöveg mérete. Az ablakok is ugyanezt a betűtípust használják.</string>
+    <string name="settings_help_fonts">Az BlankTV-ben mindenhol használt betűtípus és a szöveg mérete. Az ablakok is ugyanezt a betűtípust használják.</string>
     <string name="settings_help_popup_size">Egészében nagyobbra vagy kisebbre veszi az ablakokat, menüket és párbeszédablakokat. Akkor hasznos, ha zsúfoltnak tűnnek, vagy túl sokat takarnak a képernyőből.</string>
     <string name="settings_help_zoom">Mindent átméretez a képernyőn. A nagyobb messziről jobban olvasható, a kisebben több fér el. 85%% alatt a kevés memóriájú tévéboxok kifuthatnak a memóriából.</string>
     <string name="settings_help_animations">Bekapcsolva a panelek, menük és a kijelölés finoman mozognak. Kikapcsolva minden változás azonnali.</string>
@@ -1444,11 +1444,11 @@
     <string name="settings_help_vod_layout">A Filmes nézet a kijelölt cím képét plakátrács mögött mutatja. A Külön egymás mellett mutatja a kategóriákat, címeket és részleteket.</string>
     <string name="settings_help_home">Válassza ki, mely sorokat mutassa a kezdőlap és milyen sorrendben, és hogyan nézzen ki a Most felkapott sor.</string>
     <string name="settings_help_customize">Rejtse el a soha nem nézett kategóriákat és elemeket, adjon saját nevet a kategóriáknak, és rendezze őket a saját sorrendjébe. Az elrejtett dolgok innen visszahozhatók, sosem vesznek el.</string>
-    <string name="settings_help_app_icon">Az OwnTV ikonja a tévé kezdőképernyőjén. Az indítónak eltarthat egy pillanatig, mire megjeleníti a változást.</string>
-    <string name="settings_help_brand_accent">Az OwnTV logó a menüben, a Névjegyben és a beállításban a kiemelőszínedben mutatja a lejátszás-háromszöget. A kezdőképernyő ikonja megtartja a saját színeit.</string>
-    <string name="settings_help_startup">Amit az OwnTV induláskor mutat: a kezdőlap, a legutóbb nézett csatorna, a kedvencek vagy egy választott csatorna.</string>
-    <string name="settings_help_check_updates">Most megkeresi a GitHubon az OwnTV újabb verzióját, és felajánlja a telepítését. A lejátszási listák, kedvencek és beállítások változatlanok maradnak.</string>
-    <string name="settings_help_update_startup">Az OwnTV minden indításakor új verziót keres, és szól, ha van. Kérdezés nélkül semmi sem települ.</string>
+    <string name="settings_help_app_icon">Az BlankTV ikonja a tévé kezdőképernyőjén. Az indítónak eltarthat egy pillanatig, mire megjeleníti a változást.</string>
+    <string name="settings_help_brand_accent">Az BlankTV logó a menüben, a Névjegyben és a beállításban a kiemelőszínedben mutatja a lejátszás-háromszöget. A kezdőképernyő ikonja megtartja a saját színeit.</string>
+    <string name="settings_help_startup">Amit az BlankTV induláskor mutat: a kezdőlap, a legutóbb nézett csatorna, a kedvencek vagy egy választott csatorna.</string>
+    <string name="settings_help_check_updates">Most megkeresi a GitHubon az BlankTV újabb verzióját, és felajánlja a telepítését. A lejátszási listák, kedvencek és beállítások változatlanok maradnak.</string>
+    <string name="settings_help_update_startup">Az BlankTV minden indításakor új verziót keres, és szól, ha van. Kérdezés nélkül semmi sem települ.</string>
     <string name="settings_help_dns">A szolgáltató címeit a választott DNS-kiszolgálóval keresi fel a hálózat saját kiszolgálója helyett — hasznos, ha a hálózat letiltja vagy átirányítja őket.</string>
     <string name="settings_help_live_engine">Az ExoPlayer sokkal gyorsabban nyitja meg a csatornákat, és csak ez tud élő feliratot. Az mpv lejátssza azokat a csatornákat is, amelyeket az ExoPlayer nem, néhány szokatlan hanggal együtt. A kombinált lehetőségek a másik lejátszót próbálják, ha az első elakad.</string>
     <string name="settings_help_hw">A tévé hardveres dekóderét használja: akadásmentes 4K és kevesebb hő. Csak akkor kapcsolja ki, ha egyes adások akadoznak vagy kockásodnak; ekkor a szoftveres dekóder végzi a munkát.</string>
@@ -1472,8 +1472,8 @@
     <string name="settings_profile_add">Profil hozzáadása</string>
     <string name="settings_profile_add_line">Néző saját kedvencekkel, előzményekkel és beállításokkal</string>
     <plurals name="settings_help_language">
-        <item quantity="one">Az OwnTV összes menüjének és üzenetének nyelve. <xliff:g id="count">%1$d</xliff:g> nyelv; amíg nem választ, a tévé saját nyelvét követi.</item>
-        <item quantity="other">Az OwnTV összes menüjének és üzenetének nyelve. <xliff:g id="count">%1$d</xliff:g> nyelv; amíg nem választ, a tévé saját nyelvét követi.</item>
+        <item quantity="one">Az BlankTV összes menüjének és üzenetének nyelve. <xliff:g id="count">%1$d</xliff:g> nyelv; amíg nem választ, a tévé saját nyelvét követi.</item>
+        <item quantity="other">Az BlankTV összes menüjének és üzenetének nyelve. <xliff:g id="count">%1$d</xliff:g> nyelv; amíg nem választ, a tévé saját nyelvét követi.</item>
     </plurals>
     <plurals name="settings_profile_count">
         <item quantity="one"><xliff:g id="count">%1$d</xliff:g> profil</item>
@@ -1510,8 +1510,8 @@
     <string name="settings_home_show_row">Sor megjelenítése</string>
     <string name="settings_home_move_row">Áthelyezés (▲ ▼, majd OK)</string>
     <string name="settings_line_remote_shortcuts_on">Kikapcsolva a hozzárendelések megmaradnak</string>
-    <string name="settings_language_system_help">Az OwnTV a tévé nyelvét használja (most: <xliff:g id="language">%1$s</xliff:g>). Válassz lent egy nyelvet, ha csak az OwnTV-ben szeretnéd használni.</string>
-    <string name="settings_language_pick_help"><xliff:g id="language">%1$s</xliff:g> használata az OwnTV-ben, a tévé nyelvétől függetlenül.</string>
+    <string name="settings_language_system_help">Az BlankTV a tévé nyelvét használja (most: <xliff:g id="language">%1$s</xliff:g>). Válassz lent egy nyelvet, ha csak az BlankTV-ben szeretnéd használni.</string>
+    <string name="settings_language_pick_help"><xliff:g id="language">%1$s</xliff:g> használata az BlankTV-ben, a tévé nyelvétől függetlenül.</string>
     <string name="settings_key_use">Használat</string>
     <string name="settings_line_metadata_source">Honnan származnak a filmek és sorozatok adatai</string>
     <string name="settings_line_metadata_language">Cselekmények, műfajok és címek a TMDB-ből</string>
@@ -1560,7 +1560,7 @@
     <string name="settings_line_glass_bg">Háttér, képhatás, üveg</string>
     <string name="settings_bg_background">Háttér</string>
     <string name="settings_line_bg_background">Ami minden képernyő mögött van</string>
-    <string name="settings_help_bg_background">A Stage az OwnTV saját lágy színeit mutatja. A Kép a saját képedet mutatja minden képernyő mögött. Az Egyszerű sima sötét kitöltés.</string>
+    <string name="settings_help_bg_background">A Stage az BlankTV saját lágy színeit mutatja. A Kép a saját képedet mutatja minden képernyő mögött. Az Egyszerű sima sötét kitöltés.</string>
     <string name="settings_bg_stage">Stage</string>
     <string name="settings_bg_picture">Kép</string>
     <string name="settings_bg_plain">Egyszerű</string>

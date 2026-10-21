@@ -129,8 +129,8 @@
     <string name="update_not_enough_space">Недостаточно свободного места для обновления. Освободите около <xliff:g id="size">%1$s</xliff:g> и повторите попытку.</string>
     <string name="update_damaged_download">Обновление скачалось не полностью. Проверьте подключение и повторите попытку.</string>
     <string name="update_install_rejected">Системный установщик отклонил обновление: <xliff:g id="reason">%1$s</xliff:g></string>
-    <string name="update_ready">OwnTV v<xliff:g id="available">%1$s</xliff:g> готова к установке (у вас v<xliff:g id="current">%2$s</xliff:g>).</string>
-    <string name="recovery_title">OwnTV не удалось открыть базу данных</string>
+    <string name="update_ready">BlankTV v<xliff:g id="available">%1$s</xliff:g> готова к установке (у вас v<xliff:g id="current">%2$s</xliff:g>).</string>
+    <string name="recovery_title">BlankTV не удалось открыть базу данных</string>
     <string name="recovery_data_safe_full">Ваши профили, плейлисты, избранное и история НЕ удалены — произошёл сбой обновления базы данных, а данные всё ещё находятся на этом устройстве.\n\nПожалуйста, сообщите об этом, чтобы проблему можно было устранить, и приложите сообщение ниже.</string>
     <string name="recovery_retry">Попробовать ещё раз</string>
     <string name="recovery_backup_hint">Если у вас есть файл резервной копии, можно сбросить данные приложения, а затем восстановить их. При сбросе удаляется всё, что хранится на этом устройстве.</string>
@@ -231,7 +231,7 @@
     <string name="settings_recording_pre_roll_description">Начинать за столько до указанного времени начала, чтобы спешащий телегид не потерял начало передачи.</string>
     <string name="settings_recording_post_roll">Продолжать после конца</string>
     <string name="settings_recording_post_roll_description">Продолжать столько после указанного времени окончания, чтобы затянувшаяся передача не обрывалась.</string>
-    <string name="settings_recording_timers_inexact">Это устройство не разрешает OwnTV ставить точные будильники, поэтому запись может начаться на несколько минут позже. Записи стартуют раньше, чтобы это компенсировать.</string>
+    <string name="settings_recording_timers_inexact">Это устройство не разрешает BlankTV ставить точные будильники, поэтому запись может начаться на несколько минут позже. Записи стартуют раньше, чтобы это компенсировать.</string>
     <plurals name="recording_minutes">
         <item quantity="one"><xliff:g id="count">%1$d</xliff:g> минута</item>
         <item quantity="few"><xliff:g id="count">%1$d</xliff:g> минуты</item>
@@ -239,7 +239,7 @@
         <item quantity="other"><xliff:g id="count">%1$d</xliff:g> минут</item>
     </plurals>
     <string name="recording_failed_encrypted">Этот канал зашифрован, запись невозможна</string>
-    <string name="recording_failed_drm">Этот канал защищён технологией DRM, поэтому его можно смотреть, но нельзя записывать. Защиту устанавливает ваш провайдер, а не OwnTV.</string>
+    <string name="recording_failed_drm">Этот канал защищён технологией DRM, поэтому его можно смотреть, но нельзя записывать. Защиту устанавливает ваш провайдер, а не BlankTV.</string>
     <string name="recording_failed_metered">Не записано через мобильный интернет</string>
     <string name="recording_card_empty_title">Записей пока нет</string>
     <string name="recording_card_body">Выберите передачу в телегиде и нажмите «Записать» или удерживайте канал и запланируйте время. Запись появится здесь, даже пока вы смотрите что-то другое.</string>
@@ -466,7 +466,7 @@
     <string name="sports_live_refresh_description">Только пока виден экран спорта или счёт</string>
     <string name="sports_about">О спортивных данных</string>
     <string name="sports_about_summary">Счёт: ESPN · каналы: ваш плейлист и программа</string>
-    <string name="sports_alerts_when_closed">Оповещения при закрытом OwnTV</string>
+    <string name="sports_alerts_when_closed">Оповещения при закрытом BlankTV</string>
     <string name="sports_alerts_when_closed_description">Один раз запросит разрешение на уведомления</string>
     <string name="sports_alert_me_about">Оповещать о</string>
     <string name="sports_kind_goals">Голы и уикеты</string>
@@ -477,7 +477,7 @@
     <string name="sports_live_card">Карточка счёта в эфире</string>
     <string name="sports_live_card_offer">Предлагать карточку счёта</string>
     <string name="sports_live_card_description">Обновляется каждые 30 с до конца матча; запускается со страницы матча</string>
-    <string name="sports_alerts_footnote">Когда OwnTV закрыт, оповещения обычно приходят в течение минуты. Если телефон долго лежит неподвижно с выключенным экраном, Android может задержать их примерно до 15 минут. Карточку счёта он не задерживает.</string>
+    <string name="sports_alerts_footnote">Когда BlankTV закрыт, оповещения обычно приходят в течение минуты. Если телефон долго лежит неподвижно с выключенным экраном, Android может задержать их примерно до 15 минут. Карточку счёта он не задерживает.</string>
     <string name="sports_search_teams">Поиск команд, игроков, лиг</string>
     <string name="sports_suggested">Предложения по вашим просмотрам</string>
     <plurals name="sports_watched_matches">
@@ -488,7 +488,7 @@
     </plurals>
     <string name="sports_league_label">Лига</string>
     <string name="sports_no_playlist_title">Добавьте плейлист, чтобы смотреть матчи</string>
-    <string name="sports_no_playlist_body">Счёт, таблицы и оповещения работают и без него. С плейлистом OwnTV найдёт все каналы, которые показывают этот матч.</string>
+    <string name="sports_no_playlist_body">Счёт, таблицы и оповещения работают и без него. С плейлистом BlankTV найдёт все каналы, которые показывают этот матч.</string>
     <string name="sports_add_playlist">Добавить плейлист</string>
     <string name="sports_home_row">Спорт в эфире</string>
     <string name="sports_home_row_description">Отслеживаемые матчи, пока какой-то идёт или вот-вот начнётся</string>
@@ -498,7 +498,7 @@
     <string name="sports_sport_buttons">Кнопки видов спорта</string>
     <string name="sports_sport_buttons_mine">Мои виды спорта</string>
     <string name="sports_sport_buttons_all">Все виды спорта</string>
-    <string name="sports_sport_buttons_description">Мои виды спорта: только выбранное. Все виды спорта: все лиги, известные OwnTV, — загрузка дольше.</string>
+    <string name="sports_sport_buttons_description">Мои виды спорта: только выбранное. Все виды спорта: все лиги, известные BlankTV, — загрузка дольше.</string>
     <string name="sports_auto_rebuild">Автоперестроение</string>
     <string name="sports_auto_rebuild_description">Как часто счёт, подробности матчей и таблицы загружаются заново автоматически</string>
     <plurals name="sports_auto_rebuild_hours">

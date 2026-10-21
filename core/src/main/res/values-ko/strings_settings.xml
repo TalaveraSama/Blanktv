@@ -31,7 +31,7 @@
     <string name="settings_static">고정</string>
     <string name="settings_dynamic">동적</string>
     <string name="settings_use_proxy">프록시 사용</string>
-    <string name="settings_proxy_description">모든 OwnTV 트래픽과 재생 데이터를 HTTP 프록시를 통해 전송합니다.</string>
+    <string name="settings_proxy_description">모든 BlankTV 트래픽과 재생 데이터를 HTTP 프록시를 통해 전송합니다.</string>
     <string name="settings_host">호스트</string>
     <string name="settings_proxy_host_hint">proxy.example.com</string>
     <string name="settings_port">포트</string>
@@ -546,7 +546,7 @@
     <string name="settings_guide_synced">TV 편성표가 동기화됨</string>
     <string name="settings_guide_sync_failed">TV 편성표 동기화 실패</string>
     <string name="settings_restore_remote_title">다른 기기에서 복원</string>
-    <string name="settings_restore_remote_description">같은 Wi-Fi에 있는 브라우저가 있는 아무 기기(휴대폰, 컴퓨터 또는 다른 TV)에서 QR을 스캔(또는 URL 열기)하고 이 PIN을 입력한 뒤 OwnTV 백업 파일을 골라 보내세요. 복원할 항목은 여기서 선택합니다.</string>
+    <string name="settings_restore_remote_description">같은 Wi-Fi에 있는 브라우저가 있는 아무 기기(휴대폰, 컴퓨터 또는 다른 TV)에서 QR을 스캔(또는 URL 열기)하고 이 PIN을 입력한 뒤 BlankTV 백업 파일을 골라 보내세요. 복원할 항목은 여기서 선택합니다.</string>
     <string name="settings_try_again">다시 시도</string>
     <string name="settings_new_pin">새 PIN으로 다시 시작</string>
     <string name="settings_download_remote_title">다른 기기에서 다운로드</string>
@@ -561,7 +561,7 @@
     <string name="settings_catchup_timezone_automatic">자동</string>
     <string name="settings_catchup_timezone_device">기기</string>
     <string name="settings_catchup_player_ask">항상 묻기</string>
-    <string name="settings_catchup_player_internal">OwnTV 플레이어</string>
+    <string name="settings_catchup_player_internal">BlankTV 플레이어</string>
     <string name="settings_catchup_player_external">외부 플레이어</string>
     <string name="settings_download_folder_title">다운로드 폴더 선택</string>
     <string name="settings_pick_background_title">배경 이미지 선택</string>
@@ -903,7 +903,7 @@
     <string name="settings_move_category_keep">“<xliff:g id="name">%1$s</xliff:g>”에도 유지</string>
     <string name="settings_move_category_action">이동</string>
     <string name="settings_dns_description">도메인 조회에 사용자 지정 DNS 서버 사용</string>
-    <string name="settings_dns_toggle_description">모든 OwnTV 도메인 조회에 사용자 지정 DNS 서버를 사용합니다.</string>
+    <string name="settings_dns_toggle_description">모든 BlankTV 도메인 조회에 사용자 지정 DNS 서버를 사용합니다.</string>
     <string name="settings_dns_use_custom">사용자 지정 DNS 사용</string>
     <string name="settings_dns_server_missing">사용자 지정 DNS가 활성화되어 있지만 서버가 설정되지 않았습니다. 서버 주소를 입력하고 저장을 선택하거나 이 기능을 끄세요.</string>
     <string name="settings_dns_server">DNS 서버</string>
@@ -1145,7 +1145,7 @@
     <string name="local_sync_received_items">받은 항목: <xliff:g id="count">%1$d</xliff:g></string>
     <string name="local_sync_sent">데이터를 보냈습니다</string>
     <string name="local_sync_failed">동기화 실패</string>
-    <string name="local_sync_error_unreachable">이 기기에 연결할 수 없습니다. 그 기기에서 OwnTV → 설정 → 데이터 → 로컬 동기화를 열고 동기화 모드를 켜세요. 두 기기가 같은 Wi‑Fi에 있어야 합니다.</string>
+    <string name="local_sync_error_unreachable">이 기기에 연결할 수 없습니다. 그 기기에서 BlankTV → 설정 → 데이터 → 로컬 동기화를 열고 동기화 모드를 켜세요. 두 기기가 같은 Wi‑Fi에 있어야 합니다.</string>
     <string name="local_sync_error_unauthorized">다른 기기가 거부했습니다. PIN이 틀렸거나 이 기기를 삭제했을 수 있습니다.</string>
     <string name="local_sync_error_bad_payload">받은 내용을 읽을 수 없습니다. 비밀번호를 사용했다면 두 기기에서 같은지 확인하세요.</string>
     <string name="local_sync_error_unknown">문제가 발생했습니다. 다시 시도하세요.</string>
@@ -1227,7 +1227,7 @@
     <string name="settings_multiview_keep_two">2개 유지</string>
     <string name="settings_multiview_use_anyway">그래도 사용</string>
     <string name="settings_app_icon">앱 아이콘</string>
-    <string name="settings_app_icon_summary">OwnTV 아이콘 및 로고 색상</string>
+    <string name="settings_app_icon_summary">BlankTV 아이콘 및 로고 색상</string>
     <string name="settings_app_icon_sheet_mobile">홈 화면에서 OwnTV가 표시되는 모습. 앱이 한 번 다시 시작됩니다.</string>
     <string name="settings_brand_accent">강조 색상 로고</string>
     <string name="app_icon_petrol">페트롤</string>
@@ -1406,7 +1406,7 @@
     <string name="settings_help_theme">OwnTV는 다크 테마에 맞춰 디자인되었습니다. 시스템은 TV 자체 설정이 있으면 그것을 따르고, 라이트는 밝은 방에 어울립니다.</string>
     <string name="settings_help_accent">버튼, 포커스 빛, 진행 표시줄, 강조 표시에 모두 적용됩니다. 프리셋을 고르거나 OK를 눌러 팔레트와 원하는 16진수 코드를 지정하세요.</string>
     <string name="settings_help_focus">포커스된 항목을 둘러싼 테두리입니다. 소파에서도 잘 보이도록 색상과 두께를 고르세요.</string>
-    <string name="settings_help_fonts">OwnTV 전체에서 쓰는 글꼴과 글자 크기입니다. 팝업도 같은 글꼴을 씁니다.</string>
+    <string name="settings_help_fonts">BlankTV 전체에서 쓰는 글꼴과 글자 크기입니다. 팝업도 같은 글꼴을 씁니다.</string>
     <string name="settings_help_popup_size">팝업, 메뉴, 대화상자 전체를 크게 또는 작게 합니다. 팝업이 비좁거나 화면을 너무 많이 가릴 때 사용하세요.</string>
     <string name="settings_help_zoom">화면의 모든 것을 확대·축소합니다. 크게 하면 멀리서 읽기 쉽고, 작게 하면 더 많이 표시됩니다. 85%% 미만에서는 메모리가 적은 TV 박스의 메모리가 부족해질 수 있습니다.</string>
     <string name="settings_help_animations">켜면 시트, 메뉴, 포커스가 부드럽게 움직입니다. 끄면 모든 변화가 즉시 일어납니다.</string>
@@ -1416,8 +1416,8 @@
     <string name="settings_help_vod_layout">시네마는 선택한 작품의 이미지를 포스터 격자 뒤에 보여 줍니다. 분리형은 카테고리, 작품, 세부 정보를 나란히 보여 줍니다.</string>
     <string name="settings_help_home">홈에 어떤 행을 어떤 순서로 보여 줄지, 지금 인기 행이 어떻게 보일지 고릅니다.</string>
     <string name="settings_help_customize">보지 않는 카테고리와 항목을 숨기고, 카테고리에 원하는 이름을 붙여 원하는 순서로 정리하세요. 숨긴 것은 여기서 다시 꺼낼 수 있고 사라지지 않습니다.</string>
-    <string name="settings_help_app_icon">TV 홈 화면의 OwnTV 아이콘입니다. 런처에 반영되기까지 잠시 걸릴 수 있습니다.</string>
-    <string name="settings_help_brand_accent">메뉴, 정보, 설정의 OwnTV 로고가 재생 삼각형을 강조 색상으로 표시합니다. 홈 화면 아이콘은 원래 색상을 유지합니다.</string>
+    <string name="settings_help_app_icon">TV 홈 화면의 BlankTV 아이콘입니다. 런처에 반영되기까지 잠시 걸릴 수 있습니다.</string>
+    <string name="settings_help_brand_accent">메뉴, 정보, 설정의 BlankTV 로고가 재생 삼각형을 강조 색상으로 표시합니다. 홈 화면 아이콘은 원래 색상을 유지합니다.</string>
     <string name="settings_help_startup">OwnTV를 시작할 때 보여 줄 화면: 홈, 마지막으로 본 채널, 즐겨찾기, 또는 직접 고른 채널.</string>
     <string name="settings_help_check_updates">지금 GitHub에서 새 OwnTV를 찾아 설치를 제안합니다. 재생목록, 즐겨찾기, 설정은 그대로 유지됩니다.</string>
     <string name="settings_help_update_startup">OwnTV가 시작될 때마다 새 버전을 찾고, 있으면 알려 줍니다. 묻지 않고 설치하지 않습니다.</string>

@@ -157,7 +157,7 @@
     <string name="content_storage_choose_folder">다른 폴더 선택…</string>
     <string name="content_storage_chosen_folder">선택한 폴더</string>
     <string name="content_storage_folder_lost">해당 폴더를 더 이상 사용할 수 없습니다. 다시 선택하거나 다른 폴더를 선택하세요.</string>
-    <string name="content_storage_folder_fallback">다운로드 폴더를 지금 사용할 수 없어, 다시 연결될 때까지 OwnTV 자체 폴더에 저장합니다.</string>
+    <string name="content_storage_folder_fallback">다운로드 폴더를 지금 사용할 수 없어, 다시 연결될 때까지 BlankTV 자체 폴더에 저장합니다.</string>
     <string name="content_downloads_queued">대기열에 추가됨…</string>
     <string name="content_downloads_failed_group">실패</string>
     <string name="content_downloads_play">재생</string>
@@ -248,7 +248,7 @@
     <string name="content_epg_favourite">즐겨찾기에 추가</string>
     <string name="content_epg_unfavourite">즐겨찾기에서 삭제</string>
     <string name="content_epg_player_choice_description">설정 › 다시보기에서 항상 사용할 플레이어를 선택할 수 있습니다.</string>
-    <string name="content_epg_own_player">OwnTV 플레이어</string>
+    <string name="content_epg_own_player">BlankTV 플레이어</string>
     <string name="content_epg_external_player">외부 플레이어</string>
     <string name="content_epg_time_offset">EPG 시간 오프셋</string>
     <string name="content_epg_shift_minutes"><xliff:g id="sign">%1$s</xliff:g><xliff:g id="minutes">%2$s</xliff:g>분</string>

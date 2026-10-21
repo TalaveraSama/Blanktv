@@ -119,8 +119,8 @@
     <string name="update_not_enough_space">Nincs elég szabad hely a frissítéshez. Szabadíts fel körülbelül <xliff:g id="size">%1$s</xliff:g> helyet, és próbáld újra.</string>
     <string name="update_damaged_download">A frissítés nem töltődött le teljesen. Ellenőrizd a kapcsolatot, és próbáld újra.</string>
     <string name="update_install_rejected">A rendszer telepítője elutasította a frissítést: <xliff:g id="reason">%1$s</xliff:g></string>
-    <string name="update_ready">Az OwnTV v<xliff:g id="available">%1$s</xliff:g> készen áll (jelenleg a v<xliff:g id="current">%2$s</xliff:g> fut).</string>
-    <string name="recovery_title">Az OwnTV nem tudta megnyitni az adatbázisát</string>
+    <string name="update_ready">Az BlankTV v<xliff:g id="available">%1$s</xliff:g> készen áll (jelenleg a v<xliff:g id="current">%2$s</xliff:g> fut).</string>
+    <string name="recovery_title">Az BlankTV nem tudta megnyitni az adatbázisát</string>
     <string name="recovery_data_safe_full">A profiljaid, lejátszási listáid, kedvenceid és előzményeid NEM törlődtek — az adatbázis frissítése hiúsult meg, az adatok továbbra is ezen az eszközön vannak.\n\nKérjük, jelentsd ezt, hogy javíthassuk a hibát, és csatold az alábbi üzenetet.</string>
     <string name="recovery_retry">Újra</string>
     <string name="recovery_backup_hint">Ha van biztonsági mentésed, visszaállíthatod az alkalmazást alaphelyzetbe, majd visszatöltheted a mentést. A visszaállítás minden, ezen az eszközön tárolt adatot töröl.</string>
@@ -213,13 +213,13 @@
     <string name="settings_recording_pre_roll_description">Ennyivel a megadott kezdés előtt induljon, hogy egy kissé siető műsorújság se vágja le az elejét.</string>
     <string name="settings_recording_post_roll">Folytatás a vége után</string>
     <string name="settings_recording_post_roll_description">Ennyivel a megadott befejezés után folytassa, hogy egy elhúzódó műsor ne szakadjon félbe.</string>
-    <string name="settings_recording_timers_inexact">Ez az eszköz nem engedi az OwnTV-nek a pontos ébresztők beállítását, ezért egy felvétel néhány perccel később indulhat. A felvételek emiatt korábban kezdődnek.</string>
+    <string name="settings_recording_timers_inexact">Ez az eszköz nem engedi az BlankTV-nek a pontos ébresztők beállítását, ezért egy felvétel néhány perccel később indulhat. A felvételek emiatt korábban kezdődnek.</string>
     <plurals name="recording_minutes">
         <item quantity="one"><xliff:g id="count">%1$d</xliff:g> perc</item>
         <item quantity="other"><xliff:g id="count">%1$d</xliff:g> perc</item>
     </plurals>
     <string name="recording_failed_encrypted">Ez a csatorna titkosított, nem rögzíthető</string>
-    <string name="recording_failed_drm">Ez a csatorna DRM-védett, ezért megnézhető, de nem rögzíthető. A védelmet a szolgáltatója alkalmazza, nem az OwnTV.</string>
+    <string name="recording_failed_drm">Ez a csatorna DRM-védett, ezért megnézhető, de nem rögzíthető. A védelmet a szolgáltatója alkalmazza, nem az BlankTV.</string>
     <string name="recording_failed_metered">Nem készült felvétel mobiladaton</string>
     <string name="recording_card_empty_title">Még nincs felvétel</string>
     <string name="recording_card_body">Válassz egy műsort a műsorújságban, és válaszd a Felvételt, vagy tartsd nyomva egy csatornát, és ütemezz egy időpontot. Ide kerül, akkor is, ha közben mást nézel.</string>
@@ -426,7 +426,7 @@
     <string name="sports_live_refresh_description">Csak amíg sportképernyő vagy eredmény látszik</string>
     <string name="sports_about">A sportadatokról</string>
     <string name="sports_about_summary">Eredmények: ESPN · csatornák: a lejátszási listád és a műsorújságod</string>
-    <string name="sports_alerts_when_closed">Értesítések bezárt OwnTV mellett</string>
+    <string name="sports_alerts_when_closed">Értesítések bezárt BlankTV mellett</string>
     <string name="sports_alerts_when_closed_description">Egyszer kér értesítési engedélyt</string>
     <string name="sports_alert_me_about">Értesíts, ha</string>
     <string name="sports_kind_goals">Gólok és wicketek</string>
@@ -437,7 +437,7 @@
     <string name="sports_live_card">Élő eredménykártya</string>
     <string name="sports_live_card_offer">Élő eredménykártya felajánlása</string>
     <string name="sports_live_card_description">30 mp-enként frissül a végéig; egy meccsről indítod</string>
-    <string name="sports_alerts_footnote">Bezárt OwnTV mellett az értesítések általában egy percen belül megérkeznek. Ha a telefon sokáig mozdulatlanul, kikapcsolt képernyővel fekszik, az Android akár kb. 15 percig is visszatarthatja őket. Az élő eredménykártyát nem tartja vissza.</string>
+    <string name="sports_alerts_footnote">Bezárt BlankTV mellett az értesítések általában egy percen belül megérkeznek. Ha a telefon sokáig mozdulatlanul, kikapcsolt képernyővel fekszik, az Android akár kb. 15 percig is visszatarthatja őket. Az élő eredménykártyát nem tartja vissza.</string>
     <string name="sports_search_teams">Csapatok, játékosok, bajnokságok keresése</string>
     <string name="sports_suggested">Javaslatok a nézettek alapján</string>
     <plurals name="sports_watched_matches">
@@ -446,7 +446,7 @@
     </plurals>
     <string name="sports_league_label">Bajnokság</string>
     <string name="sports_no_playlist_title">Adj hozzá lejátszási listát a meccsek nézéséhez</string>
-    <string name="sports_no_playlist_body">Az eredmények, tabellák és értesítések enélkül is működnek. Lejátszási listával az OwnTV minden csatornát megtalál, amely ezt a meccset adja.</string>
+    <string name="sports_no_playlist_body">Az eredmények, tabellák és értesítések enélkül is működnek. Lejátszási listával az BlankTV minden csatornát megtalál, amely ezt a meccset adja.</string>
     <string name="sports_add_playlist">Lejátszási lista hozzáadása</string>
     <string name="sports_home_row">Élő sport</string>
     <string name="sports_home_row_description">Követett meccsek, amíg valamelyik élőben megy vagy hamarosan kezdődik</string>
@@ -456,7 +456,7 @@
     <string name="sports_sport_buttons">Sportág-gombok</string>
     <string name="sports_sport_buttons_mine">Saját sportágaim</string>
     <string name="sports_sport_buttons_all">Minden sportág</string>
-    <string name="sports_sport_buttons_description">Saját sportágaim: csak amit kiválasztottál. Minden sportág: minden bajnokság, amit az OwnTV ismer – ez lassabban töltődik be.</string>
+    <string name="sports_sport_buttons_description">Saját sportágaim: csak amit kiválasztottál. Minden sportág: minden bajnokság, amit az BlankTV ismer – ez lassabban töltődik be.</string>
     <string name="sports_auto_rebuild">Automatikus újraépítés</string>
     <string name="sports_auto_rebuild_description">Milyen gyakran töltődjenek le újra maguktól az eredmények, a meccsek részletei és a tabellák</string>
     <plurals name="sports_auto_rebuild_hours">

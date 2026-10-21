@@ -546,7 +546,7 @@
     <string name="settings_guide_synced">番組表を同期しました</string>
     <string name="settings_guide_sync_failed">番組表の同期に失敗しました</string>
     <string name="settings_restore_remote_title">別のデバイスから復元</string>
-    <string name="settings_restore_remote_description">同じ Wi-Fi にあるブラウザー付きの任意の機器（スマホ、パソコン、別のテレビ）で QR を読み取る（または URL を開く）、この PIN を入力して OwnTV のバックアップファイルを選んで送信します。復元する内容はここで選びます。</string>
+    <string name="settings_restore_remote_description">同じ Wi-Fi にあるブラウザー付きの任意の機器（スマホ、パソコン、別のテレビ）で QR を読み取る（または URL を開く）、この PIN を入力して BlankTV のバックアップファイルを選んで送信します。復元する内容はここで選びます。</string>
     <string name="settings_try_again">再試行</string>
     <string name="settings_new_pin">新しいPINでやり直す</string>
     <string name="settings_download_remote_title">別のデバイスにダウンロード</string>
@@ -675,9 +675,9 @@
     <string name="settings_sources_info">情報</string>
     <string name="settings_sources_retest">再テスト</string>
     <string name="settings_sources_probe_title">このプレイリストをテストしますか？</string>
-    <string name="settings_sources_probe_warning">同時に視聴できるチャンネル数を知らせないプロバイダーは少なくありません。そこで OwnTV はいくつか実際に開き、どれが続くかを見て判断します。再生中のものはすべて停止し、最大で 2 分ほどかかります。</string>
+    <string name="settings_sources_probe_warning">同時に視聴できるチャンネル数を知らせないプロバイダーは少なくありません。そこで BlankTV はいくつか実際に開き、どれが続くかを見て判断します。再生中のものはすべて停止し、最大で 2 分ほどかかります。</string>
     <string name="settings_sources_probe_running">このプロバイダーが許可するチャンネル数を確認しています…（<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>）</string>
-    <string name="settings_sources_probe_unknown">このプロバイダーが許可するチャンネル数を OwnTV は特定できませんでした。</string>
+    <string name="settings_sources_probe_unknown">このプロバイダーが許可するチャンネル数を BlankTV は特定できませんでした。</string>
     <string name="settings_sources_probe_skip">スキップ</string>
     <string name="settings_sources_auto_refresh">⟳ <xliff:g id="mode">%1$s</xliff:g></string>
     <string name="settings_sources_default">デフォルト</string>
@@ -949,7 +949,7 @@
     <string name="settings_live_preroll">ライブストリームを事前バッファリング</string>
     <string name="settings_live_preroll_description">ライブチャンネルの再生開始前に、この量の映像をバッファリングします。また、カクついた後にもう一度バッファリングします。これは映像の量であり、カウントダウンではありません。オフにすると、最も速く再生を開始できます。</string>
     <string name="settings_live_tune_timeout">チャンネルを諦めるまでの時間</string>
-    <string name="settings_live_tune_timeout_description">この時間までにライブチャンネルの映像が出ない場合、OwnTV はすべてのプレーヤーを順に試して黒い画面を映し続ける代わりに、試行をやめてお知らせします。「しない」を選ぶと試行を続けるため、プロバイダーが削除したチャンネルでは 1 分をゆうに超えることがあります。プロバイダー側から求められた待ち時間は含みません。</string>
+    <string name="settings_live_tune_timeout_description">この時間までにライブチャンネルの映像が出ない場合、BlankTV はすべてのプレーヤーを順に試して黒い画面を映し続ける代わりに、試行をやめてお知らせします。「しない」を選ぶと試行を続けるため、プロバイダーが削除したチャンネルでは 1 分をゆうに超えることがあります。プロバイダー側から求められた待ち時間は含みません。</string>
     <string name="settings_live_preroll_per_playlist">プレイリストごとの事前バッファリング</string>
     <string name="settings_live_preroll_per_playlist_description">上記の設定を1つのプレイリストだけ上書きし、他のプレイリストは高速なままにできます。</string>
     <string name="settings_live_engine_per_playlist">プレイリストごとのライブTVプレーヤー</string>
@@ -1145,7 +1145,7 @@
     <string name="local_sync_received_items">受け取った項目: <xliff:g id="count">%1$d</xliff:g></string>
     <string name="local_sync_sent">データを送信しました</string>
     <string name="local_sync_failed">同期に失敗しました</string>
-    <string name="local_sync_error_unreachable">その端末に接続できませんでした。その端末で OwnTV → 設定 → データ → ローカル同期 を開き、同期モードをオンにしてください。両方が同じ Wi-Fi に接続している必要があります。</string>
+    <string name="local_sync_error_unreachable">その端末に接続できませんでした。その端末で BlankTV → 設定 → データ → ローカル同期 を開き、同期モードをオンにしてください。両方が同じ Wi-Fi に接続している必要があります。</string>
     <string name="local_sync_error_unauthorized">もう一方の端末に拒否されました。PIN が違うか、この端末を削除した可能性があります。</string>
     <string name="local_sync_error_bad_payload">受け取った内容を読み取れませんでした。パスワードを使った場合は、両方の端末で同じか確認してください。</string>
     <string name="local_sync_error_unknown">問題が発生しました。もう一度お試しください。</string>
@@ -1228,7 +1228,7 @@
     <string name="settings_multiview_use_anyway">それでも使う</string>
     <string name="settings_app_icon">アプリアイコン</string>
     <string name="settings_app_icon_summary">OwnTVのアイコンとロゴの色</string>
-    <string name="settings_app_icon_sheet_mobile">ホーム画面での OwnTV の見え方。アプリが一度再起動します。</string>
+    <string name="settings_app_icon_sheet_mobile">ホーム画面での BlankTV の見え方。アプリが一度再起動します。</string>
     <string name="settings_brand_accent">アクセントカラーのロゴ</string>
     <string name="app_icon_petrol">ペトロール</string>
     <string name="app_icon_sunflower">ひまわり</string>
@@ -1403,10 +1403,10 @@
     <string name="settings_help_epg_sources">XMLTV ガイドフィードをリンクで追加し、更新または削除します。フィードは番組表とライブ TV の番組行に使われます。</string>
     <string name="settings_help_guide_days">ガイドが先の何日分の番組を保存するか。日数を減らすとガイドの更新が速くなり、データベースも小さくなります。</string>
     <string name="settings_help_catchup_timezone">キャッチアップはプロバイダーのアーカイブから番組を再生します。自動では、プロバイダーが通知するタイムゾーンを使い、通知がなければテレビ本体の時計に従います。それでも開始時刻がずれる場合は固定の UTC オフセットを選んでください。キャッチアップで使うプレーヤーもここで選びます。</string>
-    <string name="settings_help_theme">OwnTV はダーク向けに設計されています。システムはテレビ本体の設定があればそれに従い、ライトは明るい部屋に向いています。</string>
+    <string name="settings_help_theme">BlankTV はダーク向けに設計されています。システムはテレビ本体の設定があればそれに従い、ライトは明るい部屋に向いています。</string>
     <string name="settings_help_accent">ボタン、フォーカスの光、進行バー、ハイライトをすべて色付けします。プリセットを選ぶか、OK でパレットを開いて任意の 16 進コードを入力できます。</string>
     <string name="settings_help_focus">フォーカス中の項目を囲むリング。ソファからでも追いやすいよう、色と太さを選べます。</string>
-    <string name="settings_help_fonts">OwnTV 全体で使うフォントと文字の大きさです。ポップアップも同じフォントを使います。</string>
+    <string name="settings_help_fonts">BlankTV 全体で使うフォントと文字の大きさです。ポップアップも同じフォントを使います。</string>
     <string name="settings_help_popup_size">ポップアップ、メニュー、ダイアログ全体を大きく、または小さくします。窮屈に感じるときや画面を覆いすぎるときに使います。</string>
     <string name="settings_help_zoom">画面のすべてを拡大・縮小します。大きいほど離れても読みやすく、小さいほど多く表示できます。85%% 未満ではメモリの少ない TV ボックスでメモリ不足になることがあります。</string>
     <string name="settings_help_animations">オンのときはシート、メニュー、フォーカスがなめらかに動きます。オフにするとすべての変化が即座になります。</string>
@@ -1416,11 +1416,11 @@
     <string name="settings_help_vod_layout">シネマはフォーカス中の作品の画像をポスターのグリッドの背後に表示します。分割はカテゴリ、作品、詳細を横に並べます。</string>
     <string name="settings_help_home">ホームに表示する行とその順番、「いま話題」の行の見た目を選びます。</string>
     <string name="settings_help_customize">見ないカテゴリや項目を非表示にし、カテゴリに好きな名前を付けて並べ替えます。非表示にしたものはここから戻せるので、失われません。</string>
-    <string name="settings_help_app_icon">テレビのホーム画面にある OwnTV のアイコンです。ランチャーに反映されるまで少し時間がかかることがあります。</string>
-    <string name="settings_help_brand_accent">メニュー、「情報」、セットアップの OwnTV ロゴの再生三角形がアクセントカラーになります。ホーム画面のアイコンは元の色のままです。</string>
-    <string name="settings_help_startup">OwnTV の起動時に表示するもの：ホーム、最後に見たチャンネル、お気に入り、または選んだチャンネル。</string>
-    <string name="settings_help_check_updates">GitHub で新しい OwnTV を今すぐ探し、インストールを提案します。プレイリスト、お気に入り、設定はそのまま残ります。</string>
-    <string name="settings_help_update_startup">OwnTV の起動ごとに新しいバージョンを探し、あれば知らせます。確認なしにインストールされることはありません。</string>
+    <string name="settings_help_app_icon">テレビのホーム画面にある BlankTV のアイコンです。ランチャーに反映されるまで少し時間がかかることがあります。</string>
+    <string name="settings_help_brand_accent">メニュー、「情報」、セットアップの BlankTV ロゴの再生三角形がアクセントカラーになります。ホーム画面のアイコンは元の色のままです。</string>
+    <string name="settings_help_startup">BlankTV の起動時に表示するもの：ホーム、最後に見たチャンネル、お気に入り、または選んだチャンネル。</string>
+    <string name="settings_help_check_updates">GitHub で新しい BlankTV を今すぐ探し、インストールを提案します。プレイリスト、お気に入り、設定はそのまま残ります。</string>
+    <string name="settings_help_update_startup">BlankTV の起動ごとに新しいバージョンを探し、あれば知らせます。確認なしにインストールされることはありません。</string>
     <string name="settings_help_dns">ネットワーク既定の DNS ではなく、選んだ DNS サーバーでプロバイダーのアドレスを調べます。ネットワークがアドレスをブロックしたり転送したりするときに役立ちます。</string>
     <string name="settings_help_live_engine">ExoPlayer はチャンネルをずっと速く開き、ライブ字幕に対応する唯一のプレーヤーです。mpv は ExoPlayer で再生できないチャンネルや、一部の珍しい音声も再生します。組み合わせの選択肢では、最初のプレーヤーが失敗するともう一方を試します。</string>
     <string name="settings_help_hw">テレビのハードウェアデコーダーを使います。4K がなめらかになり、発熱も減ります。一部のストリームがカクついたりブロックが出たりする場合だけオフにしてください。その場合はソフトウェアデコーダーが処理します。</string>
@@ -1444,7 +1444,7 @@
     <string name="settings_profile_add">プロフィールを追加</string>
     <string name="settings_profile_add_line">お気に入り、履歴、設定を個別に持つ視聴者</string>
     <plurals name="settings_help_language">
-        <item quantity="other">OwnTV のすべてのメニューとメッセージの言語です。<xliff:g id="count">%1$d</xliff:g> 言語に対応。選ぶまではテレビ本体の言語に従います。</item>
+        <item quantity="other">BlankTV のすべてのメニューとメッセージの言語です。<xliff:g id="count">%1$d</xliff:g> 言語に対応。選ぶまではテレビ本体の言語に従います。</item>
     </plurals>
     <plurals name="settings_profile_count">
         <item quantity="other"><xliff:g id="count">%1$d</xliff:g> 件のプロフィール</item>
@@ -1479,8 +1479,8 @@
     <string name="settings_home_show_row">この行を表示</string>
     <string name="settings_home_move_row">移動（▲ ▼、最後に OK）</string>
     <string name="settings_line_remote_shortcuts_on">オフでも割り当ては保持されます</string>
-    <string name="settings_language_system_help">OwnTV はテレビの言語（現在は <xliff:g id="language">%1$s</xliff:g>）に従います。OwnTV だけで使う言語を下から選んでください。</string>
-    <string name="settings_language_pick_help">テレビの言語に関係なく、OwnTV で <xliff:g id="language">%1$s</xliff:g> を使います。</string>
+    <string name="settings_language_system_help">BlankTV はテレビの言語（現在は <xliff:g id="language">%1$s</xliff:g>）に従います。BlankTV だけで使う言語を下から選んでください。</string>
+    <string name="settings_language_pick_help">テレビの言語に関係なく、BlankTV で <xliff:g id="language">%1$s</xliff:g> を使います。</string>
     <string name="settings_key_use">使用</string>
     <string name="settings_line_metadata_source">映画とシリーズの詳細の取得元</string>
     <string name="settings_line_metadata_language">TMDB のあらすじ、ジャンル、タイトル</string>
@@ -1526,7 +1526,7 @@
     <string name="settings_line_glass_bg">背景、画像の見え方、ガラス</string>
     <string name="settings_bg_background">背景</string>
     <string name="settings_line_bg_background">すべての画面の後ろにあるもの</string>
-    <string name="settings_help_bg_background">Stage は OwnTV 独自のやわらかな色を表示します。画像はすべての画面の後ろに自分の画像を表示します。無地は平らな暗い塗りです。</string>
+    <string name="settings_help_bg_background">Stage は BlankTV 独自のやわらかな色を表示します。画像はすべての画面の後ろに自分の画像を表示します。無地は平らな暗い塗りです。</string>
     <string name="settings_bg_stage">Stage</string>
     <string name="settings_bg_picture">画像</string>
     <string name="settings_bg_plain">無地</string>

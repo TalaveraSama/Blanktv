@@ -119,8 +119,8 @@
     <string name="update_not_enough_space">അപ്ഡേറ്റിന് ആവശ്യമായ സ്റ്റോറേജ് ഇല്ല. ഏകദേശം <xliff:g id="size">%1$s</xliff:g> ഒഴിവാക്കി വീണ്ടും ശ്രമിക്കുക.</string>
     <string name="update_damaged_download">അപ്ഡേറ്റ് പൂർണ്ണമായി ഡൗൺലോഡ് ആയില്ല. കണക്ഷൻ പരിശോധിച്ച് വീണ്ടും ശ്രമിക്കുക.</string>
     <string name="update_install_rejected">സിസ്റ്റം ഇൻസ്റ്റാളർ അപ്ഡേറ്റ് നിരസിച്ചു: <xliff:g id="reason">%1$s</xliff:g></string>
-    <string name="update_ready">OwnTV v<xliff:g id="available">%1$s</xliff:g> തയ്യാറാണ് (നിങ്ങളുടെ പക്കലുള്ളത് v<xliff:g id="current">%2$s</xliff:g> ആണ്).</string>
-    <string name="recovery_title">OwnTV-യ്ക്ക് അതിന്റെ ഡാറ്റാബേസ് തുറക്കാനായില്ല</string>
+    <string name="update_ready">BlankTV v<xliff:g id="available">%1$s</xliff:g> തയ്യാറാണ് (നിങ്ങളുടെ പക്കലുള്ളത് v<xliff:g id="current">%2$s</xliff:g> ആണ്).</string>
+    <string name="recovery_title">BlankTV-യ്ക്ക് അതിന്റെ ഡാറ്റാബേസ് തുറക്കാനായില്ല</string>
     <string name="recovery_data_safe_full">നിങ്ങളുടെ പ്രൊഫൈലുകൾ, പ്ലേലിസ്റ്റുകൾ, പ്രിയപ്പെട്ടവ, ചരിത്രം എന്നിവ നീക്കം ചെയ്തിട്ടില്ല — ഇത് ഡാറ്റാബേസ് അപ്‌ഗ്രേഡ് പരാജയപ്പെട്ടതാണ്, ഡാറ്റ ഇപ്പോഴും ഈ ഉപകരണത്തിലുണ്ട്.\n\nഇത് പരിഹരിക്കാൻ കഴിയുന്നതിനായി ദയവായി റിപ്പോർട്ട് ചെയ്യുകയും ചുവടെയുള്ള സന്ദേശം ഉൾപ്പെടുത്തുകയും ചെയ്യുക.</string>
     <string name="recovery_retry">വീണ്ടും ശ്രമിക്കുക</string>
     <string name="recovery_backup_hint">നിങ്ങളുടെ പക്കൽ ഒരു ബാക്കപ്പ് ഫയൽ ഉണ്ടെങ്കിൽ, ആപ്പ് റീസെറ്റ് ചെയ്ത് പിന്നീട് അത് പുനഃസ്ഥാപിക്കാം. റീസെറ്റ് ചെയ്യുന്നത് ഈ ഉപകരണത്തിൽ സംഭരിച്ചിരിക്കുന്ന എല്ലാം ഇല്ലാതാക്കും.</string>
@@ -213,13 +213,13 @@
     <string name="settings_recording_pre_roll_description">കാണിച്ച ആരംഭ സമയത്തിന് ഇത്ര മുമ്പ് തുടങ്ങുക, അങ്ങനെ അല്പം നേരത്തെയുള്ള ഗൈഡിലും തുടക്കം നഷ്ടമാകില്ല.</string>
     <string name="settings_recording_post_roll">അവസാനത്തിനു ശേഷവും തുടരുക</string>
     <string name="settings_recording_post_roll_description">കാണിച്ച അവസാന സമയത്തിന് ശേഷം ഇത്ര നേരം തുടരുക, അങ്ങനെ നീണ്ടുപോകുന്ന പരിപാടി മുറിഞ്ഞുപോകില്ല.</string>
-    <string name="settings_recording_timers_inexact">ഈ ഉപകരണം OwnTV-യെ കൃത്യമായ അലാറം സജ്ജമാക്കാൻ അനുവദിക്കുന്നില്ല, അതിനാൽ റെക്കോർഡിംഗ് കുറച്ച് മിനിറ്റ് വൈകി തുടങ്ങാം. അത് നികത്താൻ റെക്കോർഡിംഗ് നേരത്തെ ആരംഭിക്കുന്നു.</string>
+    <string name="settings_recording_timers_inexact">ഈ ഉപകരണം BlankTV-യെ കൃത്യമായ അലാറം സജ്ജമാക്കാൻ അനുവദിക്കുന്നില്ല, അതിനാൽ റെക്കോർഡിംഗ് കുറച്ച് മിനിറ്റ് വൈകി തുടങ്ങാം. അത് നികത്താൻ റെക്കോർഡിംഗ് നേരത്തെ ആരംഭിക്കുന്നു.</string>
     <plurals name="recording_minutes">
         <item quantity="one"><xliff:g id="count">%1$d</xliff:g> മിനിറ്റ്</item>
         <item quantity="other"><xliff:g id="count">%1$d</xliff:g> മിനിറ്റ്</item>
     </plurals>
     <string name="recording_failed_encrypted">ഈ ചാനൽ എൻക്രിപ്റ്റ് ചെയ്തതിനാൽ റെക്കോർഡ് ചെയ്യാനാകില്ല</string>
-    <string name="recording_failed_drm">ഈ ചാനൽ DRM പരിരക്ഷിതമാണ്, അതിനാൽ കാണാൻ കഴിയും പക്ഷേ റെക്കോർഡ് ചെയ്യാൻ കഴിയില്ല. ഈ പരിരക്ഷ നൽകുന്നത് നിങ്ങളുടെ സേവനദാതാവാണ്, OwnTV അല്ല.</string>
+    <string name="recording_failed_drm">ഈ ചാനൽ DRM പരിരക്ഷിതമാണ്, അതിനാൽ കാണാൻ കഴിയും പക്ഷേ റെക്കോർഡ് ചെയ്യാൻ കഴിയില്ല. ഈ പരിരക്ഷ നൽകുന്നത് നിങ്ങളുടെ സേവനദാതാവാണ്, BlankTV അല്ല.</string>
     <string name="recording_failed_metered">മൊബൈൽ ഡാറ്റയിൽ റെക്കോർഡ് ചെയ്തില്ല</string>
     <string name="recording_card_empty_title">ഇതുവരെ ഒന്നും റെക്കോർഡ് ചെയ്തിട്ടില്ല</string>
     <string name="recording_card_body">ടിവി ഗൈഡിൽ ഒരു പരിപാടി തിരഞ്ഞെടുത്ത് റെക്കോർഡ് തിരഞ്ഞെടുക്കുക, അല്ലെങ്കിൽ ഒരു ചാനൽ ദീർഘനേരം അമർത്തി സമയം ഷെഡ്യൂൾ ചെയ്യുക. നിങ്ങൾ മറ്റെന്തെങ്കിലും കാണുമ്പോഴും അത് ഇവിടെ എത്തും.</string>
@@ -426,7 +426,7 @@
     <string name="sports_live_refresh_description">സ്പോർട്സ് സ്ക്രീനോ സ്കോറോ കാണിക്കുമ്പോൾ മാത്രം</string>
     <string name="sports_about">സ്പോർട്സ് ഡാറ്റയെക്കുറിച്ച്</string>
     <string name="sports_about_summary">സ്കോറുകൾ: ESPN · ചാനലുകൾ: നിങ്ങളുടെ പ്ലേലിസ്റ്റും ഗൈഡും</string>
-    <string name="sports_alerts_when_closed">OwnTV അടച്ചിരിക്കുമ്പോൾ അലേർട്ടുകൾ</string>
+    <string name="sports_alerts_when_closed">BlankTV അടച്ചിരിക്കുമ്പോൾ അലേർട്ടുകൾ</string>
     <string name="sports_alerts_when_closed_description">അറിയിപ്പ് അനുമതി ഒരിക്കൽ ചോദിക്കും</string>
     <string name="sports_alert_me_about">എന്നെ അറിയിക്കുക</string>
     <string name="sports_kind_goals">ഗോളുകളും വിക്കറ്റുകളും</string>
@@ -437,7 +437,7 @@
     <string name="sports_live_card">തത്സമയ സ്കോർ കാർഡ്</string>
     <string name="sports_live_card_offer">തത്സമയ സ്കോർ കാർഡ് നൽകുക</string>
     <string name="sports_live_card_description">ഫുൾ ടൈം വരെ ഓരോ 30 സെ. പുതുക്കും; ഒരു മത്സരത്തിൽ നിന്ന് ആരംഭിക്കാം</string>
-    <string name="sports_alerts_footnote">OwnTV അടച്ചിരിക്കുമ്പോൾ അലേർട്ടുകൾ സാധാരണയായി ഒരു മിനിറ്റിനുള്ളിൽ എത്തും. ഫോൺ സ്ക്രീൻ ഓഫാക്കി ദീർഘനേരം അനങ്ങാതെ കിടന്നാൽ, Android അവ ഏകദേശം 15 മിനിറ്റ് വരെ വൈകിപ്പിച്ചേക്കാം. തത്സമയ സ്കോർ കാർഡ് വൈകില്ല.</string>
+    <string name="sports_alerts_footnote">BlankTV അടച്ചിരിക്കുമ്പോൾ അലേർട്ടുകൾ സാധാരണയായി ഒരു മിനിറ്റിനുള്ളിൽ എത്തും. ഫോൺ സ്ക്രീൻ ഓഫാക്കി ദീർഘനേരം അനങ്ങാതെ കിടന്നാൽ, Android അവ ഏകദേശം 15 മിനിറ്റ് വരെ വൈകിപ്പിച്ചേക്കാം. തത്സമയ സ്കോർ കാർഡ് വൈകില്ല.</string>
     <string name="sports_search_teams">ടീമുകൾ, കളിക്കാർ, ലീഗുകൾ തിരയുക</string>
     <string name="sports_suggested">നിങ്ങൾ കാണുന്നതിൽ നിന്നുള്ള നിർദ്ദേശങ്ങൾ</string>
     <plurals name="sports_watched_matches">
@@ -446,7 +446,7 @@
     </plurals>
     <string name="sports_league_label">ലീഗ്</string>
     <string name="sports_no_playlist_title">മത്സരങ്ങൾ കാണാൻ ഒരു പ്ലേലിസ്റ്റ് ചേർക്കുക</string>
-    <string name="sports_no_playlist_body">സ്കോറുകൾ, പട്ടികകൾ, അലേർട്ടുകൾ എന്നിവ ഇതില്ലാതെയും പ്രവർത്തിക്കും. ഒരു പ്ലേലിസ്റ്റ് ഉണ്ടെങ്കിൽ, ഈ മത്സരം കാണിക്കുന്ന എല്ലാ ചാനലുകളും OwnTV കണ്ടെത്തും.</string>
+    <string name="sports_no_playlist_body">സ്കോറുകൾ, പട്ടികകൾ, അലേർട്ടുകൾ എന്നിവ ഇതില്ലാതെയും പ്രവർത്തിക്കും. ഒരു പ്ലേലിസ്റ്റ് ഉണ്ടെങ്കിൽ, ഈ മത്സരം കാണിക്കുന്ന എല്ലാ ചാനലുകളും BlankTV കണ്ടെത്തും.</string>
     <string name="sports_add_playlist">പ്ലേലിസ്റ്റ് ചേർക്കുക</string>
     <string name="sports_home_row">തത്സമയ സ്പോർട്സ്</string>
     <string name="sports_home_row_description">പിന്തുടരുന്ന മത്സരങ്ങൾ, ഒന്ന് തത്സമയമോ ആരംഭിക്കാറായോ ആയിരിക്കുമ്പോൾ</string>
@@ -456,7 +456,7 @@
     <string name="sports_sport_buttons">കായിക ബട്ടണുകൾ</string>
     <string name="sports_sport_buttons_mine">എന്റെ കായിക ഇനങ്ങൾ</string>
     <string name="sports_sport_buttons_all">എല്ലാ കായിക ഇനങ്ങളും</string>
-    <string name="sports_sport_buttons_description">എന്റെ കായിക ഇനങ്ങൾ: നിങ്ങൾ തിരഞ്ഞെടുത്തവ മാത്രം. എല്ലാ കായിക ഇനങ്ങളും: OwnTV-ക്ക് അറിയാവുന്ന എല്ലാ ലീഗുകളും, ലോഡ് ചെയ്യാൻ കൂടുതൽ സമയമെടുക്കും.</string>
+    <string name="sports_sport_buttons_description">എന്റെ കായിക ഇനങ്ങൾ: നിങ്ങൾ തിരഞ്ഞെടുത്തവ മാത്രം. എല്ലാ കായിക ഇനങ്ങളും: BlankTV-ക്ക് അറിയാവുന്ന എല്ലാ ലീഗുകളും, ലോഡ് ചെയ്യാൻ കൂടുതൽ സമയമെടുക്കും.</string>
     <string name="sports_auto_rebuild">സ്വയം പുനർനിർമ്മാണം</string>
     <string name="sports_auto_rebuild_description">സ്കോറുകൾ, മത്സര വിശദാംശങ്ങൾ, പട്ടികകൾ എന്നിവ സ്വയം വീണ്ടും എടുക്കുന്നതിന്റെ ഇടവേള</string>
     <plurals name="sports_auto_rebuild_hours">

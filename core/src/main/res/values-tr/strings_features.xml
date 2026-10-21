@@ -119,8 +119,8 @@
     <string name="update_not_enough_space">Güncelleme için yeterli depolama alanı yok. Yaklaşık <xliff:g id="size">%1$s</xliff:g> yer açıp tekrar deneyin.</string>
     <string name="update_damaged_download">Güncelleme tam olarak indirilmedi. Bağlantınızı kontrol edip tekrar deneyin.</string>
     <string name="update_install_rejected">Sistem yükleyicisi güncellemeyi reddetti: <xliff:g id="reason">%1$s</xliff:g></string>
-    <string name="update_ready">OwnTV v<xliff:g id="available">%1$s</xliff:g> hazır (sizde v<xliff:g id="current">%2$s</xliff:g> yüklü).</string>
-    <string name="recovery_title">OwnTV veritabanını açamadı</string>
+    <string name="update_ready">BlankTV v<xliff:g id="available">%1$s</xliff:g> hazır (sizde v<xliff:g id="current">%2$s</xliff:g> yüklü).</string>
+    <string name="recovery_title">BlankTV veritabanını açamadı</string>
     <string name="recovery_data_safe_full">Profilleriniz, oynatma listeleriniz, favorileriniz ve geçmişiniz SİLİNMEDİ — bu bir veritabanı yükseltme hatasıdır ve veriler hâlâ bu cihazdadır.\n\nLütfen düzeltilebilmesi için bu sorunu bildirin ve aşağıdaki mesajı ekleyin.</string>
     <string name="recovery_retry">Tekrar deneyin</string>
     <string name="recovery_backup_hint">Bir yedekleme dosyanız varsa uygulamayı sıfırlayıp ardından bu dosyadan geri yükleyebilirsiniz. Sıfırlama işlemi bu cihazda depolanan her şeyi siler.</string>
@@ -213,13 +213,13 @@
     <string name="settings_recording_pre_roll_description">Belirtilen başlangıç saatinden bu kadar önce başla; böylece biraz erken giden bir rehber açılışı kaçırmaz.</string>
     <string name="settings_recording_post_roll">Bitişten sonra devam et</string>
     <string name="settings_recording_post_roll_description">Belirtilen bitiş saatinden bu kadar sonra devam et; böylece uzayan bir program kesilmez.</string>
-    <string name="settings_recording_timers_inexact">Bu cihaz OwnTV’nin tam zamanlı alarm kurmasına izin vermiyor, bu yüzden bir kayıt birkaç dakika geç başlayabilir. Kayıtlar bunu telafi etmek için erken başlar.</string>
+    <string name="settings_recording_timers_inexact">Bu cihaz BlankTV’nin tam zamanlı alarm kurmasına izin vermiyor, bu yüzden bir kayıt birkaç dakika geç başlayabilir. Kayıtlar bunu telafi etmek için erken başlar.</string>
     <plurals name="recording_minutes">
         <item quantity="one"><xliff:g id="count">%1$d</xliff:g> dakika</item>
         <item quantity="other"><xliff:g id="count">%1$d</xliff:g> dakika</item>
     </plurals>
     <string name="recording_failed_encrypted">Bu kanal şifreli olduğu için kaydedilemez</string>
-    <string name="recording_failed_drm">Bu kanal DRM korumalı olduğundan izlenebilir ancak kaydedilemez. Bu koruma OwnTV\'den değil, sağlayıcınızdan geliyor.</string>
+    <string name="recording_failed_drm">Bu kanal DRM korumalı olduğundan izlenebilir ancak kaydedilemez. Bu koruma BlankTV\'den değil, sağlayıcınızdan geliyor.</string>
     <string name="recording_failed_metered">Mobil veriyle kaydedilmedi</string>
     <string name="recording_card_empty_title">Henüz kayıt yok</string>
     <string name="recording_card_body">TV rehberinde bir program seçip Kaydet’i seçin ya da bir kanala uzun basıp bir saat zamanlayın. Siz başka bir şey izlerken bile buraya gelir.</string>
@@ -426,7 +426,7 @@
     <string name="sports_live_refresh_description">Yalnızca bir spor ekranı veya skor görünürken</string>
     <string name="sports_about">Spor verileri hakkında</string>
     <string name="sports_about_summary">Skorlar: ESPN · kanallar: oynatma listen ve rehberin</string>
-    <string name="sports_alerts_when_closed">OwnTV kapalıyken uyarılar</string>
+    <string name="sports_alerts_when_closed">BlankTV kapalıyken uyarılar</string>
     <string name="sports_alerts_when_closed_description">Bildirim iznini bir kez ister</string>
     <string name="sports_alert_me_about">Bana şunları bildir</string>
     <string name="sports_kind_goals">Goller ve wicket’lar</string>
@@ -437,7 +437,7 @@
     <string name="sports_live_card">Canlı skor kartı</string>
     <string name="sports_live_card_offer">Canlı skor kartı öner</string>
     <string name="sports_live_card_description">Maç sonuna kadar 30 sn’de bir güncellenir; bir maçtan başlatırsın</string>
-    <string name="sports_alerts_footnote">OwnTV kapalıyken uyarılar genellikle bir dakika içinde gelir. Telefon uzun süre ekranı kapalı ve hareketsiz kaldıysa Android bunları yaklaşık 15 dakikaya kadar geciktirebilir. Canlı skor kartı geciktirilmez.</string>
+    <string name="sports_alerts_footnote">BlankTV kapalıyken uyarılar genellikle bir dakika içinde gelir. Telefon uzun süre ekranı kapalı ve hareketsiz kaldıysa Android bunları yaklaşık 15 dakikaya kadar geciktirebilir. Canlı skor kartı geciktirilmez.</string>
     <string name="sports_search_teams">Takım, oyuncu, lig ara</string>
     <string name="sports_suggested">İzlediklerine göre öneriler</string>
     <plurals name="sports_watched_matches">
@@ -446,7 +446,7 @@
     </plurals>
     <string name="sports_league_label">Lig</string>
     <string name="sports_no_playlist_title">Maçları izlemek için oynatma listesi ekle</string>
-    <string name="sports_no_playlist_body">Skorlar, puan durumları ve uyarılar onsuz da çalışır. Oynatma listesiyle OwnTV bu maçı gösteren her kanalı bulur.</string>
+    <string name="sports_no_playlist_body">Skorlar, puan durumları ve uyarılar onsuz da çalışır. Oynatma listesiyle BlankTV bu maçı gösteren her kanalı bulur.</string>
     <string name="sports_add_playlist">Oynatma listesi ekle</string>
     <string name="sports_home_row">Canlı spor</string>
     <string name="sports_home_row_description">Takip edilen maçlar; biri canlıyken ya da başlamak üzereyken</string>
@@ -456,7 +456,7 @@
     <string name="sports_sport_buttons">Spor düğmeleri</string>
     <string name="sports_sport_buttons_mine">Sporlarım</string>
     <string name="sports_sport_buttons_all">Tüm sporlar</string>
-    <string name="sports_sport_buttons_description">Sporlarım: yalnızca seçtiklerin. Tüm sporlar: OwnTV’nin bildiği her lig, yüklemesi daha uzun sürer.</string>
+    <string name="sports_sport_buttons_description">Sporlarım: yalnızca seçtiklerin. Tüm sporlar: BlankTV’nin bildiği her lig, yüklemesi daha uzun sürer.</string>
     <string name="sports_auto_rebuild">Otomatik yeniden oluşturma</string>
     <string name="sports_auto_rebuild_description">Skorların, maç ayrıntılarının ve puan tablolarının kendiliğinden ne sıklıkla yeniden alınacağı</string>
     <plurals name="sports_auto_rebuild_hours">

@@ -67,8 +67,8 @@
     <string name="settings_dynamic">Dynamic</string>
     <!-- Translators: Toggle label to enable/disable the HTTP proxy. -->
     <string name="settings_use_proxy">Use proxy</string>
-    <!-- Translators: Description of the HTTP proxy feature. 'OwnTV' is a brand name. -->
-    <string name="settings_proxy_description">Send all OwnTV traffic and playback through an HTTP proxy.</string>
+    <!-- Translators: Description of the HTTP proxy feature. 'BlankTV' is a brand name. -->
+    <string name="settings_proxy_description">Send all BlankTV traffic and playback through an HTTP proxy.</string>
     <!-- Translators: Text-field label for the proxy hostname. -->
     <string name="settings_host">Host</string>
     <!-- Translators: Placeholder example in the proxy hostname field. -->
@@ -136,7 +136,7 @@
     <string name="settings_remote_shortcuts_reset">Restore default shortcuts</string>
     <!-- Translators: Description of the Restore default shortcuts row. -->
     <string name="settings_remote_shortcuts_reset_description">Restore CH+/CH− and rewind/fast-forward paging; remove other assignments</string>
-    <!-- Translators: Popup title while OwnTV waits for a remote button. -->
+    <!-- Translators: Popup title while BlankTV waits for a remote button. -->
     <string name="settings_remote_shortcuts_capture_title">Press a remote button</string>
     <!-- Translators: Popup instruction. Holding a button creates a long-press shortcut. -->
     <string name="settings_remote_shortcuts_capture_description">Press briefly for a short-press shortcut, or hold until you release for a long-press shortcut. Back, D-pad, OK, volume, Home and power buttons cannot be assigned.</string>
@@ -527,9 +527,9 @@
     <!-- Translators: Phone/tablet wording of settings_auto_frame_rate_warning_title. -->
     <string name="settings_auto_frame_rate_warning_title_mobile">Not recommended on this device</string>
     <!-- Translators: Auto frame rate warning. %1$s is the device Android version, such as 11. -->
-    <string name="settings_auto_frame_rate_warning_description">This device runs Android <xliff:g id="android_version">%1$s</xliff:g>. Below Android 12 the TV can\'t tell OwnTV which refresh rates it can switch to smoothly, so changing the rate may black the screen out for a second or two — sometimes more than once during a programme.\n\nWe recommend leaving Auto frame rate off here. If your TV switches cleanly, turn it on and see: you can change it back at any time.</string>
+    <string name="settings_auto_frame_rate_warning_description">This device runs Android <xliff:g id="android_version">%1$s</xliff:g>. Below Android 12 the TV can\'t tell BlankTV which refresh rates it can switch to smoothly, so changing the rate may black the screen out for a second or two — sometimes more than once during a programme.\n\nWe recommend leaving Auto frame rate off here. If your TV switches cleanly, turn it on and see: you can change it back at any time.</string>
     <!-- Translators: Phone/tablet wording of settings_auto_frame_rate_warning_description. %1$s is the device Android version, such as 11. -->
-    <string name="settings_auto_frame_rate_warning_description_mobile">This device runs Android <xliff:g id="android_version">%1$s</xliff:g>. Below Android 12 the device can\'t tell OwnTV which refresh rates it can switch to smoothly, so changing the rate may black the screen out for a second or two — sometimes more than once during a programme.\n\nWe recommend leaving Auto frame rate off here. If your screen switches cleanly, turn it on and see: you can change it back at any time.</string>
+    <string name="settings_auto_frame_rate_warning_description_mobile">This device runs Android <xliff:g id="android_version">%1$s</xliff:g>. Below Android 12 the device can\'t tell BlankTV which refresh rates it can switch to smoothly, so changing the rate may black the screen out for a second or two — sometimes more than once during a programme.\n\nWe recommend leaving Auto frame rate off here. If your screen switches cleanly, turn it on and see: you can change it back at any time.</string>
     <!-- Translators: Safe action that leaves Auto frame rate disabled. -->
     <string name="settings_auto_frame_rate_keep_off">Keep off</string>
     <!-- Translators: Action that enables Auto frame rate despite the warning. -->
@@ -590,8 +590,8 @@
     <string name="settings_app_group">App</string>
     <!-- Translators: Setting label for app startup behavior. -->
     <string name="settings_app_startup">App startup</string>
-    <!-- Translators: Description of the app startup setting. 'OwnTV' is a brand name. -->
-    <string name="settings_app_startup_description">What OwnTV opens when it starts</string>
+    <!-- Translators: Description of the app startup setting. 'BlankTV' is a brand name. -->
+    <string name="settings_app_startup_description">What BlankTV opens when it starts</string>
     <!-- Translators: Setting label for checking for app updates. -->
     <string name="settings_check_updates">Check for updates</string>
     <!-- Translators: Description of the check-for-updates setting. 'GitHub Releases' is a brand name. -->
@@ -1172,7 +1172,7 @@
     <!-- Translators: Screen title for the remote restore companion screen. -->
     <string name="settings_restore_remote_title">Restore from another device</string>
     <!-- Translators: Description of the remote restore process. -->
-    <string name="settings_restore_remote_description">On any device with a browser on the same Wi-Fi — a phone, a computer or another TV — scan the QR (or open the URL), enter this PIN, choose your OwnTV backup file and send it. You then pick what to restore here.</string>
+    <string name="settings_restore_remote_description">On any device with a browser on the same Wi-Fi — a phone, a computer or another TV — scan the QR (or open the URL), enter this PIN, choose your BlankTV backup file and send it. You then pick what to restore here.</string>
     <!-- Translators: Loading status shown while the companion HTTP server is starting. -->
     <!-- Translators: Instruction above the PIN display telling the user to enter it in the browser. -->
     <!-- Translators: Accessibility label for the companion URL QR code. -->
@@ -1205,8 +1205,8 @@
     <string name="settings_catchup_timezone_device">Device</string>
     <!-- Translators: Catch-up player option: always ask which player to use. -->
     <string name="settings_catchup_player_ask">Always ask</string>
-    <!-- Translators: Catch-up player option: use the built-in OwnTV player. -->
-    <string name="settings_catchup_player_internal">OwnTV player</string>
+    <!-- Translators: Catch-up player option: use the built-in BlankTV player. -->
+    <string name="settings_catchup_player_internal">BlankTV player</string>
     <!-- Translators: Catch-up player option: use an external player app. -->
     <string name="settings_catchup_player_external">External player</string>
     <!-- Translators: Badge indicating a feature is coming soon. All caps is intentional. -->
@@ -1440,11 +1440,11 @@
     <!-- Translators: Title of the confirmation shown before the connection measurement runs. -->
     <string name="settings_sources_probe_title">Test this playlist?</string>
     <!-- Translators: Body of that confirmation. It must be clear that playback stops and that it is slow. -->
-    <string name="settings_sources_probe_warning">Many providers never say how many channels you may watch at the same time, so OwnTV finds out by opening a few and seeing which ones survive. Anything playing now will stop, and this can take up to two minutes.</string>
+    <string name="settings_sources_probe_warning">Many providers never say how many channels you may watch at the same time, so BlankTV finds out by opening a few and seeing which ones survive. Anything playing now will stop, and this can take up to two minutes.</string>
     <!-- Translators: Progress while measuring. "current" is the stream being opened, "total" the most that will be. -->
     <string name="settings_sources_probe_running">Checking how many channels this provider allows… (<xliff:g id="current">%1$d</xliff:g> of <xliff:g id="total">%2$d</xliff:g>)</string>
     <!-- Translators: Shown when the measurement finished without being able to tell. -->
-    <string name="settings_sources_probe_unknown">OwnTV could not work out how many channels this provider allows.</string>
+    <string name="settings_sources_probe_unknown">BlankTV could not work out how many channels this provider allows.</string>
     <!-- Translators: Button that abandons the connection measurement while it is running. -->
     <string name="settings_sources_probe_skip">Skip</string>
     <!-- Translators: Auto-refresh mode display. 'mode' is the refresh mode. The circular arrow is a visual indicator. -->
@@ -1894,8 +1894,8 @@
 
     <!-- Translators: Settings row description for custom DNS. -->
     <string name="settings_dns_description">Use a custom DNS server for domain lookups</string>
-    <!-- Translators: Description of the custom DNS toggle. OwnTV is a brand name. -->
-    <string name="settings_dns_toggle_description">Resolve all OwnTV domain lookups through a custom DNS server.</string>
+    <!-- Translators: Description of the custom DNS toggle. BlankTV is a brand name. -->
+    <string name="settings_dns_toggle_description">Resolve all BlankTV domain lookups through a custom DNS server.</string>
     <!-- Translators: Toggle label for custom DNS. -->
     <string name="settings_dns_use_custom">Use custom DNS</string>
     <!-- Translators: Warning shown when custom DNS is enabled without a server address. -->
@@ -1984,10 +1984,10 @@
     <string name="settings_subtitle_color_grey">Grey</string>
     <string name="settings_live_preroll">Pre-buffer live streams</string>
     <string name="settings_live_preroll_description">Collect this much video before a live channel starts playing, and again after a stutter. This is an amount of video, not a countdown. Off keeps the fastest possible start and is right for most providers. Raise it only if playback actually stutters: many providers publish only a few seconds ahead of live, and asking for more video than they send can make stuttering worse.</string>
-    <!-- Translators: Settings row title. How long OwnTV keeps trying to open a live channel before it shows an error instead. -->
+    <!-- Translators: Settings row title. How long BlankTV keeps trying to open a live channel before it shows an error instead. -->
     <string name="settings_live_tune_timeout">Give up on a channel after</string>
     <!-- Translators: Description under the row above. "Never" is the option named common_never. Keep it short and plain. -->
-    <string name="settings_live_tune_timeout_description">If a live channel has shown no picture by this time, OwnTV stops trying and tells you, instead of leaving a black screen while it works through every player it has. Never keeps trying, which can take well over a minute on a channel your provider has removed. Waits your provider asks for are not counted.</string>
+    <string name="settings_live_tune_timeout_description">If a live channel has shown no picture by this time, BlankTV stops trying and tells you, instead of leaving a black screen while it works through every player it has. Never keeps trying, which can take well over a minute on a channel your provider has removed. Waits your provider asks for are not counted.</string>
     <string name="settings_live_preroll_per_playlist">Pre-buffer per playlist</string>
     <string name="settings_live_preroll_per_playlist_description">Override the setting above for one playlist while keeping your other playlists fast.</string>
     <!-- Translators: Title of the per-playlist Live TV engine override row. -->
@@ -2022,7 +2022,7 @@
     <string name="settings_surround_stereo_description">Stereo only — always decode in the app and send plain 2.0 sound. Use this on TV speakers or a stereo soundbar, or if audio lags behind the picture.</string>
     <!-- Translators: Phone/tablet wording of settings_surround_stereo_description. -->
     <string name="settings_surround_stereo_description_mobile">Stereo only — always decode in the app and send plain 2.0 sound. Use this for the built-in speaker, headphones or a stereo soundbar, or if audio lags behind the picture.</string>
-    <string name="settings_surround_forced_description">Surround — send Dolby/DTS to a real 5.1/7.1 receiver. If it goes silent or stutters, OwnTV still falls back to stereo and tells you.</string>
+    <string name="settings_surround_forced_description">Surround — send Dolby/DTS to a real 5.1/7.1 receiver. If it goes silent or stutters, BlankTV still falls back to stereo and tells you.</string>
     <string name="settings_panel_width">Panel widths</string>
     <string name="settings_panel_width_description">Resize the category, list and preview panels in Live TV, Movies &amp; Series.</string>
     <!-- Translators: Settings row. Chooses how the Movies and Series screens are laid out. -->
@@ -2143,7 +2143,7 @@
     <string name="settings_audio_on_mobile_data_description">Start without a picture when there is no Wi-Fi</string>
     <!-- Translators: Settings row. The app remembers, for each channel, whether the user watched it without a picture. -->
     <string name="settings_audio_per_channel">Remember sound only per channel</string>
-    <!-- Local sync: two OwnTV devices on the same Wi-Fi exchanging their data directly. -->
+    <!-- Local sync: two BlankTV devices on the same Wi-Fi exchanging their data directly. -->
     <!-- Translators: Title of the Local sync settings screen, and its row on the Data settings page. -->
     <string name="local_sync_title">Local sync</string>
     <!-- Translators: Hidden search keywords for the Local sync screen. Words a user might type to find it. -->
@@ -2249,7 +2249,7 @@
     <!-- Translators: Title of the sheet shown when a sync failed. -->
     <string name="local_sync_failed">Sync failed</string>
     <!-- Translators: Failure reason: the other device did not answer. -->
-    <string name="local_sync_error_unreachable">This device could not be reached. On it, open OwnTV → Settings → Data → Local sync and turn Sync mode on. Both devices must be on the same Wi-Fi.</string>
+    <string name="local_sync_error_unreachable">This device could not be reached. On it, open BlankTV → Settings → Data → Local sync and turn Sync mode on. Both devices must be on the same Wi-Fi.</string>
     <!-- Translators: Failure reason: wrong PIN, or the pairing was removed on the other device. -->
     <string name="local_sync_error_unauthorized">The other device refused. The PIN may be wrong, or it may have forgotten this device.</string>
     <!-- Translators: Failure reason: what arrived could not be read. -->
@@ -2405,12 +2405,12 @@
     <string name="settings_multiview_keep_two">Keep 2</string>
     <!-- Translators: Action that accepts the warning. "count" is 3 or 4. -->
     <string name="settings_multiview_use_anyway">Use anyway</string>
-    <!-- Translators: Setting title: which colour the OwnTV icon and logo use, on the home screen and inside the app. -->
+    <!-- Translators: Setting title: which colour the BlankTV icon and logo use, on the home screen and inside the app. -->
     <string name="settings_app_icon">App icon</string>
     <!-- Translators: Subtitle under the App icon setting. -->
-    <string name="settings_app_icon_summary">Color of the OwnTV icon and logo</string>
+    <string name="settings_app_icon_summary">Color of the BlankTV icon and logo</string>
     <!-- Translators: Settings › App › App icon sheet, under its title (phone). Choosing a new icon restarts the app once. -->
-    <string name="settings_app_icon_sheet_mobile">How OwnTV appears on your home screen. The app restarts once.</string>
+    <string name="settings_app_icon_sheet_mobile">How BlankTV appears on your home screen. The app restarts once.</string>
     <!-- Translators: Settings, App group row: the app logo play triangle follows the accent color. -->
     <string name="settings_brand_accent">Accent-colored logo</string>
     <!-- Translators: Colour name of an app icon: a dark blue-green, like petrol. -->
@@ -2429,12 +2429,12 @@
     <string name="app_icon_olive">Olive</string>
     <!-- Translators: Colour name of an app icon: a cream card with an olive-green play button. -->
     <string name="app_icon_olive_cream">Olive on Cream</string>
-    <!-- Translators: App icon name: the OwnTV TV set drawn as a dot matrix. A brand name, keep it short. -->
+    <!-- Translators: App icon name: the BlankTV TV set drawn as a dot matrix. A brand name, keep it short. -->
     <string name="app_icon_pixel">Pixel</string>
     <!-- Translators: Title of the window shown after the user picks a different app icon. -->
-    <string name="app_icon_restart_title">Restart OwnTV?</string>
+    <string name="app_icon_restart_title">Restart BlankTV?</string>
     <!-- Translators: Body of that window. The new icon and logo only appear after the app restarts. -->
-    <string name="app_icon_restart_message">You chose a new icon and logo. They take effect after OwnTV restarts.</string>
+    <string name="app_icon_restart_message">You chose a new icon and logo. They take effect after BlankTV restarts.</string>
     <!-- Translators: Button in that window: restart the app now. The other button reuses "Later". -->
     <string name="app_icon_restart_now">Restart now</string>
     <!-- Translators: Settings row and popup title: how the navigation rail on the left behaves. -->
@@ -2760,13 +2760,13 @@
     <!-- Translators: Explanation shown in the panel beside the Settings rows while this setting has focus. -->
     <string name="settings_help_catchup_timezone">Catch-up plays programs from your provider’s archive. Automatic uses the time zone your provider reports, or your TV’s own clock if it reports none; choose a fixed UTC offset if catch-up still starts at the wrong time. This is also where you choose which player catch-up uses.</string>
     <!-- Translators: Explanation shown in the panel beside the Settings rows while this setting has focus. -->
-    <string name="settings_help_theme">Dark is what OwnTV is designed for. System follows the TV’s own setting where it has one; Light suits a bright room.</string>
+    <string name="settings_help_theme">Dark is what BlankTV is designed for. System follows the TV’s own setting where it has one; Light suits a bright room.</string>
     <!-- Translators: Explanation shown in the panel beside the Settings rows while this setting has focus. -->
     <string name="settings_help_accent">Tints buttons, the focus glow, progress bars and highlights everywhere. Pick a preset, or press OK for the palette and any hex code.</string>
     <!-- Translators: Explanation shown in the panel beside the Settings rows while this setting has focus. -->
     <string name="settings_help_focus">The ring drawn around whatever has focus. Pick its color and thickness so it stays easy to follow from the sofa.</string>
     <!-- Translators: Explanation shown in the panel beside the Settings rows while this setting has focus. -->
-    <string name="settings_help_fonts">The font used across OwnTV, and how large text is drawn. Popups use the same font.</string>
+    <string name="settings_help_fonts">The font used across BlankTV, and how large text is drawn. Popups use the same font.</string>
     <!-- Translators: Explanation shown in the panel beside the Settings rows while this setting has focus. -->
     <string name="settings_help_popup_size">Makes popups, menus and dialogs larger or smaller as a whole. Use it when popups feel cramped or cover too much of the screen.</string>
     <!-- Translators: Explanation shown in the panel beside the Settings rows while this setting has focus. -->
@@ -2786,15 +2786,15 @@
     <!-- Translators: Explanation shown in the panel beside the Settings rows while this setting has focus. -->
     <string name="settings_help_customize">Hide categories and items you never watch, give categories your own names and put them in your order. Hidden things come back here, never lost.</string>
     <!-- Translators: Explanation shown in the panel beside the Settings rows while this setting has focus. -->
-    <string name="settings_help_app_icon">The OwnTV icon on your TV’s home screen. The launcher may take a moment to show the change.</string>
+    <string name="settings_help_app_icon">The BlankTV icon on your TV’s home screen. The launcher may take a moment to show the change.</string>
     <!-- Translators: Side panel text for "Accent-colored logo". -->
-    <string name="settings_help_brand_accent">The OwnTV logo in the menu, About and setup shows its play triangle in your accent color. The icon on the home screen keeps its own colors.</string>
+    <string name="settings_help_brand_accent">The BlankTV logo in the menu, About and setup shows its play triangle in your accent color. The icon on the home screen keeps its own colors.</string>
     <!-- Translators: Explanation shown in the panel beside the Settings rows while this setting has focus. -->
-    <string name="settings_help_startup">What OwnTV shows when it starts: Home, the channel you watched last, your favorites, or a channel you pick.</string>
+    <string name="settings_help_startup">What BlankTV shows when it starts: Home, the channel you watched last, your favorites, or a channel you pick.</string>
     <!-- Translators: Explanation shown in the panel beside the Settings rows while this setting has focus. -->
-    <string name="settings_help_check_updates">Looks on GitHub for a newer OwnTV now and offers to install it. Your playlists, favorites and settings stay as they are.</string>
+    <string name="settings_help_check_updates">Looks on GitHub for a newer BlankTV now and offers to install it. Your playlists, favorites and settings stay as they are.</string>
     <!-- Translators: Explanation shown in the panel beside the Settings rows while this setting has focus. -->
-    <string name="settings_help_update_startup">Looks for a new version each time OwnTV starts and tells you when there is one. Nothing is installed without asking.</string>
+    <string name="settings_help_update_startup">Looks for a new version each time BlankTV starts and tells you when there is one. Nothing is installed without asking.</string>
     <!-- Translators: Explanation shown in the panel beside the Settings rows while this setting has focus. -->
     <string name="settings_help_dns">Looks up your provider’s addresses with a DNS server of your choice instead of your network’s own — useful when your network blocks or redirects them.</string>
     <!-- Translators: Explanation shown in the panel beside the Settings rows while this setting has focus. -->
@@ -2839,10 +2839,10 @@
     <string name="settings_profile_add">Add a profile</string>
     <!-- Translators: Line under Add a profile in Settings › Profile. -->
     <string name="settings_profile_add_line">A viewer with their own favorites, history and settings</string>
-    <!-- Translators: Explanation shown in the panel beside the Language setting. The number is how many languages OwnTV ships in. -->
+    <!-- Translators: Explanation shown in the panel beside the Language setting. The number is how many languages BlankTV ships in. -->
     <plurals name="settings_help_language">
-        <item quantity="one">The language of every menu and message in OwnTV. <xliff:g id="count">%1$d</xliff:g> language; follows the TV’s own language until you pick one.</item>
-        <item quantity="other">The language of every menu and message in OwnTV. <xliff:g id="count">%1$d</xliff:g> languages; follows the TV’s own language until you pick one.</item>
+        <item quantity="one">The language of every menu and message in BlankTV. <xliff:g id="count">%1$d</xliff:g> language; follows the TV’s own language until you pick one.</item>
+        <item quantity="other">The language of every menu and message in BlankTV. <xliff:g id="count">%1$d</xliff:g> languages; follows the TV’s own language until you pick one.</item>
     </plurals>
     <!-- Translators: Count next to the Profile page title in Settings, e.g. “3 profiles”. -->
     <plurals name="settings_profile_count">
@@ -2909,9 +2909,9 @@
     <!-- Translators: Short line under Use remote shortcuts: turning it off keeps the button assignments. -->
     <string name="settings_line_remote_shortcuts_on">Off keeps your assignments</string>
     <!-- Translators: Panel text for System default in Language. %1$s is the TV's current language name. -->
-    <string name="settings_language_system_help">OwnTV follows the language of the TV (now <xliff:g id="language">%1$s</xliff:g>). Pick one below to use it in OwnTV only.</string>
+    <string name="settings_language_system_help">BlankTV follows the language of the TV (now <xliff:g id="language">%1$s</xliff:g>). Pick one below to use it in BlankTV only.</string>
     <!-- Translators: Panel text for a language in Language. %1$s is that language's name. -->
-    <string name="settings_language_pick_help">Use <xliff:g id="language">%1$s</xliff:g> in OwnTV, whatever language the TV is set to.</string>
+    <string name="settings_language_pick_help">Use <xliff:g id="language">%1$s</xliff:g> in BlankTV, whatever language the TV is set to.</string>
     <!-- Translators: Key hint after the OK key: use the focused language. -->
     <string name="settings_key_use">Use</string>
     <!-- Translators: Short line under Metadata source. -->
@@ -3000,8 +3000,8 @@
     <!-- Translators: Line under Background. -->
     <string name="settings_line_bg_background">What sits behind every screen</string>
     <!-- Translators: Panel text for Background. -->
-    <string name="settings_help_bg_background">Stage draws OwnTV’s own soft colors. Picture shows a picture of yours behind every screen. Plain is a flat dark fill.</string>
-    <!-- Translators: Background choice: OwnTV's own soft colours. -->
+    <string name="settings_help_bg_background">Stage draws BlankTV’s own soft colors. Picture shows a picture of yours behind every screen. Plain is a flat dark fill.</string>
+    <!-- Translators: Background choice: BlankTV's own soft colours. -->
     <string name="settings_bg_stage">Stage</string>
     <!-- Translators: Background choice and row title: the user's own picture. -->
     <string name="settings_bg_picture">Picture</string>

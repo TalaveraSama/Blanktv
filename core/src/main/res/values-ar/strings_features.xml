@@ -139,8 +139,8 @@
     <string name="update_not_enough_space">لا توجد مساحة تخزين كافية للتحديث. أفرِغ نحو <xliff:g id="size">%1$s</xliff:g> ثم أعد المحاولة.</string>
     <string name="update_damaged_download">لم يكتمل تنزيل التحديث. تحقّق من اتصالك ثم أعد المحاولة.</string>
     <string name="update_install_rejected">رفض مثبّت النظام التحديث: <xliff:g id="reason">%1$s</xliff:g></string>
-    <string name="update_ready">OwnTV v<xliff:g id="available">%1$s</xliff:g> جاهز (لديك v<xliff:g id="current">%2$s</xliff:g>).</string>
-    <string name="recovery_title">تعذّر على OwnTV فتح قاعدة بياناته</string>
+    <string name="update_ready">BlankTV v<xliff:g id="available">%1$s</xliff:g> جاهز (لديك v<xliff:g id="current">%2$s</xliff:g>).</string>
+    <string name="recovery_title">تعذّر على BlankTV فتح قاعدة بياناته</string>
     <string name="recovery_data_safe_full">لم تُحذف ملفاتك الشخصية أو قوائم التشغيل أو المفضّلة أو سجل المشاهدة — فهذا إخفاق في ترقية قاعدة البيانات، وما تزال البيانات على هذا الجهاز.\n\nيرجى الإبلاغ عن ذلك حتى يمكن إصلاحه، وإرفاق الرسالة أدناه.</string>
     <string name="recovery_retry">إعادة المحاولة</string>
     <string name="recovery_backup_hint">إذا كان لديك ملف نسخة احتياطية، فيمكنك إعادة ضبط التطبيق ثم الاستعادة منه بعد ذلك. تؤدي إعادة الضبط إلى حذف كل ما هو مخزّن على هذا الجهاز.</string>
@@ -249,7 +249,7 @@
     <string name="settings_recording_pre_roll_description">ابدأ بهذه المدة قبل وقت البدء المعلن، حتى لا يفوّت دليلٌ متقدّمٌ قليلًا بدايةَ البرنامج.</string>
     <string name="settings_recording_post_roll">المتابعة بعد النهاية</string>
     <string name="settings_recording_post_roll_description">تابع بهذه المدة بعد وقت الانتهاء المعلن، حتى لا يُقطع برنامج امتدّ أكثر من موعده.</string>
-    <string name="settings_recording_timers_inexact">لا يسمح هذا الجهاز لـ OwnTV بضبط منبّهات دقيقة، لذلك قد يبدأ التسجيل متأخرًا بضع دقائق. تبدأ التسجيلات مبكرًا لتعويض ذلك.</string>
+    <string name="settings_recording_timers_inexact">لا يسمح هذا الجهاز لـ BlankTV بضبط منبّهات دقيقة، لذلك قد يبدأ التسجيل متأخرًا بضع دقائق. تبدأ التسجيلات مبكرًا لتعويض ذلك.</string>
     <plurals name="recording_minutes">
         <item quantity="zero"><xliff:g id="count">%1$d</xliff:g> دقيقة</item>
         <item quantity="one"><xliff:g id="count">%1$d</xliff:g> دقيقة</item>
@@ -259,7 +259,7 @@
         <item quantity="other"><xliff:g id="count">%1$d</xliff:g> دقيقة</item>
     </plurals>
     <string name="recording_failed_encrypted">هذه القناة مشفّرة ولا يمكن تسجيلها</string>
-    <string name="recording_failed_drm">هذه القناة محمية بنظام DRM، لذا يمكن مشاهدتها لكن لا يمكن تسجيلها. الحماية من مزوّد الخدمة لديك، وليست من OwnTV.</string>
+    <string name="recording_failed_drm">هذه القناة محمية بنظام DRM، لذا يمكن مشاهدتها لكن لا يمكن تسجيلها. الحماية من مزوّد الخدمة لديك، وليست من BlankTV.</string>
     <string name="recording_failed_metered">لم يُسجَّل عبر بيانات الهاتف</string>
     <string name="recording_card_empty_title">لا توجد تسجيلات بعد</string>
     <string name="recording_card_body">اختر برنامجًا في دليل التلفزيون ثم اختر تسجيل، أو اضغط مطولًا على قناة وجدول وقتًا. يصل التسجيل إلى هنا حتى أثناء مشاهدتك لشيء آخر.</string>
@@ -506,7 +506,7 @@
     <string name="sports_live_refresh_description">فقط أثناء عرض شاشة رياضية أو نتيجة</string>
     <string name="sports_about">حول بيانات الرياضة</string>
     <string name="sports_about_summary">النتائج: ESPN · القنوات: قائمتك ودليلك</string>
-    <string name="sports_alerts_when_closed">التنبيهات عند إغلاق OwnTV</string>
+    <string name="sports_alerts_when_closed">التنبيهات عند إغلاق BlankTV</string>
     <string name="sports_alerts_when_closed_description">يطلب إذن الإشعارات مرة واحدة</string>
     <string name="sports_alert_me_about">نبّهني بشأن</string>
     <string name="sports_kind_goals">الأهداف والويكيت</string>
@@ -517,7 +517,7 @@
     <string name="sports_live_card">بطاقة النتيجة المباشرة</string>
     <string name="sports_live_card_offer">عرض بطاقة النتيجة المباشرة</string>
     <string name="sports_live_card_description">يتحدّث كل 30 ث حتى نهاية المباراة؛ تبدؤه من صفحة مباراة</string>
-    <string name="sports_alerts_footnote">عند إغلاق OwnTV تصل التنبيهات عادةً خلال دقيقة. إذا بقي الهاتف ساكنًا وشاشته مطفأة مدة طويلة، فقد يؤخرها Android حتى نحو 15 دقيقة. بطاقة النتيجة المباشرة لا تتأخر.</string>
+    <string name="sports_alerts_footnote">عند إغلاق BlankTV تصل التنبيهات عادةً خلال دقيقة. إذا بقي الهاتف ساكنًا وشاشته مطفأة مدة طويلة، فقد يؤخرها Android حتى نحو 15 دقيقة. بطاقة النتيجة المباشرة لا تتأخر.</string>
     <string name="sports_search_teams">ابحث عن فرق ولاعبين ودوريات</string>
     <string name="sports_suggested">مقترحات مما تشاهده</string>
     <plurals name="sports_watched_matches">
@@ -530,7 +530,7 @@
     </plurals>
     <string name="sports_league_label">دوري</string>
     <string name="sports_no_playlist_title">أضف قائمة تشغيل لمشاهدة المباريات</string>
-    <string name="sports_no_playlist_body">النتائج والجداول والتنبيهات تعمل دونها. ومع قائمة تشغيل يجد OwnTV كل قناة تعرض هذه المباراة.</string>
+    <string name="sports_no_playlist_body">النتائج والجداول والتنبيهات تعمل دونها. ومع قائمة تشغيل يجد BlankTV كل قناة تعرض هذه المباراة.</string>
     <string name="sports_add_playlist">إضافة قائمة تشغيل</string>
     <string name="sports_home_row">رياضة مباشرة</string>
     <string name="sports_home_row_description">المباريات المتابَعة عندما تكون إحداها مباشرة أو على وشك البدء</string>
@@ -540,7 +540,7 @@
     <string name="sports_sport_buttons">أزرار الرياضات</string>
     <string name="sports_sport_buttons_mine">رياضاتي</string>
     <string name="sports_sport_buttons_all">كل الرياضات</string>
-    <string name="sports_sport_buttons_description">رياضاتي: ما اخترته فقط. كل الرياضات: كل دوري يعرفه OwnTV، ويستغرق تحميله وقتًا أطول.</string>
+    <string name="sports_sport_buttons_description">رياضاتي: ما اخترته فقط. كل الرياضات: كل دوري يعرفه BlankTV، ويستغرق تحميله وقتًا أطول.</string>
     <string name="sports_auto_rebuild">إعادة البناء التلقائية</string>
     <string name="sports_auto_rebuild_description">عدد مرات جلب النتائج وتفاصيل المباريات والجداول من جديد تلقائيًا</string>
     <plurals name="sports_auto_rebuild_hours">

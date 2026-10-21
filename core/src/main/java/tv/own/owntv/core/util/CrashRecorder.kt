@@ -53,7 +53,7 @@ object CrashRecorder {
         val stamp = java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss", java.util.Locale.US)
             .format(java.util.Date())
         val text = buildString {
-            appendLine("OwnTV ${CoreBuildInfo.versionName} (${CoreBuildInfo.versionCode})")
+            appendLine("BlankTV ${CoreBuildInfo.versionName} (${CoreBuildInfo.versionCode})")
             appendLine("${Build.MANUFACTURER} ${Build.MODEL} · Android ${Build.VERSION.RELEASE} (API ${Build.VERSION.SDK_INT})")
             appendLine("Crashed $stamp on thread \"${thread.name}\"")
             appendLine()

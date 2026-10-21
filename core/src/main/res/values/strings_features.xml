@@ -290,10 +290,10 @@
     <!-- Translators: Error when the system installer refuses the update. "reason" is the installer's own message, which is usually in English. -->
     <string name="update_install_rejected">The system installer refused the update: <xliff:g id="reason">%1$s</xliff:g></string>
     <!-- Translators: Status text when an update has been downloaded and is ready to install. "available" is the new version, "current" is the installed version. -->
-    <string name="update_ready">OwnTV v<xliff:g id="available">%1$s</xliff:g> is ready (you have v<xliff:g id="current">%2$s</xliff:g>).</string>
+    <string name="update_ready">BlankTV v<xliff:g id="available">%1$s</xliff:g> is ready (you have v<xliff:g id="current">%2$s</xliff:g>).</string>
 
-    <!-- Translators: Dialog title for the database recovery screen. "OwnTV" is a brand name. -->
-    <string name="recovery_title">OwnTV could not open its database</string>
+    <!-- Translators: Dialog title for the database recovery screen. "BlankTV" is a brand name. -->
+    <string name="recovery_title">BlankTV could not open its database</string>
     <!-- Translators: Body text on the recovery screen explaining that data is safe and requesting a bug report. -->
     <string name="recovery_data_safe_full">Your profiles, playlists, favorites and history have NOT been deleted \u2014 this is a database upgrade failure, and the data is still on this device.\n\nPlease report this so it can be fixed, and include the message below.</string>
     <!-- Translators: Button on the recovery screen to retry opening the database. -->
@@ -381,7 +381,7 @@
     <!-- Translators: Description under the "keep going after the end" setting. -->
     <string name="settings_recording_post_roll_description">Carry on this long past the listed end time, so a programme that overruns is not cut off.</string>
     <!-- Translators: Warning on the recording settings screen when Android will not let the app set exact alarms, so recordings may begin late. -->
-    <string name="settings_recording_timers_inexact">This device does not allow OwnTV to set exact alarms, so a recording may begin a few minutes late. Recordings start earlier to make up for it.</string>
+    <string name="settings_recording_timers_inexact">This device does not allow BlankTV to set exact alarms, so a recording may begin a few minutes late. Recordings start earlier to make up for it.</string>
     <!-- Translators: A number of minutes, used as the value of the "start early" and "keep going after the end" settings. -->
     <plurals name="recording_minutes">
         <item quantity="one"><xliff:g id="count">%1$d</xliff:g> minute</item>
@@ -390,7 +390,7 @@
     <!-- Translators: Shown on a recording that was refused because the channel is delivered as encrypted HLS, which the recorder cannot turn into a playable file. -->
     <string name="recording_failed_encrypted">This channel is scrambled and cannot be recorded</string>
     <!-- Translators: Shown on a recording that was refused because the channel declares DRM (Widevine/ClearKey). The second sentence exists so the user understands this is the provider's protection rather than a fault in the app, and does not report it as a bug. Keep both sentences. -->
-    <string name="recording_failed_drm">This channel is DRM-protected, so it can be watched but not recorded. The protection comes from your provider, not from OwnTV.</string>
+    <string name="recording_failed_drm">This channel is DRM-protected, so it can be watched but not recorded. The protection comes from your provider, not from BlankTV.</string>
     <!-- Translators: Shown on a recording that was skipped because the device was on a metered (mobile data) connection and the user has turned off recording over mobile data. -->
     <string name="recording_failed_metered">Not recorded on mobile data</string>
     <!-- Translators: Downloads screen, Recordings card: nothing has been recorded so far. -->
@@ -514,7 +514,7 @@
     <string name="sports_empty_nothing">No matches today in what you follow</string>
     <!-- Translators: Hub, empty state: the score service cannot be reached. The user's channels and guide still work. -->
     <string name="sports_empty_unreachable">Scores can’t be reached right now. Your channels still work.</string>
-    <!-- Translators: Shown when the score provider asked OwnTV to slow down: scores pause for a few minutes, then resume by themselves. -->
+    <!-- Translators: Shown when the score provider asked BlankTV to slow down: scores pause for a few minutes, then resume by themselves. -->
     <string name="sports_paused">Scores paused — trying again in a few minutes</string>
     <!-- Translators: Sport name: association football (soccer). -->
     <string name="sports_sport_soccer">Football</string>
@@ -777,8 +777,8 @@
     <string name="sports_about">About sports data</string>
     <!-- Translators: Summary of that row: scores come from ESPN, channels from the user's own playlist and guide. ESPN is a brand name. -->
     <string name="sports_about_summary">Scores: ESPN · channels: your playlist and guide</string>
-    <!-- Translators: Goal alerts switch: alerts arrive even when the app is closed. OwnTV is the app's name. -->
-    <string name="sports_alerts_when_closed">Alerts when OwnTV is closed</string>
+    <!-- Translators: Goal alerts switch: alerts arrive even when the app is closed. BlankTV is the app's name. -->
+    <string name="sports_alerts_when_closed">Alerts when BlankTV is closed</string>
     <!-- Translators: Description under that switch. -->
     <string name="sports_alerts_when_closed_description">Asks for notification permission once</string>
     <!-- Translators: Goal alerts section heading: which events to be told about. -->
@@ -799,8 +799,8 @@
     <string name="sports_live_card_offer">Offer a live score card</string>
     <!-- Translators: Description under that switch. -->
     <string name="sports_live_card_description">Updates every 30 s until full time; you start it from a match</string>
-    <!-- Translators: Note at the bottom of the phone's Goal alerts page: why an alert can be late when the app is closed. OwnTV is the app's name. -->
-    <string name="sports_alerts_footnote">With OwnTV closed, alerts usually arrive within a minute. If the phone has been lying still with the screen off for a long time, Android may hold them back for up to about 15 minutes. The live score card is not held back.</string>
+    <!-- Translators: Note at the bottom of the phone's Goal alerts page: why an alert can be late when the app is closed. BlankTV is the app's name. -->
+    <string name="sports_alerts_footnote">With BlankTV closed, alerts usually arrive within a minute. If the phone has been lying still with the screen off for a long time, Android may hold them back for up to about 15 minutes. The live score card is not held back.</string>
     <!-- Translators: Search field on the My teams page. -->
     <string name="sports_search_teams">Search teams, players, leagues</string>
     <!-- Translators: My teams section heading: teams the user watched often but does not follow yet. -->
@@ -814,8 +814,8 @@
     <string name="sports_league_label">League</string>
     <!-- Translators: Match page on a profile with no playlist: title of the note in the Watch live panel. -->
     <string name="sports_no_playlist_title">Add a playlist to watch matches</string>
-    <!-- Translators: Body of that note: scores work without a playlist; with one, OwnTV finds the channels. OwnTV is the app's name. -->
-    <string name="sports_no_playlist_body">Scores, tables and alerts work without one. With a playlist, OwnTV finds every channel showing this match.</string>
+    <!-- Translators: Body of that note: scores work without a playlist; with one, BlankTV finds the channels. BlankTV is the app's name. -->
+    <string name="sports_no_playlist_body">Scores, tables and alerts work without one. With a playlist, BlankTV finds every channel showing this match.</string>
     <!-- Translators: Button in that note: open adding a playlist. -->
     <string name="sports_add_playlist">Add playlist</string>
     <!-- Translators: Home row title, and its name under Layout → Home rows: followed matches that are live or about to start. -->
@@ -836,8 +836,8 @@
     <string name="sports_sport_buttons_mine">My sports</string>
     <!-- Translators: Choice of the Sport buttons setting: every sport and league the app knows. -->
     <string name="sports_sport_buttons_all">All sports</string>
-    <!-- Translators: Description of the Sport buttons setting. OwnTV is the app's name. -->
-    <string name="sports_sport_buttons_description">My sports: only what you chose. All sports: every league OwnTV knows, which takes longer to load.</string>
+    <!-- Translators: Description of the Sport buttons setting. BlankTV is the app's name. -->
+    <string name="sports_sport_buttons_description">My sports: only what you chose. All sports: every league BlankTV knows, which takes longer to load.</string>
     <!-- Translators: Setting in Settings → Sports: how often the sports data (scores, match details, tables) is fetched again by itself. -->
     <string name="sports_auto_rebuild">Auto rebuild</string>
     <!-- Translators: Description of the Auto rebuild setting. -->

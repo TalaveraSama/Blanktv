@@ -1,4 +1,4 @@
-"""Renders the OwnTV flip-card brand images from the design's own numbers.
+"""Renders the BlankTV flip-card brand images from the design's own numbers.
 
 Every coordinate, colour and effect below is the design's: its palette (PAL) and geometry constants
 (TOP, BOT, PLAY, LIP, TABS, TABS_S), in the same 108-unit adaptive-icon canvas. Change the design
@@ -39,6 +39,13 @@ VB_FULL = (18, 72)                      # viewBox="18 18 72 72": the launcher ca
 VB_TIGHT = (26, 56)                     # viewBox="26 26 56 56": in-app, cropped to the card
 SHADOW = dict(dy=2.2, blur=2.0, alpha=0.30)   # feDropShadow dx0 dy2.2 stdDeviation2 black .3
 SS = 4                                  # supersampling for clean edges
+
+
+# The word this fork draws. Upstream's word is "Own" + "TV"; BlankTV keeps the two-part structure so
+# the accent can colour the second half exactly as the design does. See docs/BRANDING.md.
+WORD_FIRST = 'Blank'
+WORD_SECOND = 'TV'
+WORD_FULL = WORD_FIRST + WORD_SECOND
 
 
 def rgb(h, a=255):
@@ -131,7 +138,7 @@ def font(path, size):
 
 
 def wordmark(draw, xy, text_parts, f, tracking):
-    """Draws "Own" + "TV" letter by letter with -0.025em tracking. Returns the end x."""
+    """Draws WORD_FIRST + WORD_SECOND letter by letter with -0.025em tracking. Returns the end x."""
     x, y = xy
     for text, colour in text_parts:
         for ch in text:
@@ -148,29 +155,56 @@ def lockup(p, mark_px, font_px, font_path, own='#FFFFFF', pad=0, tv=None):
     """Horizontal lockup: flat mark, gap = mark * .26, wordmark. On light: own=ink, tv=p['ui']."""
     f = font(font_path, font_px)
     tr = -0.025 * font_px
-    ww = word_width('OwnTV', f, tr)
+    ww = word_width(WORD_FULL, f, tr)
     gap = round(mark_px * .26)
     w = pad * 2 + mark_px + gap + int(ww) + 4
     h = pad * 2 + max(mark_px, int(font_px * 1.2))
     img = Image.new('RGBA', (w, h), (0, 0, 0, 0))
     img.alpha_composite(mark(p, mark_px, 'flat' if mark_px > 32 else 'small', VB_TIGHT), (pad, (h - mark_px) // 2))
     d = ImageDraw.Draw(img)
-    asc = f.getbbox('OwnTV', anchor='ls')           # centre the letters' ink on the mark
+    asc = f.getbbox(WORD_FULL, anchor='ls')           # centre the letters' ink on the mark
     base = h / 2 - (asc[1] + asc[3]) / 2
-    wordmark(d, (pad + mark_px + gap, base), [('Own', own), ('TV', tv or p['acc'])], f, tr)
+    wordmark(d, (pad + mark_px + gap, base), [(WORD_FIRST, own), (WORD_SECOND, tv or p['acc'])], f, tr)
     return img
 
 
+def _fit_word(font_path, size, room):
+    """Word size and tracking that keep WORD_FULL inside `room` pixels, at most `size` high."""
+    size = float(size)
+    for _ in range(12):
+        f = font(font_path, max(1, round(size)))
+        tr = -0.025 * size
+        if word_width(WORD_FULL, f, tr) <= room:
+            return f, tr, size
+        size *= room / word_width(WORD_FULL, f, tr) * 0.999
+    return font(font_path, max(1, round(size))), -0.025 * size, size
+
+
 def banner(p, w, h, font_path):
-    """The TV banner layout, scaled from a 320x180 artboard."""
+    """The TV banner layout, scaled from a 320x180 artboard.
+
+    Upstream sized this for the word "OwnTV". "BlankTV" is wider, so the lockup is fitted to the
+    banner instead of assuming it fits: the mark and the word share one scale factor, and everything
+    stays centred. Without that, the second half of the word ran off the right edge.
+    """
     s = h / 180
+    margin = 26 * s
+    mk, gap, word_px = 108 * s, 16 * s, 48 * s
+    room = w - 2 * margin - mk - gap
+    f, tr, _ = _fit_word(font_path, word_px, room)
+    # Same scale for the mark as the word took, so the two keep the design's proportions.
+    k = min(1.0, room / word_width(WORD_FULL, f, tr))
+    mk, gap = mk * k, gap * k
+    ww = word_width(WORD_FULL, f, tr)
+    total = mk + gap + ww
+    wide = w / h > 320 / 180 + .01
+    x0 = (w - total) / 2 if wide else margin
     img = Image.new('RGBA', (w, h), rgb(p['field']))
-    mk = round(108 * s)
-    content_w = (150 - 26) * s + word_width('OwnTV', font(font_path, round(48 * s)), -1.2 * s)
-    x0 = round((w - content_w) / 2) if w / h > 320 / 180 + .01 else round(26 * s)   # wide banners centre the lockup
-    img.alpha_composite(mark(p, mk, 'flat', VB_TIGHT), (x0, round(36 * s)))
-    wordmark(ImageDraw.Draw(img), (x0 + (150 - 26) * s, 106 * s), [('Own', '#FFFFFF'), ('TV', p['acc'])],
-             font(font_path, round(48 * s)), -1.2 * s)
+    img.alpha_composite(mark(p, round(mk), 'flat', VB_TIGHT), (round(x0), round((h - mk) / 2)))
+    b = f.getbbox(WORD_FULL, anchor='ls')
+    baseline = h / 2 - (b[1] + b[3]) / 2
+    wordmark(ImageDraw.Draw(img), (x0 + mk + gap, baseline),
+             [(WORD_FIRST, '#FFFFFF'), (WORD_SECOND, p['acc'])], f, tr)
     return img
 
 
@@ -383,15 +417,14 @@ def android(res, font_path):
 
 
 def splash_name(p, w, h, font_path):
-    """The launch-screen wordmark, "Own" white and "TV" in the accent, centred on a transparent
-    200x80 dp canvas: Android 12+ draws it at the bottom of the launch screen (windowSplashScreenBrandingImage)."""
-    fpx = round(h * .45)
-    f = font(font_path, fpx)
-    tr = -0.025 * fpx
+    """The launch-screen wordmark, WORD_FIRST in white and WORD_SECOND in the accent, centred on a
+    transparent 200x80 dp canvas: Android 12+ draws it at the bottom of the launch screen
+    (windowSplashScreenBrandingImage). Fitted to the canvas, since the fork's word is longer."""
+    f, tr, _ = _fit_word(font_path, h * .45, w * .94)
     img = Image.new('RGBA', (w, h), (0, 0, 0, 0))
-    b = f.getbbox('OwnTV', anchor='ls')
-    wordmark(ImageDraw.Draw(img), ((w - word_width('OwnTV', f, tr)) / 2, h / 2 - (b[1] + b[3]) / 2),
-             [('Own', '#FFFFFF'), ('TV', p['acc'])], f, tr)
+    b = f.getbbox(WORD_FULL, anchor='ls')
+    wordmark(ImageDraw.Draw(img), ((w - word_width(WORD_FULL, f, tr)) / 2, h / 2 - (b[1] + b[3]) / 2),
+             [(WORD_FIRST, '#FFFFFF'), (WORD_SECOND, p['acc'])], f, tr)
     return img
 
 
@@ -402,7 +435,7 @@ def extras(root, font_path):
         os.makedirs(d, exist_ok=True)
         # shown at width 360 in the READMEs, drawn at 2x
         lockup(p, 150, 108, font_path, pad=10).save(os.path.join(d, f'logo_{key}.png'))
-        # the "on light" version: ink "Own", darker accent "TV"
+        # the "on light" version: ink WORD_FIRST, darker accent WORD_SECOND
         lockup(p, 150, 108, font_path, own='#16181D', pad=10, tv=p['ui']).save(os.path.join(d, f'logo_{key}_light.png'))
         d = os.path.join(root, 'brand', 'app-icons')
         os.makedirs(d, exist_ok=True)
@@ -563,15 +596,20 @@ def lockup_227(p, mark_px, own=WORD_OWN, tv=None, pad=0):
     return img
 
 
-def logos(root):
-    """The README logos (extras/brand/app-logos) with the wordmark, every colour, dark and light."""
+def logos(root, font_path):
+    """The README logos (extras/brand/app-logos), every colour, dark and light.
+
+    Font-based lockup, not the traced wordmark: the traced outlines only contain upstream's letters
+    (see tools/brand/wordmark_paths.py), so a fork with a different word has to draw it from a font.
+    """
     d = os.path.join(root, 'brand', 'app-logos')
     os.makedirs(d, exist_ok=True)
     for key, p in PAL.items():
         # shown at width 360 in the READMEs, drawn at 2x
-        lockup_227(p, 150, pad=10).save(os.path.join(d, f'logo_{key}.png'))
-        # on light backgrounds: ink "own", the darker accent "tv"
-        lockup_227(p, 150, own='#16181D', tv=p['ui'], pad=10).save(os.path.join(d, f'logo_{key}_light.png'))
+        lockup(p, 150, 150 * .6, font_path, pad=10).save(os.path.join(d, f'logo_{key}.png'))
+        # on light backgrounds: ink WORD_FIRST, darker accent WORD_SECOND
+        lockup(p, 150, 150 * .6, font_path, own='#16181D', tv=p['ui'], pad=10).save(
+            os.path.join(d, f'logo_{key}_light.png'))
 
 
 # ---- Pixel: the dot-matrix TV set ------------------------------------------------------------------
@@ -722,15 +760,11 @@ def stage(res):
     write(os.path.join(res, 'drawable', 'owntv_splash_pixel.xml'), vector_splash_pixel())
     write(os.path.join(res, 'drawable', 'owntv_splash_static_pixel.xml'), vector_pixel(108, t0, sc, 108))
     stage_banner().save(os.path.join(res, 'drawable-xhdpi', 'owntv_banner_pixel.png'))
-    # The wordmark as two white vectors on the same 988x182 viewport, "own" and "tv", for the apps to
-    # stack and tint (the lockup's "tv" follows the accent).
-    wm = json.load(open(os.path.join(HERE, 'pixel', 'wordmark.json'), encoding='utf-8'))
-    for name, parts in (('owntv_wordmark_own', ('o', 'w', 'n')), ('owntv_wordmark_tv', ('tv',))):
-        body = ''.join(f'        <path android:pathData="{wm[p]}" android:fillColor="#FFFFFFFF" android:fillType="evenOdd"/>\n' for p in parts)
-        write(os.path.join(res, 'drawable', f'{name}.xml'),
-              '<vector xmlns:android="http://schemas.android.com/apk/res/android"\n'
-              '    android:width="988dp" android:height="182dp" android:viewportWidth="988" android:viewportHeight="182">\n'
-              f'    <group android:translateX="-270.5" android:translateY="-389">\n{body}    </group>\n</vector>\n')
+    # The wordmark (owntv_wordmark_own / owntv_wordmark_tv) is NOT written here any more. It is the
+    # one piece of the brand this fork changes the letters of, and the traced outlines in
+    # pixel/wordmark.json only contain upstream's "o", "w", "n", "t" and "v". tools/brand/
+    # wordmark_paths.py draws the fork's word from the app's font instead; writing the traced vectors
+    # here would silently put the old word back on the next `stage` run.
     # One shared play triangle, white, a touch wider than the cards' own (4 and 6): drawn over a card
     # and tinted, it covers the card's triangle and its anti-aliased edge (triangle follows the accent).
     for name, sw, size in (('owntv_mark_play', 4.6, 56), ('owntv_mark_play_small', 6.6, 32)):
@@ -748,7 +782,9 @@ def main():
         stage(a.out)
         return
     if a.what == 'logos':
-        logos(a.out)
+        if not a.font:
+            ap.error('--font is required for logos')
+        logos(a.out, a.font)
         return
     if not a.font:
         ap.error('--font is required for extras / android')

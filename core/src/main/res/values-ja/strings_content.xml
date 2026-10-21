@@ -157,7 +157,7 @@
     <string name="content_storage_choose_folder">別のフォルダーを選択…</string>
     <string name="content_storage_chosen_folder">選択したフォルダー</string>
     <string name="content_storage_folder_lost">そのフォルダーは利用できなくなりました。もう一度選択するか、別のフォルダーを選んでください。</string>
-    <string name="content_storage_folder_fallback">ダウンロードフォルダーは現在利用できません。戻るまで、ダウンロードは OwnTV 専用のフォルダーに保存されます。</string>
+    <string name="content_storage_folder_fallback">ダウンロードフォルダーは現在利用できません。戻るまで、ダウンロードは BlankTV 専用のフォルダーに保存されます。</string>
     <string name="content_downloads_queued">キュー待ち…</string>
     <string name="content_downloads_failed_group">失敗</string>
     <string name="content_downloads_play">再生</string>

@@ -311,7 +311,7 @@
     <string name="player_previous_channel_in_list">Zerrendako aurreko kanala</string>
     <string name="player_reconnecting">Jarioa geldituta. Berriro konektatzen…</string>
     <string name="player_trailer_skip">Salto 10s</string>
-    <string name="player_trailer_blocked_title">Trailer hau ezin da ikusi OwnTV-n</string>
+    <string name="player_trailer_blocked_title">Trailer hau ezin da ikusi BlankTV-n</string>
     <string name="player_trailer_blocked_body">Bere jabeak Youtuben ikustea ahalbidetzen du soilik.</string>
     <string name="player_trailer_open_youtube">Ireki YouTuben</string>
 </resources>

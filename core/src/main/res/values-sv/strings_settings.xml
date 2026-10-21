@@ -31,7 +31,7 @@
     <string name="settings_static">Statisk</string>
     <string name="settings_dynamic">Dynamisk</string>
     <string name="settings_use_proxy">Använd proxy</string>
-    <string name="settings_proxy_description">Skicka all trafik och uppspelning från OwnTV via en HTTP-proxy.</string>
+    <string name="settings_proxy_description">Skicka all trafik och uppspelning från BlankTV via en HTTP-proxy.</string>
     <string name="settings_host">Värd</string>
     <string name="settings_proxy_host_hint">proxy.example.com</string>
     <string name="settings_port">Port</string>
@@ -249,7 +249,7 @@
     <string name="settings_player_zoom">Spelarzoom</string>
     <string name="settings_app_group">App</string>
     <string name="settings_app_startup">Appstart</string>
-    <string name="settings_app_startup_description">Vad OwnTV öppnar vid start</string>
+    <string name="settings_app_startup_description">Vad BlankTV öppnar vid start</string>
     <string name="settings_check_updates">Sök efter uppdateringar</string>
     <string name="settings_check_updates_description">Hämta den senaste versionen från GitHub Releases</string>
     <string name="settings_update_startup">Sök efter uppdateringar vid start</string>
@@ -549,7 +549,7 @@
     <string name="settings_guide_synced">Programguiden har synkroniserats</string>
     <string name="settings_guide_sync_failed">Det gick inte att synkronisera programguiden</string>
     <string name="settings_restore_remote_title">Återställ från en annan enhet</string>
-    <string name="settings_restore_remote_description">På valfri enhet med webbläsare i samma wifi – telefon, dator eller en annan tv – skanna QR-koden (eller öppna URL:en), ange den här PIN-koden, välj din OwnTV-säkerhetskopia och skicka den. Sedan väljer du här vad som ska återställas.</string>
+    <string name="settings_restore_remote_description">På valfri enhet med webbläsare i samma wifi – telefon, dator eller en annan tv – skanna QR-koden (eller öppna URL:en), ange den här PIN-koden, välj din BlankTV-säkerhetskopia och skicka den. Sedan väljer du här vad som ska återställas.</string>
     <string name="settings_try_again">Försök igen</string>
     <string name="settings_new_pin">Börja om med en ny PIN</string>
     <string name="settings_download_remote_title">Ladda ned på en annan enhet</string>
@@ -564,7 +564,7 @@
     <string name="settings_catchup_timezone_automatic">Automatisk</string>
     <string name="settings_catchup_timezone_device">Enhet</string>
     <string name="settings_catchup_player_ask">Fråga alltid</string>
-    <string name="settings_catchup_player_internal">OwnTV-spelare</string>
+    <string name="settings_catchup_player_internal">BlankTV-spelare</string>
     <string name="settings_catchup_player_external">Extern spelare</string>
     <string name="settings_download_folder_title">Välj nedladdningsmapp</string>
     <string name="settings_pick_background_title">Välj en bakgrundsbild</string>
@@ -680,9 +680,9 @@
     <string name="settings_sources_info">Info</string>
     <string name="settings_sources_retest">Testa igen</string>
     <string name="settings_sources_probe_title">Testa den här spellistan?</string>
-    <string name="settings_sources_probe_warning">Många leverantörer talar aldrig om hur många kanaler du får titta på samtidigt, så OwnTV tar reda på det genom att öppna några och se vilka som håller. Allt som spelas upp nu stoppas, och det här kan ta upp till två minuter.</string>
+    <string name="settings_sources_probe_warning">Många leverantörer talar aldrig om hur många kanaler du får titta på samtidigt, så BlankTV tar reda på det genom att öppna några och se vilka som håller. Allt som spelas upp nu stoppas, och det här kan ta upp till två minuter.</string>
     <string name="settings_sources_probe_running">Kontrollerar hur många kanaler den här leverantören tillåter… (<xliff:g id="current">%1$d</xliff:g> av <xliff:g id="total">%2$d</xliff:g>)</string>
-    <string name="settings_sources_probe_unknown">OwnTV kunde inte ta reda på hur många kanaler den här leverantören tillåter.</string>
+    <string name="settings_sources_probe_unknown">BlankTV kunde inte ta reda på hur många kanaler den här leverantören tillåter.</string>
     <string name="settings_sources_probe_skip">Hoppa över</string>
     <string name="settings_sources_auto_refresh">⟳ <xliff:g id="mode">%1$s</xliff:g></string>
     <string name="settings_sources_default">STANDARD</string>
@@ -921,7 +921,7 @@
     <string name="settings_move_category_keep">Behåll även i “<xliff:g id="name">%1$s</xliff:g>”</string>
     <string name="settings_move_category_action">Flytta</string>
     <string name="settings_dns_description">Använd en anpassad DNS-server för domänuppslagningar</string>
-    <string name="settings_dns_toggle_description">Utför alla domänuppslagningar för OwnTV via en anpassad DNS-server.</string>
+    <string name="settings_dns_toggle_description">Utför alla domänuppslagningar för BlankTV via en anpassad DNS-server.</string>
     <string name="settings_dns_use_custom">Använd anpassad DNS</string>
     <string name="settings_dns_server_missing">Anpassad DNS är aktiverad, men ingen server är konfigurerad. Ange en serveradress och välj Spara, eller stäng av inställningen.</string>
     <string name="settings_dns_server">DNS-server</string>
@@ -967,7 +967,7 @@
     <string name="settings_live_preroll">Förbuffra live-strömmar</string>
     <string name="settings_live_preroll_description">Samla in den här mängden video innan en livekanal börjar spela, och igen efter ett hack. Det är en mängd video, inte en nedräkning. Av ger snabbast möjliga start.</string>
     <string name="settings_live_tune_timeout">Ge upp en kanal efter</string>
-    <string name="settings_live_tune_timeout_description">Om en livekanal inte har visat någon bild inom den här tiden slutar OwnTV att försöka och säger till, i stället för att lämna en svart skärm medan den betar av alla sina spelare. ”Aldrig” fortsätter att försöka, vilket på en kanal som din leverantör har tagit bort kan ta långt över en minut. Väntetider som leverantören själv ber om räknas inte.</string>
+    <string name="settings_live_tune_timeout_description">Om en livekanal inte har visat någon bild inom den här tiden slutar BlankTV att försöka och säger till, i stället för att lämna en svart skärm medan den betar av alla sina spelare. ”Aldrig” fortsätter att försöka, vilket på en kanal som din leverantör har tagit bort kan ta långt över en minut. Väntetider som leverantören själv ber om räknas inte.</string>
     <string name="settings_live_preroll_per_playlist">Förbuffra per spellista</string>
     <string name="settings_live_preroll_per_playlist_description">Åsidosätt inställningen ovan för en spellista samtidigt som dina andra spellistor förblir snabba.</string>
     <string name="settings_live_engine_per_playlist">Spelare för live-tv per spellista</string>
@@ -989,7 +989,7 @@
     <string name="settings_surround_auto_description_mobile">Auto – prova Dolby/DTS-surround och växla automatiskt tillbaka till stereo om högtalaren, hörlurarna eller den anslutna mottagaren inte spelar det. Rekommenderas.</string>
     <string name="settings_surround_stereo_description">Endast stereo – avkoda alltid i appen och skicka vanligt 2.0-ljud. Använd detta på TV-högtalare eller en stereo-soundbar, eller om ljudet ligger efter bilden.</string>
     <string name="settings_surround_stereo_description_mobile">Endast stereo – avkoda alltid i appen och skicka vanligt 2.0-ljud. Använd detta för den inbyggda högtalaren, hörlurar eller en stereo-soundbar, eller om ljudet ligger efter bilden.</string>
-    <string name="settings_surround_forced_description">Surround – skicka Dolby/DTS till en riktig 5.1/7.1-mottagare. Om det blir tyst eller hackar faller OwnTV ändå tillbaka till stereo och meddelar dig.</string>
+    <string name="settings_surround_forced_description">Surround – skicka Dolby/DTS till en riktig 5.1/7.1-mottagare. Om det blir tyst eller hackar faller BlankTV ändå tillbaka till stereo och meddelar dig.</string>
     <string name="settings_panel_width">Panelbreddsjustering</string>
     <string name="settings_panel_width_description">Ändra storlek på panelerna för kategori, lista och förhandsvisning i Live-TV, Filmer och Serier.</string>
     <string name="settings_vod_layout">Layout för Filmer och Serier</string>
@@ -1040,8 +1040,8 @@
     <string name="settings_auto_frame_rate_warning_suffix">Rekommenderas inte på den här TV:n: på Android-versioner lägre än 12 kan bildfrekvensen inte ändras smidigt.</string>
     <string name="settings_auto_frame_rate_warning_title">Rekommenderas inte på den här TV:n</string>
     <string name="settings_auto_frame_rate_warning_title_mobile">Rekommenderas inte på den här enheten</string>
-    <string name="settings_auto_frame_rate_warning_description">Den här enheten kör Android <xliff:g id="android_version">%1$s</xliff:g>. På Android-versioner lägre än 12 kan TV:n inte tala om för OwnTV vilka uppdateringsfrekvenser den kan växla till smidigt, så kan en ändring av bildfrekvensen göra att skärmen blir svart i en eller två sekunder — ibland mer än en gång under ett program.\n\nVi rekommenderar att du låter automatisk bildfrekvens vara av här. Om din TV växlar utan problem kan du slå på den och se: du kan när som helst ändra tillbaka.</string>
-    <string name="settings_auto_frame_rate_warning_description_mobile">Den här enheten kör Android <xliff:g id="android_version">%1$s</xliff:g>. På Android-versioner lägre än 12 kan enheten inte tala om för OwnTV vilka uppdateringsfrekvenser den kan växla till smidigt, så kan en ändring av bildfrekvensen göra att skärmen blir svart i en eller två sekunder — ibland mer än en gång under ett program.\n\nVi rekommenderar att du låter automatisk bildfrekvens vara av här. Om din skärm växlar utan problem kan du slå på den och se: du kan när som helst ändra tillbaka.</string>
+    <string name="settings_auto_frame_rate_warning_description">Den här enheten kör Android <xliff:g id="android_version">%1$s</xliff:g>. På Android-versioner lägre än 12 kan TV:n inte tala om för BlankTV vilka uppdateringsfrekvenser den kan växla till smidigt, så kan en ändring av bildfrekvensen göra att skärmen blir svart i en eller två sekunder — ibland mer än en gång under ett program.\n\nVi rekommenderar att du låter automatisk bildfrekvens vara av här. Om din TV växlar utan problem kan du slå på den och se: du kan när som helst ändra tillbaka.</string>
+    <string name="settings_auto_frame_rate_warning_description_mobile">Den här enheten kör Android <xliff:g id="android_version">%1$s</xliff:g>. På Android-versioner lägre än 12 kan enheten inte tala om för BlankTV vilka uppdateringsfrekvenser den kan växla till smidigt, så kan en ändring av bildfrekvensen göra att skärmen blir svart i en eller två sekunder — ibland mer än en gång under ett program.\n\nVi rekommenderar att du låter automatisk bildfrekvens vara av här. Om din skärm växlar utan problem kan du slå på den och se: du kan när som helst ändra tillbaka.</string>
     <string name="settings_auto_frame_rate_keep_off">Behåll av</string>
     <string name="settings_auto_frame_rate_turn_on_anyway">Slå på ändå</string>
     <string name="settings_language_request_workflow">Vill du lägga till ett språk som inte är listat? Öppna en språkförfrågan först. En underhållare registrerar det och förbereder basöversättningsfilerna; när det dyker upp på Hosted Weblate kan du börja bidra.</string>
@@ -1166,7 +1166,7 @@
     <string name="local_sync_received_items">Mottagna objekt: <xliff:g id="count">%1$d</xliff:g></string>
     <string name="local_sync_sent">Dina data skickades</string>
     <string name="local_sync_failed">Synkroniseringen misslyckades</string>
-    <string name="local_sync_error_unreachable">Enheten gick inte att nå. Öppna OwnTV → Inställningar → Data → Lokal synkronisering på den och slå på Synkroniseringsläge. Båda enheterna måste vara på samma Wi-Fi.</string>
+    <string name="local_sync_error_unreachable">Enheten gick inte att nå. Öppna BlankTV → Inställningar → Data → Lokal synkronisering på den och slå på Synkroniseringsläge. Båda enheterna måste vara på samma Wi-Fi.</string>
     <string name="local_sync_error_unauthorized">Den andra enheten nekade. PIN-koden kan vara fel, eller så har den glömt den här enheten.</string>
     <string name="local_sync_error_bad_payload">Det som kom fram gick inte att läsa. Om du använde ett lösenord, kontrollera att det är samma på båda enheterna.</string>
     <string name="local_sync_error_unknown">Något gick fel. Försök igen.</string>
@@ -1254,8 +1254,8 @@
     <string name="settings_multiview_keep_two">Behåll 2</string>
     <string name="settings_multiview_use_anyway">Använd ändå</string>
     <string name="settings_app_icon">Appikon</string>
-    <string name="settings_app_icon_summary">Färg på OwnTV:s ikon och logotyp</string>
-    <string name="settings_app_icon_sheet_mobile">Hur OwnTV visas på din startskärm. Appen startas om en gång.</string>
+    <string name="settings_app_icon_summary">Färg på BlankTV:s ikon och logotyp</string>
+    <string name="settings_app_icon_sheet_mobile">Hur BlankTV visas på din startskärm. Appen startas om en gång.</string>
     <string name="settings_brand_accent">Logga i accentfärg</string>
     <string name="app_icon_petrol">Petrol</string>
     <string name="app_icon_sunflower">Solros</string>
@@ -1266,8 +1266,8 @@
     <string name="app_icon_olive">Oliv</string>
     <string name="app_icon_olive_cream">Oliv på gräddvitt</string>
     <string name="app_icon_pixel">Pixel</string>
-    <string name="app_icon_restart_title">Starta om OwnTV?</string>
-    <string name="app_icon_restart_message">Du har valt en ny ikon och logotyp. De börjar gälla när OwnTV startas om.</string>
+    <string name="app_icon_restart_title">Starta om BlankTV?</string>
+    <string name="app_icon_restart_message">Du har valt en ny ikon och logotyp. De börjar gälla när BlankTV startas om.</string>
     <string name="app_icon_restart_now">Starta om nu</string>
     <string name="settings_navigation">Navigering</string>
     <string name="settings_navigation_description">Hur menyn till vänster beter sig</string>
@@ -1431,10 +1431,10 @@
     <string name="settings_help_epg_sources">Lägg till en XMLTV-guidekälla via länken, uppdatera den eller ta bort den. Källorna fyller tv-guiden och programraderna i Live-tv.</string>
     <string name="settings_help_guide_days">Hur många dagars program guiden sparar framåt. Färre dagar gör uppdateringen snabbare och databasen mindre.</string>
     <string name="settings_help_catchup_timezone">Catch-up spelar program från leverantörens arkiv. Automatisk använder den tidszon som leverantören anger, eller tv:ns egen klocka om den inte anger någon; välj en fast UTC-förskjutning om catch-up ändå börjar vid fel tid. Här väljer du också vilken spelare catch-up använder.</string>
-    <string name="settings_help_theme">OwnTV är gjord för mörkt tema. System följer tv:ns egen inställning om den finns; ljust passar ett ljust rum.</string>
+    <string name="settings_help_theme">BlankTV är gjord för mörkt tema. System följer tv:ns egen inställning om den finns; ljust passar ett ljust rum.</string>
     <string name="settings_help_accent">Färgar knappar, fokusskenet, förloppsfält och markeringar överallt. Välj en förinställning eller tryck på OK för paletten och valfri hexkod.</string>
     <string name="settings_help_focus">Ringen runt det som har fokus. Välj färg och tjocklek så att den är lätt att följa från soffan.</string>
-    <string name="settings_help_fonts">Typsnittet i hela OwnTV och hur stor texten är. Popup-fönster använder samma typsnitt.</string>
+    <string name="settings_help_fonts">Typsnittet i hela BlankTV och hur stor texten är. Popup-fönster använder samma typsnitt.</string>
     <string name="settings_help_popup_size">Gör popup-fönster, menyer och dialogrutor större eller mindre som helhet. Använd det när de känns trånga eller täcker för mycket av skärmen.</string>
     <string name="settings_help_zoom">Skalar allt på skärmen. Större är lättare att läsa på avstånd; mindre får plats med mer. Under 85 %% kan tv-boxar med lite minne få slut på minne.</string>
     <string name="settings_help_animations">När det är på rör sig paneler, menyer och fokus mjukt. Av gör varje ändring omedelbar.</string>
@@ -1444,11 +1444,11 @@
     <string name="settings_help_vod_layout">Film visar bilden för titeln i fokus bakom ett rutnät av affischer. Separat visar kategorier, titlar och detaljer sida vid sida.</string>
     <string name="settings_help_home">Välj vilka rader Hem visar och i vilken ordning, och hur raden Populärt just nu ser ut.</string>
     <string name="settings_help_customize">Dölj kategorier och objekt du aldrig tittar på, ge kategorierna egna namn och ställ dem i din ordning. Det dolda kommer tillbaka här, inget går förlorat.</string>
-    <string name="settings_help_app_icon">OwnTV-ikonen på tv:ns startskärm. Det kan ta en stund innan startskärmen visar ändringen.</string>
-    <string name="settings_help_brand_accent">OwnTV-loggan i menyn, Om och konfigurationen visar spelatriangeln i din accentfärg. Ikonen på startskärmen behåller sina egna färger.</string>
-    <string name="settings_help_startup">Vad OwnTV visar vid start: Hem, kanalen du såg senast, dina favoriter eller en kanal du väljer.</string>
-    <string name="settings_help_check_updates">Letar nu på GitHub efter en nyare OwnTV och erbjuder att installera den. Dina spellistor, favoriter och inställningar förblir som de är.</string>
-    <string name="settings_help_update_startup">Letar efter en ny version varje gång OwnTV startar och säger till när det finns en. Inget installeras utan att fråga.</string>
+    <string name="settings_help_app_icon">BlankTV-ikonen på tv:ns startskärm. Det kan ta en stund innan startskärmen visar ändringen.</string>
+    <string name="settings_help_brand_accent">BlankTV-loggan i menyn, Om och konfigurationen visar spelatriangeln i din accentfärg. Ikonen på startskärmen behåller sina egna färger.</string>
+    <string name="settings_help_startup">Vad BlankTV visar vid start: Hem, kanalen du såg senast, dina favoriter eller en kanal du väljer.</string>
+    <string name="settings_help_check_updates">Letar nu på GitHub efter en nyare BlankTV och erbjuder att installera den. Dina spellistor, favoriter och inställningar förblir som de är.</string>
+    <string name="settings_help_update_startup">Letar efter en ny version varje gång BlankTV startar och säger till när det finns en. Inget installeras utan att fråga.</string>
     <string name="settings_help_dns">Slår upp leverantörens adresser med en DNS-server du väljer i stället för nätverkets egen — användbart när nätverket blockerar eller omdirigerar dem.</string>
     <string name="settings_help_live_engine">ExoPlayer öppnar kanaler mycket snabbare och är den enda med direkttextning. mpv spelar kanaler som ExoPlayer inte klarar, även en del ovanligt ljud. De kombinerade valen provar den andra spelaren när den första misslyckas.</string>
     <string name="settings_help_hw">Använder tv:ns hårdvaruavkodare: jämn 4K och mindre värme. Stäng bara av om vissa strömmar hackar eller visar block; då gör mjukvaruavkodaren jobbet.</string>
@@ -1472,8 +1472,8 @@
     <string name="settings_profile_add">Lägg till en profil</string>
     <string name="settings_profile_add_line">En tittare med egna favoriter, egen historik och egna inställningar</string>
     <plurals name="settings_help_language">
-        <item quantity="one">Språket i alla menyer och meddelanden i OwnTV. <xliff:g id="count">%1$d</xliff:g> språk; följer tv:ns eget språk tills du väljer ett.</item>
-        <item quantity="other">Språket i alla menyer och meddelanden i OwnTV. <xliff:g id="count">%1$d</xliff:g> språk; följer tv:ns eget språk tills du väljer ett.</item>
+        <item quantity="one">Språket i alla menyer och meddelanden i BlankTV. <xliff:g id="count">%1$d</xliff:g> språk; följer tv:ns eget språk tills du väljer ett.</item>
+        <item quantity="other">Språket i alla menyer och meddelanden i BlankTV. <xliff:g id="count">%1$d</xliff:g> språk; följer tv:ns eget språk tills du väljer ett.</item>
     </plurals>
     <plurals name="settings_profile_count">
         <item quantity="one"><xliff:g id="count">%1$d</xliff:g> profil</item>
@@ -1510,8 +1510,8 @@
     <string name="settings_home_show_row">Visa den här raden</string>
     <string name="settings_home_move_row">Flytta (▲ ▼, sedan OK)</string>
     <string name="settings_line_remote_shortcuts_on">Av behåller dina tilldelningar</string>
-    <string name="settings_language_system_help">OwnTV följer tv:ns språk (nu <xliff:g id="language">%1$s</xliff:g>). Välj ett nedan för att bara använda det i OwnTV.</string>
-    <string name="settings_language_pick_help">Använd <xliff:g id="language">%1$s</xliff:g> i OwnTV, oavsett tv:ns språk.</string>
+    <string name="settings_language_system_help">BlankTV följer tv:ns språk (nu <xliff:g id="language">%1$s</xliff:g>). Välj ett nedan för att bara använda det i BlankTV.</string>
+    <string name="settings_language_pick_help">Använd <xliff:g id="language">%1$s</xliff:g> i BlankTV, oavsett tv:ns språk.</string>
     <string name="settings_key_use">Använd</string>
     <string name="settings_line_metadata_source">Var detaljer om filmer och serier hämtas</string>
     <string name="settings_line_metadata_language">Handlingar, genrer och titlar från TMDB</string>

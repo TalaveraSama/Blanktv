@@ -119,8 +119,8 @@
     <string name="update_not_enough_space">अपडेट के लिए पर्याप्त स्टोरेज नहीं है। लगभग <xliff:g id="size">%1$s</xliff:g> खाली करें और फिर से कोशिश करें।</string>
     <string name="update_damaged_download">अपडेट पूरी तरह डाउनलोड नहीं हुआ। अपना कनेक्शन जाँचें और फिर से कोशिश करें।</string>
     <string name="update_install_rejected">सिस्टम इंस्टॉलर ने अपडेट अस्वीकार कर दिया: <xliff:g id="reason">%1$s</xliff:g></string>
-    <string name="update_ready">OwnTV v<xliff:g id="available">%1$s</xliff:g> तैयार है (आपके पास v<xliff:g id="current">%2$s</xliff:g> है)।</string>
-    <string name="recovery_title">OwnTV अपना डेटाबेस नहीं खोल सका</string>
+    <string name="update_ready">BlankTV v<xliff:g id="available">%1$s</xliff:g> तैयार है (आपके पास v<xliff:g id="current">%2$s</xliff:g> है)।</string>
+    <string name="recovery_title">BlankTV अपना डेटाबेस नहीं खोल सका</string>
     <string name="recovery_data_safe_full">आपकी प्रोफ़ाइलें, प्लेलिस्ट, पसंदीदा और इतिहास हटाए नहीं गए हैं — यह डेटाबेस अपग्रेड की विफलता है और डेटा अभी भी इस डिवाइस पर मौजूद है।\n\nकृपया इसकी रिपोर्ट करें ताकि इसे ठीक किया जा सके और नीचे दिया गया संदेश भी शामिल करें।</string>
     <string name="recovery_retry">फिर से कोशिश करें</string>
     <string name="recovery_backup_hint">अगर आपके पास बैकअप फ़ाइल है, तो आप ऐप को रीसेट करके बाद में उसे रीस्टोर कर सकते हैं। रीसेट करने से इस डिवाइस पर सेव की गई हर चीज़ मिट जाती है।</string>
@@ -213,13 +213,13 @@
     <string name="settings_recording_pre_roll_description">बताए गए शुरुआती समय से इतना पहले शुरू करें, ताकि थोड़ा आगे चलने वाली गाइड से शुरुआत न छूटे।</string>
     <string name="settings_recording_post_roll">अंत के बाद भी जारी रखें</string>
     <string name="settings_recording_post_roll_description">बताए गए समाप्ति समय के बाद इतनी देर तक जारी रखें, ताकि लंबा खिंचने वाला कार्यक्रम कटे नहीं।</string>
-    <string name="settings_recording_timers_inexact">यह डिवाइस OwnTV को सटीक अलार्म सेट करने नहीं देता, इसलिए रिकॉर्डिंग कुछ मिनट देर से शुरू हो सकती है। इसकी भरपाई के लिए रिकॉर्डिंग जल्दी शुरू होती है।</string>
+    <string name="settings_recording_timers_inexact">यह डिवाइस BlankTV को सटीक अलार्म सेट करने नहीं देता, इसलिए रिकॉर्डिंग कुछ मिनट देर से शुरू हो सकती है। इसकी भरपाई के लिए रिकॉर्डिंग जल्दी शुरू होती है।</string>
     <plurals name="recording_minutes">
         <item quantity="one"><xliff:g id="count">%1$d</xliff:g> मिनट</item>
         <item quantity="other"><xliff:g id="count">%1$d</xliff:g> मिनट</item>
     </plurals>
     <string name="recording_failed_encrypted">यह चैनल एन्क्रिप्टेड है और इसे रिकॉर्ड नहीं किया जा सकता</string>
-    <string name="recording_failed_drm">यह चैनल DRM-सुरक्षित है, इसलिए इसे देखा जा सकता है लेकिन रिकॉर्ड नहीं किया जा सकता। यह सुरक्षा आपके प्रोवाइडर की ओर से है, OwnTV की ओर से नहीं।</string>
+    <string name="recording_failed_drm">यह चैनल DRM-सुरक्षित है, इसलिए इसे देखा जा सकता है लेकिन रिकॉर्ड नहीं किया जा सकता। यह सुरक्षा आपके प्रोवाइडर की ओर से है, BlankTV की ओर से नहीं।</string>
     <string name="recording_failed_metered">मोबाइल डेटा पर रिकॉर्ड नहीं हुआ</string>
     <string name="recording_card_empty_title">अभी तक कुछ रिकॉर्ड नहीं हुआ</string>
     <string name="recording_card_body">टीवी गाइड में कोई कार्यक्रम चुनें और रिकॉर्ड करें चुनें, या किसी चैनल को देर तक दबाकर समय शेड्यूल करें। आप कुछ और देख रहे हों तब भी यह यहाँ आ जाता है।</string>
@@ -426,7 +426,7 @@
     <string name="sports_live_refresh_description">केवल जब खेल स्क्रीन या स्कोर दिख रहा हो</string>
     <string name="sports_about">खेल डेटा के बारे में</string>
     <string name="sports_about_summary">स्कोर: ESPN · चैनल: आपकी प्लेलिस्ट और गाइड</string>
-    <string name="sports_alerts_when_closed">OwnTV बंद होने पर अलर्ट</string>
+    <string name="sports_alerts_when_closed">BlankTV बंद होने पर अलर्ट</string>
     <string name="sports_alerts_when_closed_description">सूचना अनुमति एक बार माँगता है</string>
     <string name="sports_alert_me_about">मुझे सूचित करें</string>
     <string name="sports_kind_goals">गोल और विकेट</string>
@@ -437,7 +437,7 @@
     <string name="sports_live_card">लाइव स्कोर कार्ड</string>
     <string name="sports_live_card_offer">लाइव स्कोर कार्ड दिखाएँ</string>
     <string name="sports_live_card_description">फ़ुल टाइम तक हर 30 से. अपडेट; किसी मैच से शुरू करें</string>
-    <string name="sports_alerts_footnote">OwnTV बंद होने पर अलर्ट आमतौर पर एक मिनट में आ जाते हैं। अगर फ़ोन लंबे समय तक स्क्रीन बंद करके पड़ा रहा हो, तो Android इन्हें लगभग 15 मिनट तक रोक सकता है। लाइव स्कोर कार्ड नहीं रुकता।</string>
+    <string name="sports_alerts_footnote">BlankTV बंद होने पर अलर्ट आमतौर पर एक मिनट में आ जाते हैं। अगर फ़ोन लंबे समय तक स्क्रीन बंद करके पड़ा रहा हो, तो Android इन्हें लगभग 15 मिनट तक रोक सकता है। लाइव स्कोर कार्ड नहीं रुकता।</string>
     <string name="sports_search_teams">टीमें, खिलाड़ी, लीग खोजें</string>
     <string name="sports_suggested">आप जो देखते हैं उससे सुझाव</string>
     <plurals name="sports_watched_matches">
@@ -446,7 +446,7 @@
     </plurals>
     <string name="sports_league_label">लीग</string>
     <string name="sports_no_playlist_title">मैच देखने के लिए प्लेलिस्ट जोड़ें</string>
-    <string name="sports_no_playlist_body">स्कोर, तालिकाएँ और अलर्ट इसके बिना भी चलते हैं। प्लेलिस्ट होने पर OwnTV इस मैच को दिखाने वाले सभी चैनल ढूँढ लेता है।</string>
+    <string name="sports_no_playlist_body">स्कोर, तालिकाएँ और अलर्ट इसके बिना भी चलते हैं। प्लेलिस्ट होने पर BlankTV इस मैच को दिखाने वाले सभी चैनल ढूँढ लेता है।</string>
     <string name="sports_add_playlist">प्लेलिस्ट जोड़ें</string>
     <string name="sports_home_row">लाइव खेल</string>
     <string name="sports_home_row_description">फ़ॉलो किए गए मैच, जब कोई लाइव हो या शुरू होने वाला हो</string>
@@ -456,7 +456,7 @@
     <string name="sports_sport_buttons">खेल बटन</string>
     <string name="sports_sport_buttons_mine">मेरे खेल</string>
     <string name="sports_sport_buttons_all">सभी खेल</string>
-    <string name="sports_sport_buttons_description">मेरे खेल: सिर्फ़ जो आपने चुना। सभी खेल: OwnTV को पता हर लीग, जिसे लोड होने में ज़्यादा समय लगता है।</string>
+    <string name="sports_sport_buttons_description">मेरे खेल: सिर्फ़ जो आपने चुना। सभी खेल: BlankTV को पता हर लीग, जिसे लोड होने में ज़्यादा समय लगता है।</string>
     <string name="sports_auto_rebuild">अपने आप फिर से बनाएँ</string>
     <string name="sports_auto_rebuild_description">स्कोर, मैच की जानकारी और तालिकाएँ कितनी बार अपने आप फिर से लाई जाएँ</string>
     <plurals name="sports_auto_rebuild_hours">

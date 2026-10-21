@@ -31,7 +31,7 @@
     <string name="settings_static">静态</string>
     <string name="settings_dynamic">动态</string>
     <string name="settings_use_proxy">使用代理</string>
-    <string name="settings_proxy_description">通过 HTTP 代理传输 OwnTV 的所有流量和播放数据。</string>
+    <string name="settings_proxy_description">通过 HTTP 代理传输 BlankTV 的所有流量和播放数据。</string>
     <string name="settings_host">主机</string>
     <string name="settings_proxy_host_hint">proxy.example.com</string>
     <string name="settings_port">端口</string>
@@ -247,7 +247,7 @@
     <string name="settings_player_zoom">播放器缩放</string>
     <string name="settings_app_group">应用</string>
     <string name="settings_app_startup">应用启动</string>
-    <string name="settings_app_startup_description">OwnTV 启动时打开的内容</string>
+    <string name="settings_app_startup_description">BlankTV 启动时打开的内容</string>
     <string name="settings_check_updates">检查更新</string>
     <string name="settings_check_updates_description">从 GitHub Releases 获取最新版本</string>
     <string name="settings_update_startup">启动时检查更新</string>
@@ -546,7 +546,7 @@
     <string name="settings_guide_synced">电视节目指南已同步</string>
     <string name="settings_guide_sync_failed">电视节目指南同步失败</string>
     <string name="settings_restore_remote_title">从其他设备恢复</string>
-    <string name="settings_restore_remote_description">在同一 Wi-Fi 下任何带浏览器的设备（手机、电脑或另一台电视）上扫描二维码（或打开网址），输入此 PIN，选择你的 OwnTV 备份文件并发送。然后在这里选择要恢复的内容。</string>
+    <string name="settings_restore_remote_description">在同一 Wi-Fi 下任何带浏览器的设备（手机、电脑或另一台电视）上扫描二维码（或打开网址），输入此 PIN，选择你的 BlankTV 备份文件并发送。然后在这里选择要恢复的内容。</string>
     <string name="settings_try_again">重试</string>
     <string name="settings_new_pin">使用新 PIN 重新开始</string>
     <string name="settings_download_remote_title">在其他设备上下载</string>
@@ -561,7 +561,7 @@
     <string name="settings_catchup_timezone_automatic">自动</string>
     <string name="settings_catchup_timezone_device">设备</string>
     <string name="settings_catchup_player_ask">总是询问</string>
-    <string name="settings_catchup_player_internal">OwnTV 播放器</string>
+    <string name="settings_catchup_player_internal">BlankTV 播放器</string>
     <string name="settings_catchup_player_external">外部播放器</string>
     <string name="settings_download_folder_title">选择下载文件夹</string>
     <string name="settings_pick_background_title">选择背景图</string>
@@ -675,9 +675,9 @@
     <string name="settings_sources_info">信息</string>
     <string name="settings_sources_retest">重新测试</string>
     <string name="settings_sources_probe_title">测试此播放列表？</string>
-    <string name="settings_sources_probe_warning">许多运营商从不说明你可以同时观看多少个频道，因此 OwnTV 会打开几个频道，看哪些能够持续播放，以此来确定。当前正在播放的内容会停止，此过程最多需要两分钟。</string>
+    <string name="settings_sources_probe_warning">许多运营商从不说明你可以同时观看多少个频道，因此 BlankTV 会打开几个频道，看哪些能够持续播放，以此来确定。当前正在播放的内容会停止，此过程最多需要两分钟。</string>
     <string name="settings_sources_probe_running">正在检测此运营商允许的频道数量…（<xliff:g id="current">%1$d</xliff:g>/<xliff:g id="total">%2$d</xliff:g>）</string>
-    <string name="settings_sources_probe_unknown">OwnTV 无法确定此运营商允许多少个频道。</string>
+    <string name="settings_sources_probe_unknown">BlankTV 无法确定此运营商允许多少个频道。</string>
     <string name="settings_sources_probe_skip">跳过</string>
     <string name="settings_sources_auto_refresh">⟳ <xliff:g id="mode">%1$s</xliff:g></string>
     <string name="settings_sources_default">默认</string>
@@ -903,7 +903,7 @@
     <string name="settings_move_category_keep">同时保留在“<xliff:g id="name">%1$s</xliff:g>”中</string>
     <string name="settings_move_category_action">移动</string>
     <string name="settings_dns_description">使用自定义 DNS 服务器进行域名查询</string>
-    <string name="settings_dns_toggle_description">通过自定义 DNS 服务器解析 OwnTV 的所有域名查询。</string>
+    <string name="settings_dns_toggle_description">通过自定义 DNS 服务器解析 BlankTV 的所有域名查询。</string>
     <string name="settings_dns_use_custom">使用自定义 DNS</string>
     <string name="settings_dns_server_missing">自定义 DNS 已启用，但尚未配置服务器。请输入服务器地址并选择“保存”，或关闭此选项。</string>
     <string name="settings_dns_server">DNS 服务器</string>
@@ -949,7 +949,7 @@
     <string name="settings_live_preroll">预缓冲直播流</string>
     <string name="settings_live_preroll_description">在直播频道开始播放前以及出现卡顿后，先缓冲这么多视频。这是视频数据量，不是倒计时。关闭可获得最快的启动速度。</string>
     <string name="settings_live_tune_timeout">放弃频道的等待时间</string>
-    <string name="settings_live_tune_timeout_description">如果直播频道在此时间内仍未出画面，OwnTV 会停止尝试并告知你，而不是一边逐个试遍所有播放器一边留着黑屏。选择“从不”会一直尝试，在供应商已下架的频道上可能远超一分钟。供应商自己要求的等待时间不计入其中。</string>
+    <string name="settings_live_tune_timeout_description">如果直播频道在此时间内仍未出画面，BlankTV 会停止尝试并告知你，而不是一边逐个试遍所有播放器一边留着黑屏。选择“从不”会一直尝试，在供应商已下架的频道上可能远超一分钟。供应商自己要求的等待时间不计入其中。</string>
     <string name="settings_live_preroll_per_playlist">按播放列表预缓冲</string>
     <string name="settings_live_preroll_per_playlist_description">可为单个播放列表覆盖上述设置，同时保持其他播放列表快速启动。</string>
     <string name="settings_live_engine_per_playlist">按播放列表设置直播电视播放器</string>
@@ -970,7 +970,7 @@
     <string name="settings_surround_auto_description_mobile">自动 — 尝试 Dolby/DTS 环绕声，如果扬声器、耳机或连接的接收器无法播放，则自动切换回立体声。推荐使用。</string>
     <string name="settings_surround_stereo_description">仅立体声 — 始终在应用内解码并输出普通 2.0 声音。适用于电视扬声器或立体声条形音箱，或音频落后于画面时使用。</string>
     <string name="settings_surround_stereo_description_mobile">仅立体声 — 始终在应用内解码并输出普通 2.0 声音。适用于内置扬声器、耳机或立体声条形音箱，或音频落后于画面时使用。</string>
-    <string name="settings_surround_forced_description">环绕声 — 将 Dolby/DTS 发送到真正的 5.1/7.1 接收器。如果声音消失或出现卡顿，OwnTV 仍会回退到立体声并通知你。</string>
+    <string name="settings_surround_forced_description">环绕声 — 将 Dolby/DTS 发送到真正的 5.1/7.1 接收器。如果声音消失或出现卡顿，BlankTV 仍会回退到立体声并通知你。</string>
     <string name="settings_panel_width">面板宽度调整</string>
     <string name="settings_panel_width_description">调整电视直播、电影和剧集中的分类、列表和预览面板大小。</string>
     <string name="settings_vod_layout">影片与剧集布局</string>
@@ -1021,8 +1021,8 @@
     <string name="settings_auto_frame_rate_warning_suffix">不建议在此电视上使用：低于 Android 12 时无法平滑更改刷新率。</string>
     <string name="settings_auto_frame_rate_warning_title">不建议在此电视上使用</string>
     <string name="settings_auto_frame_rate_warning_title_mobile">不建议在此设备上使用</string>
-    <string name="settings_auto_frame_rate_warning_description">此设备运行的是 Android <xliff:g id="android_version">%1$s</xliff:g>。低于 Android 12 时，电视无法告知 OwnTV 它能平滑切换哪些刷新率，因此更改刷新率可能会导致屏幕黑屏一两秒——有时在播放一个节目期间还不止一次。\n\n我们建议在此设备上保持自动帧率关闭。如果您的电视切换得很顺畅，可以打开试试：您随时都可以改回来。</string>
-    <string name="settings_auto_frame_rate_warning_description_mobile">此设备运行的是 Android <xliff:g id="android_version">%1$s</xliff:g>。低于 Android 12 时，设备无法告知 OwnTV 它能平滑切换哪些刷新率，因此更改刷新率可能会导致屏幕黑屏一两秒——有时在播放一个节目期间还不止一次。\n\n我们建议在此设备上保持自动帧率关闭。如果您的屏幕切换得很顺畅，可以打开试试：您随时都可以改回来。</string>
+    <string name="settings_auto_frame_rate_warning_description">此设备运行的是 Android <xliff:g id="android_version">%1$s</xliff:g>。低于 Android 12 时，电视无法告知 BlankTV 它能平滑切换哪些刷新率，因此更改刷新率可能会导致屏幕黑屏一两秒——有时在播放一个节目期间还不止一次。\n\n我们建议在此设备上保持自动帧率关闭。如果您的电视切换得很顺畅，可以打开试试：您随时都可以改回来。</string>
+    <string name="settings_auto_frame_rate_warning_description_mobile">此设备运行的是 Android <xliff:g id="android_version">%1$s</xliff:g>。低于 Android 12 时，设备无法告知 BlankTV 它能平滑切换哪些刷新率，因此更改刷新率可能会导致屏幕黑屏一两秒——有时在播放一个节目期间还不止一次。\n\n我们建议在此设备上保持自动帧率关闭。如果您的屏幕切换得很顺畅，可以打开试试：您随时都可以改回来。</string>
     <string name="settings_auto_frame_rate_keep_off">保持关闭</string>
     <string name="settings_auto_frame_rate_turn_on_anyway">仍然开启</string>
     <string name="settings_language_request_workflow">想添加未列出的语言？请先提出语言请求。维护者会注册该语言并准备基础翻译文件；一旦它出现在 Hosted Weblate 上，你就可以开始贡献了。</string>
@@ -1145,7 +1145,7 @@
     <string name="local_sync_received_items">已接收的项目: <xliff:g id="count">%1$d</xliff:g></string>
     <string name="local_sync_sent">你的数据已发送</string>
     <string name="local_sync_failed">同步失败</string>
-    <string name="local_sync_error_unreachable">无法连接到该设备。请在那台设备上打开 OwnTV → 设置 → 数据 → 本地同步，并开启同步模式。两台设备必须连接同一个 Wi-Fi。</string>
+    <string name="local_sync_error_unreachable">无法连接到该设备。请在那台设备上打开 BlankTV → 设置 → 数据 → 本地同步，并开启同步模式。两台设备必须连接同一个 Wi-Fi。</string>
     <string name="local_sync_error_unauthorized">另一台设备拒绝了连接。可能是 PIN 码不对，或者它已忘记本机。</string>
     <string name="local_sync_error_bad_payload">无法读取收到的内容。如果使用了密码，请确认两台设备上的密码相同。</string>
     <string name="local_sync_error_unknown">出了点问题，请重试。</string>
@@ -1227,8 +1227,8 @@
     <string name="settings_multiview_keep_two">保持 2 个</string>
     <string name="settings_multiview_use_anyway">仍然使用</string>
     <string name="settings_app_icon">应用图标</string>
-    <string name="settings_app_icon_summary">OwnTV 图标和标志的颜色</string>
-    <string name="settings_app_icon_sheet_mobile">OwnTV 在主屏幕上的样子。应用会重启一次。</string>
+    <string name="settings_app_icon_summary">BlankTV 图标和标志的颜色</string>
+    <string name="settings_app_icon_sheet_mobile">BlankTV 在主屏幕上的样子。应用会重启一次。</string>
     <string name="settings_brand_accent">强调色徽标</string>
     <string name="app_icon_petrol">石油蓝</string>
     <string name="app_icon_sunflower">向日葵</string>
@@ -1239,8 +1239,8 @@
     <string name="app_icon_olive">橄榄绿</string>
     <string name="app_icon_olive_cream">奶油橄榄绿</string>
     <string name="app_icon_pixel">Pixel</string>
-    <string name="app_icon_restart_title">重启 OwnTV？</string>
-    <string name="app_icon_restart_message">你选择了新的图标和标志，重启 OwnTV 后生效。</string>
+    <string name="app_icon_restart_title">重启 BlankTV？</string>
+    <string name="app_icon_restart_message">你选择了新的图标和标志，重启 BlankTV 后生效。</string>
     <string name="app_icon_restart_now">立即重启</string>
     <string name="settings_navigation">导航</string>
     <string name="settings_navigation_description">左侧菜单的行为方式</string>
@@ -1403,10 +1403,10 @@
     <string name="settings_help_epg_sources">通过链接添加 XMLTV 节目指南源，或刷新、删除它。这些源会填充节目指南和直播电视中的节目信息。</string>
     <string name="settings_help_guide_days">节目指南预先保存多少天的节目。天数越少，指南刷新越快，数据库也越小。</string>
     <string name="settings_help_catchup_timezone">回看会播放提供商存档中的节目。自动模式使用提供商报告的时区，如未报告则按电视自身的时钟运行；如果回看开始时间仍然不对，请选择固定的 UTC 偏移。回看使用哪个播放器也在这里选择。</string>
-    <string name="settings_help_theme">OwnTV 是为深色主题设计的。“系统”在电视有相应设置时跟随电视；浅色适合明亮的房间。</string>
+    <string name="settings_help_theme">BlankTV 是为深色主题设计的。“系统”在电视有相应设置时跟随电视；浅色适合明亮的房间。</string>
     <string name="settings_help_accent">为按钮、焦点光晕、进度条和高亮统一着色。选择一个预设，或按 OK 打开调色板并输入任意十六进制代码。</string>
     <string name="settings_help_focus">焦点项目周围的边框。选择它的颜色和粗细，让你坐在沙发上也能看清。</string>
-    <string name="settings_help_fonts">OwnTV 全局使用的字体，以及文字显示的大小。弹出窗口也使用同一字体。</string>
+    <string name="settings_help_fonts">BlankTV 全局使用的字体，以及文字显示的大小。弹出窗口也使用同一字体。</string>
     <string name="settings_help_popup_size">整体放大或缩小弹出窗口、菜单和对话框。弹窗显得拥挤或遮住太多屏幕时可以调整。</string>
     <string name="settings_help_zoom">缩放屏幕上的所有内容。放大后远处更易阅读；缩小后能显示更多。低于 85%% 时，内存较小的电视盒可能内存不足。</string>
     <string name="settings_help_animations">开启时，面板、菜单和焦点会平滑移动。关闭后所有变化都会立即完成。</string>
@@ -1416,11 +1416,11 @@
     <string name="settings_help_vod_layout">影院式在海报网格后方显示焦点作品的图片。分栏则把分类、作品和详情并排显示。</string>
     <string name="settings_help_home">选择主页显示哪些行、按什么顺序，以及“正在热门”行的样式。</string>
     <string name="settings_help_customize">隐藏你从不看的分类和条目，给分类起自己的名字并按你的顺序排列。隐藏的内容可在这里恢复，不会丢失。</string>
-    <string name="settings_help_app_icon">电视主屏幕上的 OwnTV 图标。启动器可能需要片刻才会显示变化。</string>
-    <string name="settings_help_brand_accent">菜单、关于和设置向导中的 OwnTV 徽标会以你的强调色显示播放三角形。主屏幕上的图标保持原有颜色。</string>
-    <string name="settings_help_startup">OwnTV 启动时显示的内容：主页、上次观看的频道、你的收藏，或你指定的频道。</string>
-    <string name="settings_help_check_updates">立即在 GitHub 上查找较新的 OwnTV 并提示安装。你的播放列表、收藏和设置都会保留。</string>
-    <string name="settings_help_update_startup">每次启动 OwnTV 时查找新版本，有新版本时会告诉你。未经询问不会安装任何内容。</string>
+    <string name="settings_help_app_icon">电视主屏幕上的 BlankTV 图标。启动器可能需要片刻才会显示变化。</string>
+    <string name="settings_help_brand_accent">菜单、关于和设置向导中的 BlankTV 徽标会以你的强调色显示播放三角形。主屏幕上的图标保持原有颜色。</string>
+    <string name="settings_help_startup">BlankTV 启动时显示的内容：主页、上次观看的频道、你的收藏，或你指定的频道。</string>
+    <string name="settings_help_check_updates">立即在 GitHub 上查找较新的 BlankTV 并提示安装。你的播放列表、收藏和设置都会保留。</string>
+    <string name="settings_help_update_startup">每次启动 BlankTV 时查找新版本，有新版本时会告诉你。未经询问不会安装任何内容。</string>
     <string name="settings_help_dns">使用你选择的 DNS 服务器（而不是网络自带的）解析提供商的地址——当你的网络屏蔽或重定向这些地址时很有用。</string>
     <string name="settings_help_live_engine">ExoPlayer 打开频道快得多，也是唯一支持直播字幕的播放器。mpv 能播放 ExoPlayer 无法播放的频道，包括一些特殊音频。组合选项会在第一个播放器失败时尝试另一个。</string>
     <string name="settings_help_hw">使用电视的硬件解码器：4K 流畅、发热更少。只有在部分流卡顿或出现马赛克时才关闭，届时由软件解码器处理。</string>
@@ -1444,7 +1444,7 @@
     <string name="settings_profile_add">添加配置文件</string>
     <string name="settings_profile_add_line">拥有独立收藏、记录和设置的观众</string>
     <plurals name="settings_help_language">
-        <item quantity="other">OwnTV 所有菜单和消息使用的语言。支持 <xliff:g id="count">%1$d</xliff:g> 种语言；在你选择之前跟随电视自身的语言。</item>
+        <item quantity="other">BlankTV 所有菜单和消息使用的语言。支持 <xliff:g id="count">%1$d</xliff:g> 种语言；在你选择之前跟随电视自身的语言。</item>
     </plurals>
     <plurals name="settings_profile_count">
         <item quantity="other"><xliff:g id="count">%1$d</xliff:g> 个配置文件</item>
@@ -1479,8 +1479,8 @@
     <string name="settings_home_show_row">显示此行</string>
     <string name="settings_home_move_row">移动（▲ ▼，然后按 OK）</string>
     <string name="settings_line_remote_shortcuts_on">关闭后保留按键分配</string>
-    <string name="settings_language_system_help">OwnTV 跟随电视语言（当前为 <xliff:g id="language">%1$s</xliff:g>）。在下方选择一种语言，仅在 OwnTV 中使用。</string>
-    <string name="settings_language_pick_help">在 OwnTV 中使用 <xliff:g id="language">%1$s</xliff:g>，不受电视语言影响。</string>
+    <string name="settings_language_system_help">BlankTV 跟随电视语言（当前为 <xliff:g id="language">%1$s</xliff:g>）。在下方选择一种语言，仅在 BlankTV 中使用。</string>
+    <string name="settings_language_pick_help">在 BlankTV 中使用 <xliff:g id="language">%1$s</xliff:g>，不受电视语言影响。</string>
     <string name="settings_key_use">使用</string>
     <string name="settings_line_metadata_source">电影和剧集详情的来源</string>
     <string name="settings_line_metadata_language">来自 TMDB 的简介、类型和标题</string>
@@ -1526,7 +1526,7 @@
     <string name="settings_line_glass_bg">背景、图片效果、玻璃</string>
     <string name="settings_bg_background">背景</string>
     <string name="settings_line_bg_background">每个屏幕后面的内容</string>
-    <string name="settings_help_bg_background">Stage 显示 OwnTV 自带的柔和颜色。图片在每个屏幕后面显示你自己的图片。纯色是平整的深色填充。</string>
+    <string name="settings_help_bg_background">Stage 显示 BlankTV 自带的柔和颜色。图片在每个屏幕后面显示你自己的图片。纯色是平整的深色填充。</string>
     <string name="settings_bg_stage">Stage</string>
     <string name="settings_bg_picture">图片</string>
     <string name="settings_bg_plain">纯色</string>

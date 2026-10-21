@@ -119,8 +119,8 @@
     <string name="update_not_enough_space">Der er ikke plads nok til opdateringen. Frigør cirka <xliff:g id="size">%1$s</xliff:g>, og prøv igen.</string>
     <string name="update_damaged_download">Opdateringen blev ikke hentet helt. Tjek din forbindelse, og prøv igen.</string>
     <string name="update_install_rejected">Systemets installationsprogram afviste opdateringen: <xliff:g id="reason">%1$s</xliff:g></string>
-    <string name="update_ready">OwnTV v<xliff:g id="available">%1$s</xliff:g> er klar (du har v<xliff:g id="current">%2$s</xliff:g>).</string>
-    <string name="recovery_title">OwnTV kunne ikke åbne sin database</string>
+    <string name="update_ready">BlankTV v<xliff:g id="available">%1$s</xliff:g> er klar (du har v<xliff:g id="current">%2$s</xliff:g>).</string>
+    <string name="recovery_title">BlankTV kunne ikke åbne sin database</string>
     <string name="recovery_data_safe_full">Dine profiler, afspilningslister, favoritter og din afspilningshistorik er IKKE blevet slettet — dette er en fejl under opgradering af databasen, og dataene findes stadig på denne enhed.\n\nRapportér dette, så det kan blive rettet, og medtag meddelelsen nedenfor.</string>
     <string name="recovery_retry">Prøv igen</string>
     <string name="recovery_backup_hint">Hvis du har en sikkerhedskopifil, kan du nulstille appen og gendanne den bagefter. Nulstilling sletter alt, der er gemt på denne enhed.</string>
@@ -213,13 +213,13 @@
     <string name="settings_recording_pre_roll_description">Begynd så lang tid før det angivne starttidspunkt, så en guide der går lidt forud stadig når begyndelsen.</string>
     <string name="settings_recording_post_roll">Fortsæt efter slutningen</string>
     <string name="settings_recording_post_roll_description">Fortsæt så lang tid efter det angivne sluttidspunkt, så et program der trækker ud ikke bliver klippet af.</string>
-    <string name="settings_recording_timers_inexact">Denne enhed tillader ikke OwnTV at sætte præcise alarmer, så en optagelse kan starte et par minutter for sent. Optagelser starter tidligere for at opveje det.</string>
+    <string name="settings_recording_timers_inexact">Denne enhed tillader ikke BlankTV at sætte præcise alarmer, så en optagelse kan starte et par minutter for sent. Optagelser starter tidligere for at opveje det.</string>
     <plurals name="recording_minutes">
         <item quantity="one"><xliff:g id="count">%1$d</xliff:g> minut</item>
         <item quantity="other"><xliff:g id="count">%1$d</xliff:g> minutter</item>
     </plurals>
     <string name="recording_failed_encrypted">Denne kanal er krypteret og kan ikke optages</string>
-    <string name="recording_failed_drm">Denne kanal er DRM-beskyttet, så den kan ses, men ikke optages. Beskyttelsen kommer fra din udbyder, ikke fra OwnTV.</string>
+    <string name="recording_failed_drm">Denne kanal er DRM-beskyttet, så den kan ses, men ikke optages. Beskyttelsen kommer fra din udbyder, ikke fra BlankTV.</string>
     <string name="recording_failed_metered">Ikke optaget på mobildata</string>
     <string name="recording_card_empty_title">Intet optaget endnu</string>
     <string name="recording_card_body">Vælg et program i tv-guiden og vælg Optag, eller hold en kanal nede og planlæg et tidspunkt. Det havner her, også mens du ser noget andet.</string>
@@ -426,7 +426,7 @@
     <string name="sports_live_refresh_description">Kun mens en sportsskærm eller et resultat vises</string>
     <string name="sports_about">Om sportsdata</string>
     <string name="sports_about_summary">Resultater: ESPN · kanaler: din playliste og guide</string>
-    <string name="sports_alerts_when_closed">Advarsler, når OwnTV er lukket</string>
+    <string name="sports_alerts_when_closed">Advarsler, når BlankTV er lukket</string>
     <string name="sports_alerts_when_closed_description">Beder om tilladelse til notifikationer én gang</string>
     <string name="sports_alert_me_about">Giv besked om</string>
     <string name="sports_kind_goals">Mål og wickets</string>
@@ -437,7 +437,7 @@
     <string name="sports_live_card">Live-resultatkort</string>
     <string name="sports_live_card_offer">Tilbyd et live-resultatkort</string>
     <string name="sports_live_card_description">Opdateres hvert 30. sek. til slut; du starter det fra en kamp</string>
-    <string name="sports_alerts_footnote">Når OwnTV er lukket, kommer advarsler normalt inden for et minut. Hvis telefonen har ligget stille med slukket skærm længe, kan Android holde dem tilbage i op til ca. 15 minutter. Live-resultatkortet holdes ikke tilbage.</string>
+    <string name="sports_alerts_footnote">Når BlankTV er lukket, kommer advarsler normalt inden for et minut. Hvis telefonen har ligget stille med slukket skærm længe, kan Android holde dem tilbage i op til ca. 15 minutter. Live-resultatkortet holdes ikke tilbage.</string>
     <string name="sports_search_teams">Søg efter hold, spillere, ligaer</string>
     <string name="sports_suggested">Forslag ud fra det, du ser</string>
     <plurals name="sports_watched_matches">
@@ -446,7 +446,7 @@
     </plurals>
     <string name="sports_league_label">Liga</string>
     <string name="sports_no_playlist_title">Tilføj en playliste for at se kampe</string>
-    <string name="sports_no_playlist_body">Resultater, stillinger og advarsler virker uden. Med en playliste finder OwnTV alle kanaler, der viser kampen.</string>
+    <string name="sports_no_playlist_body">Resultater, stillinger og advarsler virker uden. Med en playliste finder BlankTV alle kanaler, der viser kampen.</string>
     <string name="sports_add_playlist">Tilføj playliste</string>
     <string name="sports_home_row">Live-sport</string>
     <string name="sports_home_row_description">Fulgte kampe, mens en er live eller snart starter</string>
@@ -456,7 +456,7 @@
     <string name="sports_sport_buttons">Sportsknapper</string>
     <string name="sports_sport_buttons_mine">Mine sportsgrene</string>
     <string name="sports_sport_buttons_all">Alle sportsgrene</string>
-    <string name="sports_sport_buttons_description">Mine sportsgrene: kun det, du har valgt. Alle sportsgrene: alle ligaer, OwnTV kender, og det tager længere at indlæse.</string>
+    <string name="sports_sport_buttons_description">Mine sportsgrene: kun det, du har valgt. Alle sportsgrene: alle ligaer, BlankTV kender, og det tager længere at indlæse.</string>
     <string name="sports_auto_rebuild">Automatisk genopbygning</string>
     <string name="sports_auto_rebuild_description">Hvor ofte resultater, kampdetaljer og tabeller hentes igen af sig selv</string>
     <plurals name="sports_auto_rebuild_hours">

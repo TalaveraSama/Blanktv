@@ -141,7 +141,7 @@
     <string name="update_not_enough_space">Ez dago biltegiratze libre nahikorik eguneraketarako. Askatu gutxi gorabehera <xliff:g id="size">%1$s</xliff:g> eta saiatu berriro.</string>
     <string name="update_damaged_download">Eguneraketa ez da guztiz deskargatu. Egiaztatu konexioa eta saiatu berriro.</string>
     <string name="update_install_rejected">Sistemaren instalatzaileak eguneraketa baztertu du: <xliff:g id="reason">%1$s</xliff:g></string>
-    <string name="update_ready">OwnTV v<xliff:g id="available">%1$s</xliff:g> prest dago (v<xliff:g id="current">%2$s</xliff:g> duzu).</string>
+    <string name="update_ready">BlankTV v<xliff:g id="available">%1$s</xliff:g> prest dago (v<xliff:g id="current">%2$s</xliff:g> duzu).</string>
     <string name="recovery_title">OwnTVk ezin izan du bere datu-basea ireki</string>
     <string name="recovery_data_safe_full">Zure profilak, erreprodukzio-zerrendak, gogokoak eta historia EZ dira ezabatu — datu-baseen bertsio-berritzeak huts egin du, eta datuak gailu honetan daude oraindik.\n\nInformatu hau konpon dadin, eta sartu beheko mezua.</string>
     <string name="recovery_retry">Saiatu berriro</string>
@@ -385,7 +385,7 @@
     <string name="sports_live_refresh_description">Kirol-pantaila edo emaitza bat ikusten den bitartean soilik</string>
     <string name="sports_about">Kirol-datuei buruz</string>
     <string name="sports_about_summary">Emaitzak: ESPN · kateak: zure zerrenda eta gida</string>
-    <string name="sports_alerts_when_closed">Alertak OwnTV itxita dagoenean</string>
+    <string name="sports_alerts_when_closed">Alertak BlankTV itxita dagoenean</string>
     <string name="sports_alerts_when_closed_description">Jakinarazpen-baimena behin eskatzen du</string>
     <string name="sports_alert_me_about">Jakinarazi</string>
     <string name="sports_kind_goals">Golak eta wicketak</string>
@@ -396,7 +396,7 @@
     <string name="sports_live_card">Zuzeneko emaitza-txartela</string>
     <string name="sports_live_card_offer">Eskaini zuzeneko emaitza-txartela</string>
     <string name="sports_live_card_description">30 s-ro eguneratzen da amaiera arte; partida batetik abiarazten duzu</string>
-    <string name="sports_alerts_footnote">OwnTV itxita dagoenean, alertak minutu batean iristen dira normalean. Telefonoa denbora luzez geldi eta pantaila itzalita egon bada, Androidek 15 minutu inguru atzera ditzake. Zuzeneko emaitza-txartela ez da atzeratzen.</string>
+    <string name="sports_alerts_footnote">BlankTV itxita dagoenean, alertak minutu batean iristen dira normalean. Telefonoa denbora luzez geldi eta pantaila itzalita egon bada, Androidek 15 minutu inguru atzera ditzake. Zuzeneko emaitza-txartela ez da atzeratzen.</string>
     <string name="sports_search_teams">Bilatu taldeak, jokalariak, ligak</string>
     <string name="sports_suggested">Ikusten duzunaren araberako iradokizunak</string>
     <plurals name="sports_watched_matches">
@@ -415,7 +415,7 @@
     <string name="sports_sport_buttons">Kirol-botoiak</string>
     <string name="sports_sport_buttons_mine">Nire kirolak</string>
     <string name="sports_sport_buttons_all">Kirol guztiak</string>
-    <string name="sports_sport_buttons_description">Nire kirolak: zuk aukeratutakoa soilik. Kirol guztiak: OwnTV-k ezagutzen dituen liga guztiak, kargatzeko denbora gehiago behar dute.</string>
+    <string name="sports_sport_buttons_description">Nire kirolak: zuk aukeratutakoa soilik. Kirol guztiak: BlankTV-k ezagutzen dituen liga guztiak, kargatzeko denbora gehiago behar dute.</string>
     <string name="sports_auto_rebuild">Berreraikitze automatikoa</string>
     <string name="sports_auto_rebuild_description">Emaitzak, partiden xehetasunak eta sailkapenak zenbatean behin berriro eskuratzen diren beren kabuz</string>
     <plurals name="sports_auto_rebuild_hours">

@@ -31,7 +31,7 @@
     <string name="settings_static">Statique</string>
     <string name="settings_dynamic">Dynamique</string>
     <string name="settings_use_proxy">Utiliser un proxy</string>
-    <string name="settings_proxy_description">Faire transiter tout le trafic et toute la lecture d’OwnTV par un proxy HTTP.</string>
+    <string name="settings_proxy_description">Faire transiter tout le trafic et toute la lecture d’BlankTV par un proxy HTTP.</string>
     <string name="settings_host">Hôte</string>
     <string name="settings_proxy_host_hint">proxy.example.com</string>
     <string name="settings_port">Port</string>
@@ -251,7 +251,7 @@
     <string name="settings_player_zoom">Zoom du lecteur</string>
     <string name="settings_app_group">Application</string>
     <string name="settings_app_startup">Démarrage de l’application</string>
-    <string name="settings_app_startup_description">Écran qu’OwnTV ouvre au démarrage</string>
+    <string name="settings_app_startup_description">Écran qu’BlankTV ouvre au démarrage</string>
     <string name="settings_check_updates">Rechercher des mises à jour</string>
     <string name="settings_check_updates_description">Obtenir la dernière version depuis GitHub Releases</string>
     <string name="settings_update_startup">Rechercher des mises à jour au démarrage</string>
@@ -552,7 +552,7 @@
     <string name="settings_guide_synced">Guide des programmes synchronisé</string>
     <string name="settings_guide_sync_failed">Échec de la synchronisation du guide des programmes</string>
     <string name="settings_restore_remote_title">Restaurer depuis un autre appareil</string>
-    <string name="settings_restore_remote_description">Sur n’importe quel appareil doté d’un navigateur sur le même Wi-Fi — téléphone, ordinateur ou autre téléviseur —, scannez le QR (ou ouvrez l’URL), saisissez ce PIN, choisissez votre fichier de sauvegarde OwnTV et envoyez-le. Vous choisissez ensuite ici ce qu’il faut restaurer.</string>
+    <string name="settings_restore_remote_description">Sur n’importe quel appareil doté d’un navigateur sur le même Wi-Fi — téléphone, ordinateur ou autre téléviseur —, scannez le QR (ou ouvrez l’URL), saisissez ce PIN, choisissez votre fichier de sauvegarde BlankTV et envoyez-le. Vous choisissez ensuite ici ce qu’il faut restaurer.</string>
     <string name="settings_try_again">Réessayer</string>
     <string name="settings_new_pin">Recommencer avec un nouveau PIN</string>
     <string name="settings_download_remote_title">Télécharger sur un autre appareil</string>
@@ -567,7 +567,7 @@
     <string name="settings_catchup_timezone_automatic">Automatique</string>
     <string name="settings_catchup_timezone_device">Appareil</string>
     <string name="settings_catchup_player_ask">Toujours demander</string>
-    <string name="settings_catchup_player_internal">Lecteur OwnTV</string>
+    <string name="settings_catchup_player_internal">Lecteur BlankTV</string>
     <string name="settings_catchup_player_external">Lecteur externe</string>
     <string name="settings_download_folder_title">Choisir le dossier de téléchargement</string>
     <string name="settings_pick_background_title">Choisir une image d’arrière-plan</string>
@@ -685,9 +685,9 @@
     <string name="settings_sources_info">Infos</string>
     <string name="settings_sources_retest">Retester</string>
     <string name="settings_sources_probe_title">Tester cette liste ?</string>
-    <string name="settings_sources_probe_warning">Beaucoup de fournisseurs n’indiquent jamais combien de chaînes vous pouvez regarder en même temps ; OwnTV le découvre donc en en ouvrant quelques-unes et en observant lesquelles tiennent. Tout ce qui est en cours de lecture s’arrêtera, et cela peut prendre jusqu’à deux minutes.</string>
+    <string name="settings_sources_probe_warning">Beaucoup de fournisseurs n’indiquent jamais combien de chaînes vous pouvez regarder en même temps ; BlankTV le découvre donc en en ouvrant quelques-unes et en observant lesquelles tiennent. Tout ce qui est en cours de lecture s’arrêtera, et cela peut prendre jusqu’à deux minutes.</string>
     <string name="settings_sources_probe_running">Recherche du nombre de chaînes autorisées par ce fournisseur… (<xliff:g id="current">%1$d</xliff:g> sur <xliff:g id="total">%2$d</xliff:g>)</string>
-    <string name="settings_sources_probe_unknown">OwnTV n’a pas pu déterminer combien de chaînes ce fournisseur autorise.</string>
+    <string name="settings_sources_probe_unknown">BlankTV n’a pas pu déterminer combien de chaînes ce fournisseur autorise.</string>
     <string name="settings_sources_probe_skip">Ignorer</string>
     <string name="settings_sources_auto_refresh">⟳ <xliff:g id="mode">%1$s</xliff:g></string>
     <string name="settings_sources_default">PAR DÉFAUT</string>
@@ -939,7 +939,7 @@
     <string name="settings_move_category_keep">Conserver aussi dans « <xliff:g id="name">%1$s</xliff:g> »</string>
     <string name="settings_move_category_action">Déplacer</string>
     <string name="settings_dns_description">Utiliser un serveur DNS personnalisé pour la résolution des noms de domaine</string>
-    <string name="settings_dns_toggle_description">Résoudre tous les noms de domaine consultés par OwnTV au moyen d’un serveur DNS personnalisé.</string>
+    <string name="settings_dns_toggle_description">Résoudre tous les noms de domaine consultés par BlankTV au moyen d’un serveur DNS personnalisé.</string>
     <string name="settings_dns_use_custom">Utiliser un DNS personnalisé</string>
     <string name="settings_dns_server_missing">Le DNS personnalisé est activé, mais aucun serveur n’est configuré. Saisissez une adresse de serveur et sélectionnez Enregistrer, ou désactivez cette option.</string>
     <string name="settings_dns_server">Serveur DNS</string>
@@ -985,7 +985,7 @@
     <string name="settings_live_preroll">Précharger les flux en direct</string>
     <string name="settings_live_preroll_description">Mettez de côté cette quantité de vidéo avant qu\'une chaîne en direct ne commence à jouer, puis à nouveau après une saccade. Il s\'agit d\'une quantité de vidéo, pas d\'un compte à rebours. Désactivé garantit le démarrage le plus rapide possible.</string>
     <string name="settings_live_tune_timeout">Abandonner une chaîne après</string>
-    <string name="settings_live_tune_timeout_description">Si une chaîne en direct n\'a affiché aucune image passé ce délai, OwnTV arrête d\'essayer et vous le dit, au lieu de laisser un écran noir pendant qu\'il passe en revue tous ses lecteurs. « Jamais » continue d\'essayer, ce qui peut prendre bien plus d\'une minute sur une chaîne que votre fournisseur a supprimée. Les attentes demandées par votre fournisseur ne sont pas comptées.</string>
+    <string name="settings_live_tune_timeout_description">Si une chaîne en direct n\'a affiché aucune image passé ce délai, BlankTV arrête d\'essayer et vous le dit, au lieu de laisser un écran noir pendant qu\'il passe en revue tous ses lecteurs. « Jamais » continue d\'essayer, ce qui peut prendre bien plus d\'une minute sur une chaîne que votre fournisseur a supprimée. Les attentes demandées par votre fournisseur ne sont pas comptées.</string>
     <string name="settings_live_preroll_per_playlist">Préchargement par liste de lecture</string>
     <string name="settings_live_preroll_per_playlist_description">Remplacez le paramètre ci-dessus pour une liste de lecture tout en gardant vos autres listes de lecture rapides.</string>
     <string name="settings_live_engine_per_playlist">Lecteur pour la TV en direct par liste de lecture</string>
@@ -1008,7 +1008,7 @@
     <string name="settings_surround_auto_description_mobile">Auto — essayez le son surround Dolby/DTS et revenez automatiquement à la stéréo si le haut-parleur, le casque ou le récepteur connecté ne le restitue pas. Recommandé.</string>
     <string name="settings_surround_stereo_description">Stéréo uniquement — toujours décoder dans l\'application et envoyer un simple son 2.0. Utilisez ceci avec les haut-parleurs du téléviseur ou une barre de son stéréo, ou si l\'audio est en retard sur l\'image.</string>
     <string name="settings_surround_stereo_description_mobile">Stéréo uniquement — toujours décoder dans l\'application et envoyer un simple son 2.0. Utilisez ceci avec le haut-parleur intégré, un casque ou une barre de son stéréo, ou si l\'audio est en retard sur l\'image.</string>
-    <string name="settings_surround_forced_description">Surround — envoyer le Dolby/DTS vers un véritable récepteur 5.1/7.1. Si le son coupe ou saccade, OwnTV revient quand même à la stéréo et vous le signale.</string>
+    <string name="settings_surround_forced_description">Surround — envoyer le Dolby/DTS vers un véritable récepteur 5.1/7.1. Si le son coupe ou saccade, BlankTV revient quand même à la stéréo et vous le signale.</string>
     <string name="settings_panel_width">Ajustement de la largeur des panneaux</string>
     <string name="settings_panel_width_description">Redimensionnez les panneaux de catégorie, de liste et d\'aperçu dans TV en direct, Films et Séries.</string>
     <string name="settings_vod_layout">Disposition des Films et Séries</string>
@@ -1059,8 +1059,8 @@
     <string name="settings_auto_frame_rate_warning_suffix">Déconseillé sur ce téléviseur : avant Android 12, la fréquence ne peut pas être modifiée en douceur.</string>
     <string name="settings_auto_frame_rate_warning_title">Déconseillé sur ce téléviseur</string>
     <string name="settings_auto_frame_rate_warning_title_mobile">Déconseillé sur cet appareil</string>
-    <string name="settings_auto_frame_rate_warning_description">Cet appareil fonctionne sous Android <xliff:g id="android_version">%1$s</xliff:g>. Avant Android 12, le téléviseur ne peut pas indiquer à OwnTV les fréquences de rafraîchissement vers lesquelles il peut basculer en douceur ; changer la fréquence peut donc faire passer l\'écran au noir pendant une seconde ou deux — parfois plus d\'une fois au cours d\'un programme.\n\nNous vous recommandons de laisser la fréquence d\'images automatique désactivée ici. Si votre téléviseur bascule proprement, activez-la et voyez : vous pouvez la désactiver à nouveau à tout moment.</string>
-    <string name="settings_auto_frame_rate_warning_description_mobile">Cet appareil fonctionne sous Android <xliff:g id="android_version">%1$s</xliff:g>. Avant Android 12, l\'appareil ne peut pas indiquer à OwnTV les fréquences de rafraîchissement vers lesquelles il peut basculer en douceur ; changer la fréquence peut donc faire passer l\'écran au noir pendant une seconde ou deux — parfois plus d\'une fois au cours d\'un programme.\n\nNous vous recommandons de laisser la fréquence d\'images automatique désactivée ici. Si votre écran bascule proprement, activez-la et voyez : vous pouvez la désactiver à nouveau à tout moment.</string>
+    <string name="settings_auto_frame_rate_warning_description">Cet appareil fonctionne sous Android <xliff:g id="android_version">%1$s</xliff:g>. Avant Android 12, le téléviseur ne peut pas indiquer à BlankTV les fréquences de rafraîchissement vers lesquelles il peut basculer en douceur ; changer la fréquence peut donc faire passer l\'écran au noir pendant une seconde ou deux — parfois plus d\'une fois au cours d\'un programme.\n\nNous vous recommandons de laisser la fréquence d\'images automatique désactivée ici. Si votre téléviseur bascule proprement, activez-la et voyez : vous pouvez la désactiver à nouveau à tout moment.</string>
+    <string name="settings_auto_frame_rate_warning_description_mobile">Cet appareil fonctionne sous Android <xliff:g id="android_version">%1$s</xliff:g>. Avant Android 12, l\'appareil ne peut pas indiquer à BlankTV les fréquences de rafraîchissement vers lesquelles il peut basculer en douceur ; changer la fréquence peut donc faire passer l\'écran au noir pendant une seconde ou deux — parfois plus d\'une fois au cours d\'un programme.\n\nNous vous recommandons de laisser la fréquence d\'images automatique désactivée ici. Si votre écran bascule proprement, activez-la et voyez : vous pouvez la désactiver à nouveau à tout moment.</string>
     <string name="settings_auto_frame_rate_keep_off">Ne pas activer</string>
     <string name="settings_auto_frame_rate_turn_on_anyway">Activer quand même</string>
     <string name="settings_language_request_workflow">Vous voulez ajouter une langue qui n\'est pas listée ? Faites d\'abord une demande de langue. Un mainteneur l\'enregistrera et préparera les fichiers de traduction de base ; une fois qu\'elle apparaîtra sur Hosted Weblate, vous pourrez commencer à contribuer.</string>
@@ -1187,7 +1187,7 @@
     <string name="local_sync_received_items">Éléments reçus: <xliff:g id="count">%1$d</xliff:g></string>
     <string name="local_sync_sent">Vos données ont été envoyées</string>
     <string name="local_sync_failed">Échec de la synchronisation</string>
-    <string name="local_sync_error_unreachable">Impossible de joindre cet appareil. Sur celui-ci, ouvrez OwnTV → Paramètres → Données → Synchronisation locale et activez le mode synchronisation. Les deux appareils doivent être sur le même Wi-Fi.</string>
+    <string name="local_sync_error_unreachable">Impossible de joindre cet appareil. Sur celui-ci, ouvrez BlankTV → Paramètres → Données → Synchronisation locale et activez le mode synchronisation. Les deux appareils doivent être sur le même Wi-Fi.</string>
     <string name="local_sync_error_unauthorized">L\'autre appareil a refusé. Le code PIN est peut-être erroné, ou il a oublié cet appareil.</string>
     <string name="local_sync_error_bad_payload">Impossible de lire ce qui est arrivé. Si vous avez utilisé un mot de passe, vérifiez qu\'il est identique sur les deux appareils.</string>
     <string name="local_sync_error_unknown">Une erreur s\'est produite. Réessayez.</string>
@@ -1281,8 +1281,8 @@
     <string name="settings_multiview_keep_two">Garder 2</string>
     <string name="settings_multiview_use_anyway">Utiliser quand même</string>
     <string name="settings_app_icon">Icône de l\'application</string>
-    <string name="settings_app_icon_summary">Couleur de l\'icône et du logo OwnTV</string>
-    <string name="settings_app_icon_sheet_mobile">L’apparence d’OwnTV sur votre écran d’accueil. L’app redémarre une fois.</string>
+    <string name="settings_app_icon_summary">Couleur de l\'icône et du logo BlankTV</string>
+    <string name="settings_app_icon_sheet_mobile">L’apparence d’BlankTV sur votre écran d’accueil. L’app redémarre une fois.</string>
     <string name="settings_brand_accent">Logo couleur d’accent</string>
     <string name="app_icon_petrol">Pétrole</string>
     <string name="app_icon_sunflower">Tournesol</string>
@@ -1293,8 +1293,8 @@
     <string name="app_icon_olive">Olive</string>
     <string name="app_icon_olive_cream">Olive sur crème</string>
     <string name="app_icon_pixel">Pixel</string>
-    <string name="app_icon_restart_title">Redémarrer OwnTV ?</string>
-    <string name="app_icon_restart_message">Vous avez choisi une nouvelle icône et un nouveau logo. Ils s\'appliqueront après le redémarrage d\'OwnTV.</string>
+    <string name="app_icon_restart_title">Redémarrer BlankTV ?</string>
+    <string name="app_icon_restart_message">Vous avez choisi une nouvelle icône et un nouveau logo. Ils s\'appliqueront après le redémarrage d\'BlankTV.</string>
     <string name="app_icon_restart_now">Redémarrer maintenant</string>
     <string name="settings_navigation">Navigation</string>
     <string name="settings_navigation_description">Comportement du menu de gauche</string>
@@ -1459,10 +1459,10 @@
     <string name="settings_help_epg_sources">Ajoutez un flux de guide XMLTV par son lien, actualisez-le ou supprimez-le. Les flux remplissent le guide TV et les lignes de programme de TV en direct.</string>
     <string name="settings_help_guide_days">Combien de jours de programmes le guide conserve à l’avance. Moins de jours rendent les mises à jour plus rapides et la base de données plus petite.</string>
     <string name="settings_help_catchup_timezone">Le replay lit les programmes de l’archive de votre fournisseur. Automatique utilise le fuseau horaire indiqué par votre fournisseur, ou l’horloge du téléviseur s’il n’en indique aucun ; choisissez un décalage UTC fixe si le replay démarre encore au mauvais moment. C’est aussi ici que vous choisissez le lecteur du replay.</string>
-    <string name="settings_help_theme">OwnTV est conçu pour le thème sombre. Système suit le réglage du téléviseur s’il en a un ; Clair convient à une pièce lumineuse.</string>
+    <string name="settings_help_theme">BlankTV est conçu pour le thème sombre. Système suit le réglage du téléviseur s’il en a un ; Clair convient à une pièce lumineuse.</string>
     <string name="settings_help_accent">Teinte les boutons, le halo du focus, les barres de progression et les surbrillances partout. Choisissez une présélection, ou appuyez sur OK pour la palette et n’importe quel code hexadécimal.</string>
     <string name="settings_help_focus">L’anneau autour de l’élément sélectionné. Choisissez sa couleur et son épaisseur pour bien le suivre depuis le canapé.</string>
-    <string name="settings_help_fonts">La police utilisée dans tout OwnTV et la taille du texte. Les fenêtres utilisent la même police.</string>
+    <string name="settings_help_fonts">La police utilisée dans tout BlankTV et la taille du texte. Les fenêtres utilisent la même police.</string>
     <string name="settings_help_popup_size">Agrandit ou réduit les fenêtres, menus et dialogues dans leur ensemble. Utile quand ils semblent à l’étroit ou couvrent trop l’écran.</string>
     <string name="settings_help_zoom">Met tout l’écran à l’échelle. Plus grand se lit mieux de loin ; plus petit affiche davantage. Sous 85 %%, les boîtiers à faible mémoire peuvent en manquer.</string>
     <string name="settings_help_animations">Activées, les volets, menus et le focus bougent en douceur. Désactivées, chaque changement est instantané.</string>
@@ -1472,11 +1472,11 @@
     <string name="settings_help_vod_layout">Cinéma affiche l’image du titre sélectionné derrière une grille d’affiches. Séparé montre catégories, titres et détails côte à côte.</string>
     <string name="settings_help_home">Choisissez les rangées affichées sur l’accueil, leur ordre et l’apparence de la rangée Tendances du moment.</string>
     <string name="settings_help_customize">Masquez les catégories et éléments que vous ne regardez jamais, donnez vos propres noms aux catégories et classez-les à votre façon. Ce qui est masqué revient ici, jamais perdu.</string>
-    <string name="settings_help_app_icon">L’icône d’OwnTV sur l’écran d’accueil du téléviseur. Le lanceur peut mettre un instant à afficher le changement.</string>
-    <string name="settings_help_brand_accent">Le logo OwnTV du menu, de « À propos » et de la configuration affiche son triangle de lecture dans votre couleur d’accent. L’icône de l’écran d’accueil garde ses propres couleurs.</string>
-    <string name="settings_help_startup">Ce qu’OwnTV affiche au démarrage : l’accueil, la dernière chaîne regardée, vos favoris ou une chaîne de votre choix.</string>
-    <string name="settings_help_check_updates">Cherche maintenant sur GitHub une version plus récente d’OwnTV et propose de l’installer. Vos playlists, favoris et réglages restent tels quels.</string>
-    <string name="settings_help_update_startup">Cherche une nouvelle version à chaque démarrage d’OwnTV et vous prévient s’il y en a une. Rien n’est installé sans votre accord.</string>
+    <string name="settings_help_app_icon">L’icône d’BlankTV sur l’écran d’accueil du téléviseur. Le lanceur peut mettre un instant à afficher le changement.</string>
+    <string name="settings_help_brand_accent">Le logo BlankTV du menu, de « À propos » et de la configuration affiche son triangle de lecture dans votre couleur d’accent. L’icône de l’écran d’accueil garde ses propres couleurs.</string>
+    <string name="settings_help_startup">Ce qu’BlankTV affiche au démarrage : l’accueil, la dernière chaîne regardée, vos favoris ou une chaîne de votre choix.</string>
+    <string name="settings_help_check_updates">Cherche maintenant sur GitHub une version plus récente d’BlankTV et propose de l’installer. Vos playlists, favoris et réglages restent tels quels.</string>
+    <string name="settings_help_update_startup">Cherche une nouvelle version à chaque démarrage d’BlankTV et vous prévient s’il y en a une. Rien n’est installé sans votre accord.</string>
     <string name="settings_help_dns">Résout les adresses de votre fournisseur avec un serveur DNS de votre choix au lieu de celui de votre réseau — utile quand votre réseau les bloque ou les redirige.</string>
     <string name="settings_help_live_engine">ExoPlayer ouvre les chaînes bien plus vite et est le seul à gérer les sous-titres en direct. mpv lit les chaînes qu’ExoPlayer ne peut pas lire, dont certains sons inhabituels. Les options combinées essaient l’autre lecteur quand le premier échoue.</string>
     <string name="settings_help_hw">Utilise le décodeur matériel du téléviseur : 4K fluide et moins de chaleur. Désactivez-le seulement si des flux saccadent ou affichent des blocs ; le décodeur logiciel prend alors le relais.</string>
@@ -1500,9 +1500,9 @@
     <string name="settings_profile_add">Ajouter un profil</string>
     <string name="settings_profile_add_line">Un spectateur avec ses propres favoris, historique et réglages</string>
     <plurals name="settings_help_language">
-        <item quantity="one">La langue de tous les menus et messages d’OwnTV. <xliff:g id="count">%1$d</xliff:g> langue ; suit la langue du téléviseur tant que vous n’en choisissez pas.</item>
-        <item quantity="many">La langue de tous les menus et messages d’OwnTV. <xliff:g id="count">%1$d</xliff:g> langues ; suit la langue du téléviseur tant que vous n’en choisissez pas.</item>
-        <item quantity="other">La langue de tous les menus et messages d’OwnTV. <xliff:g id="count">%1$d</xliff:g> langues ; suit la langue du téléviseur tant que vous n’en choisissez pas.</item>
+        <item quantity="one">La langue de tous les menus et messages d’BlankTV. <xliff:g id="count">%1$d</xliff:g> langue ; suit la langue du téléviseur tant que vous n’en choisissez pas.</item>
+        <item quantity="many">La langue de tous les menus et messages d’BlankTV. <xliff:g id="count">%1$d</xliff:g> langues ; suit la langue du téléviseur tant que vous n’en choisissez pas.</item>
+        <item quantity="other">La langue de tous les menus et messages d’BlankTV. <xliff:g id="count">%1$d</xliff:g> langues ; suit la langue du téléviseur tant que vous n’en choisissez pas.</item>
     </plurals>
     <plurals name="settings_profile_count">
         <item quantity="one"><xliff:g id="count">%1$d</xliff:g> profil</item>
@@ -1541,8 +1541,8 @@
     <string name="settings_home_show_row">Afficher cette rangée</string>
     <string name="settings_home_move_row">Déplacer (▲ ▼, puis OK)</string>
     <string name="settings_line_remote_shortcuts_on">Désactivé conserve vos attributions</string>
-    <string name="settings_language_system_help">OwnTV suit la langue du téléviseur (actuellement <xliff:g id="language">%1$s</xliff:g>). Choisissez-en une ci-dessous pour l’utiliser uniquement dans OwnTV.</string>
-    <string name="settings_language_pick_help">Utiliser <xliff:g id="language">%1$s</xliff:g> dans OwnTV, quelle que soit la langue du téléviseur.</string>
+    <string name="settings_language_system_help">BlankTV suit la langue du téléviseur (actuellement <xliff:g id="language">%1$s</xliff:g>). Choisissez-en une ci-dessous pour l’utiliser uniquement dans BlankTV.</string>
+    <string name="settings_language_pick_help">Utiliser <xliff:g id="language">%1$s</xliff:g> dans BlankTV, quelle que soit la langue du téléviseur.</string>
     <string name="settings_key_use">Utiliser</string>
     <string name="settings_line_metadata_source">D’où viennent les détails des films et séries</string>
     <string name="settings_line_metadata_language">Résumés, genres et titres de TMDB</string>
@@ -1594,7 +1594,7 @@
     <string name="settings_line_glass_bg">Arrière-plan, rendu de l’image, verre</string>
     <string name="settings_bg_background">Arrière-plan</string>
     <string name="settings_line_bg_background">Ce qui se trouve derrière chaque écran</string>
-    <string name="settings_help_bg_background">Stage affiche les couleurs douces d’OwnTV. Image affiche une image à vous derrière chaque écran. Uni est un fond sombre et plat.</string>
+    <string name="settings_help_bg_background">Stage affiche les couleurs douces d’BlankTV. Image affiche une image à vous derrière chaque écran. Uni est un fond sombre et plat.</string>
     <string name="settings_bg_stage">Stage</string>
     <string name="settings_bg_picture">Image</string>
     <string name="settings_bg_plain">Uni</string>

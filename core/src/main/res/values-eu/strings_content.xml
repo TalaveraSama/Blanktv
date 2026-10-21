@@ -30,7 +30,7 @@
     <string name="content_genre_scifi">Zientzia fikzioa</string>
     <string name="content_genre_series">Telesailak</string>
     <string name="content_genre_sport">Kirola</string>
-    <string name="content_exit_owntv">OwnTV itxi?</string>
+    <string name="content_exit_owntv">BlankTV itxi?</string>
     <string name="content_exit_confirmation">Ziur aplikazioa itxi nahi duzula?</string>
     <string name="content_restore_incomplete_title">Leheneratze batek ez du amaitu</string>
     <string name="content_restore_incomplete_message">Aplikazioa itxi egin da <xliff:g id="description">%1$s</xliff:g> leheneratzen ari zela, beraz baliteke zati bat falta izatea. Ez da ezer ezabatu — exekutatu berriro leheneratze bera Ezarpenak → Babeskopia eta leheneratzea atalean, gainerakoa osatzeko.</string>
@@ -213,7 +213,7 @@
     <string name="content_epg_favourite">Gogokoa</string>
     <string name="content_epg_unfavourite">Kendu gogokoetatik</string>
     <string name="content_epg_player_choice_description">Ezarri aukera iraunkor bat Ezarpenak › Berrikusi atalean.</string>
-    <string name="content_epg_own_player">OwnTV erreproduzigailua</string>
+    <string name="content_epg_own_player">BlankTV erreproduzigailua</string>
     <string name="content_epg_external_player">Kanpoko erreproduzigailua</string>
     <string name="content_epg_time_offset">EPGaren ordu-desplazamendua</string>
     <string name="content_epg_shift_minutes"><xliff:g id="sign">%1$s</xliff:g><xliff:g id="minutes">%2$s</xliff:g>m</string>

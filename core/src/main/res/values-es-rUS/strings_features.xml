@@ -124,8 +124,8 @@
     <string name="update_not_enough_space">No hay espacio suficiente para la actualización. Libera unos <xliff:g id="size">%1$s</xliff:g> e inténtalo de nuevo.</string>
     <string name="update_damaged_download">La actualización no se descargó por completo. Revisa tu conexión e inténtalo de nuevo.</string>
     <string name="update_install_rejected">El instalador del sistema rechazó la actualización: <xliff:g id="reason">%1$s</xliff:g></string>
-    <string name="update_ready">OwnTV v<xliff:g id="available">%1$s</xliff:g> está lista (tienes la v<xliff:g id="current">%2$s</xliff:g>).</string>
-    <string name="recovery_title">OwnTV no pudo abrir su base de datos</string>
+    <string name="update_ready">BlankTV v<xliff:g id="available">%1$s</xliff:g> está lista (tienes la v<xliff:g id="current">%2$s</xliff:g>).</string>
+    <string name="recovery_title">BlankTV no pudo abrir su base de datos</string>
     <string name="recovery_data_safe_full">Tus perfiles, listas de reproducción, favoritos y el historial NO se han eliminado — se produjo un error al actualizar la base de datos y los datos siguen en este dispositivo.\n\nInforma sobre este problema para que pueda corregirse e incluye el mensaje de abajo.</string>
     <string name="recovery_retry">Intentar de nuevo</string>
     <string name="recovery_backup_hint">Si tienes un archivo de copia de seguridad, puedes restablecer la aplicación y restaurarlo después. Al restablecer, se elimina todo lo almacenado en este dispositivo.</string>
@@ -222,14 +222,14 @@
     <string name="settings_recording_pre_roll_description">Empezar este tiempo antes de la hora indicada, para que una guía algo adelantada no se pierda el principio.</string>
     <string name="settings_recording_post_roll">Seguir tras el final</string>
     <string name="settings_recording_post_roll_description">Seguir este tiempo después de la hora de fin indicada, para que un programa que se alargue no se corte.</string>
-    <string name="settings_recording_timers_inexact">Este dispositivo no permite que OwnTV programe alarmas exactas, así que una grabación puede empezar unos minutos tarde. Las grabaciones empiezan antes para compensarlo.</string>
+    <string name="settings_recording_timers_inexact">Este dispositivo no permite que BlankTV programe alarmas exactas, así que una grabación puede empezar unos minutos tarde. Las grabaciones empiezan antes para compensarlo.</string>
     <plurals name="recording_minutes">
         <item quantity="one"><xliff:g id="count">%1$d</xliff:g> minuto</item>
         <item quantity="many"><xliff:g id="count">%1$d</xliff:g> minutos</item>
         <item quantity="other"><xliff:g id="count">%1$d</xliff:g> minutos</item>
     </plurals>
     <string name="recording_failed_encrypted">Este canal está cifrado y no se puede grabar</string>
-    <string name="recording_failed_drm">Este canal está protegido con DRM, por lo que se puede ver pero no grabar. La protección la aplica tu proveedor, no OwnTV.</string>
+    <string name="recording_failed_drm">Este canal está protegido con DRM, por lo que se puede ver pero no grabar. La protección la aplica tu proveedor, no BlankTV.</string>
     <string name="recording_failed_metered">No se grabó con datos móviles</string>
     <string name="recording_card_empty_title">Aún no hay grabaciones</string>
     <string name="recording_card_body">Elige un programa en la guía de TV y presiona Grabar, o mantén presionado un canal y programa una hora. Aparece aquí, incluso mientras ves otra cosa.</string>
@@ -446,7 +446,7 @@
     <string name="sports_live_refresh_description">Solo mientras se ve una pantalla de deportes o un marcador</string>
     <string name="sports_about">Acerca de los datos deportivos</string>
     <string name="sports_about_summary">Marcadores: ESPN · canales: tu lista y tu guía</string>
-    <string name="sports_alerts_when_closed">Alertas con OwnTV cerrado</string>
+    <string name="sports_alerts_when_closed">Alertas con BlankTV cerrado</string>
     <string name="sports_alerts_when_closed_description">Pide permiso de notificaciones una vez</string>
     <string name="sports_alert_me_about">Avisarme sobre</string>
     <string name="sports_kind_goals">Goles y wickets</string>
@@ -457,7 +457,7 @@
     <string name="sports_live_card">Tarjeta de marcador en vivo</string>
     <string name="sports_live_card_offer">Ofrecer tarjeta de marcador en vivo</string>
     <string name="sports_live_card_description">Se actualiza cada 30 s hasta el final; lo inicias desde un partido</string>
-    <string name="sports_alerts_footnote">Con OwnTV cerrado, las alertas suelen llegar en menos de un minuto. Si el teléfono pasa mucho tiempo quieto con la pantalla apagada, Android puede retenerlas hasta unos 15 minutos. La tarjeta de marcador en vivo no se retiene.</string>
+    <string name="sports_alerts_footnote">Con BlankTV cerrado, las alertas suelen llegar en menos de un minuto. Si el teléfono pasa mucho tiempo quieto con la pantalla apagada, Android puede retenerlas hasta unos 15 minutos. La tarjeta de marcador en vivo no se retiene.</string>
     <string name="sports_search_teams">Buscar equipos, jugadores, ligas</string>
     <string name="sports_suggested">Sugerencias según lo que ves</string>
     <plurals name="sports_watched_matches">
@@ -467,7 +467,7 @@
     </plurals>
     <string name="sports_league_label">Liga</string>
     <string name="sports_no_playlist_title">Agrega una lista para ver los partidos</string>
-    <string name="sports_no_playlist_body">Los marcadores, tablas y alertas funcionan sin ella. Con una lista, OwnTV encuentra todos los canales que transmiten este partido.</string>
+    <string name="sports_no_playlist_body">Los marcadores, tablas y alertas funcionan sin ella. Con una lista, BlankTV encuentra todos los canales que transmiten este partido.</string>
     <string name="sports_add_playlist">Agregar lista</string>
     <string name="sports_home_row">Deportes en vivo</string>
     <string name="sports_home_row_description">Partidos seguidos, mientras uno está en vivo o por empezar</string>
@@ -477,7 +477,7 @@
     <string name="sports_sport_buttons">Botones de deportes</string>
     <string name="sports_sport_buttons_mine">Mis deportes</string>
     <string name="sports_sport_buttons_all">Todos los deportes</string>
-    <string name="sports_sport_buttons_description">Mis deportes: solo lo que elegiste. Todos los deportes: todas las ligas que OwnTV conoce, lo que tarda más en cargar.</string>
+    <string name="sports_sport_buttons_description">Mis deportes: solo lo que elegiste. Todos los deportes: todas las ligas que BlankTV conoce, lo que tarda más en cargar.</string>
     <string name="sports_auto_rebuild">Reconstrucción automática</string>
     <string name="sports_auto_rebuild_description">Cada cuánto se vuelven a obtener solos los marcadores, los detalles de los partidos y las tablas</string>
     <plurals name="sports_auto_rebuild_hours">

@@ -119,8 +119,8 @@
     <string name="update_not_enough_space">আপডেটের জন্য যথেষ্ট স্টোরেজ নেই। প্রায় <xliff:g id="size">%1$s</xliff:g> খালি করে আবার চেষ্টা করুন।</string>
     <string name="update_damaged_download">আপডেটটি সম্পূর্ণ ডাউনলোড হয়নি। আপনার সংযোগ পরীক্ষা করে আবার চেষ্টা করুন।</string>
     <string name="update_install_rejected">সিস্টেম ইনস্টলার আপডেটটি প্রত্যাখ্যান করেছে: <xliff:g id="reason">%1$s</xliff:g></string>
-    <string name="update_ready">OwnTV v<xliff:g id="available">%1$s</xliff:g> প্রস্তুত (আপনার কাছে v<xliff:g id="current">%2$s</xliff:g> আছে)।</string>
-    <string name="recovery_title">OwnTV এর ডেটাবেস খুলতে পারেনি</string>
+    <string name="update_ready">BlankTV v<xliff:g id="available">%1$s</xliff:g> প্রস্তুত (আপনার কাছে v<xliff:g id="current">%2$s</xliff:g> আছে)।</string>
+    <string name="recovery_title">BlankTV এর ডেটাবেস খুলতে পারেনি</string>
     <string name="recovery_data_safe_full">আপনার প্রোফাইলগুলো, প্লেলিস্টগুলো, পছন্দেরগুলো ও ইতিহাস মোটেও মোছা হয়নি — এটি ডেটাবেস আপগ্রেড ব্যর্থ হওয়ার ঘটনা, এবং ডেটা এখনও এই ডিভাইসেই রয়েছে।\n\nঅনুগ্রহ করে সমস্যাটি জানান, যাতে এটি ঠিক করা যায়, এবং নিচের বার্তাটি সঙ্গে দিন।</string>
     <string name="recovery_retry">আবার চেষ্টা করুন</string>
     <string name="recovery_backup_hint">আপনার কাছে ব্যাকআপ ফাইল থাকলে অ্যাপটি রিসেট করে পরে সেটি পুনরুদ্ধার করতে পারেন। রিসেট করলে এই ডিভাইসে সংরক্ষিত সবকিছু মুছে যাবে।</string>
@@ -213,13 +213,13 @@
     <string name="settings_recording_pre_roll_description">উল্লিখিত শুরুর সময়ের এত আগে শুরু করুন, যাতে সামান্য এগিয়ে থাকা গাইডেও শুরুটা বাদ না পড়ে।</string>
     <string name="settings_recording_post_roll">শেষের পরেও চালিয়ে যান</string>
     <string name="settings_recording_post_roll_description">উল্লিখিত শেষ সময়ের পরে এত সময় চালিয়ে যান, যাতে দীর্ঘ হয়ে যাওয়া অনুষ্ঠান কেটে না যায়।</string>
-    <string name="settings_recording_timers_inexact">এই ডিভাইস OwnTV-কে নির্ভুল অ্যালার্ম সেট করতে দেয় না, তাই রেকর্ডিং কয়েক মিনিট দেরিতে শুরু হতে পারে। তা পুষিয়ে নিতে রেকর্ডিং আগেই শুরু হয়।</string>
+    <string name="settings_recording_timers_inexact">এই ডিভাইস BlankTV-কে নির্ভুল অ্যালার্ম সেট করতে দেয় না, তাই রেকর্ডিং কয়েক মিনিট দেরিতে শুরু হতে পারে। তা পুষিয়ে নিতে রেকর্ডিং আগেই শুরু হয়।</string>
     <plurals name="recording_minutes">
         <item quantity="one"><xliff:g id="count">%1$d</xliff:g> মিনিট</item>
         <item quantity="other"><xliff:g id="count">%1$d</xliff:g> মিনিট</item>
     </plurals>
     <string name="recording_failed_encrypted">এই চ্যানেলটি এনক্রিপ্ট করা, তাই রেকর্ড করা যাবে না</string>
-    <string name="recording_failed_drm">এই চ্যানেলটি DRM দ্বারা সুরক্ষিত, তাই এটি দেখা যায় কিন্তু রেকর্ড করা যায় না। এই সুরক্ষা আপনার প্রোভাইডারের দেওয়া, OwnTV-র নয়।</string>
+    <string name="recording_failed_drm">এই চ্যানেলটি DRM দ্বারা সুরক্ষিত, তাই এটি দেখা যায় কিন্তু রেকর্ড করা যায় না। এই সুরক্ষা আপনার প্রোভাইডারের দেওয়া, BlankTV-র নয়।</string>
     <string name="recording_failed_metered">মোবাইল ডেটায় রেকর্ড করা হয়নি</string>
     <string name="recording_card_empty_title">এখনও কিছু রেকর্ড করা হয়নি</string>
     <string name="recording_card_body">টিভি গাইডে একটি অনুষ্ঠান বেছে রেকর্ড চাপুন, অথবা কোনো চ্যানেলে দীর্ঘক্ষণ চেপে সময় নির্ধারণ করুন। আপনি অন্য কিছু দেখার সময়ও এটি এখানে চলে আসে।</string>
@@ -426,7 +426,7 @@
     <string name="sports_live_refresh_description">শুধু খেলার স্ক্রিন বা স্কোর দেখানোর সময়</string>
     <string name="sports_about">খেলার ডেটা সম্পর্কে</string>
     <string name="sports_about_summary">স্কোর: ESPN · চ্যানেল: আপনার প্লেলিস্ট ও গাইড</string>
-    <string name="sports_alerts_when_closed">OwnTV বন্ধ থাকলে সতর্কতা</string>
+    <string name="sports_alerts_when_closed">BlankTV বন্ধ থাকলে সতর্কতা</string>
     <string name="sports_alerts_when_closed_description">একবার বিজ্ঞপ্তির অনুমতি চায়</string>
     <string name="sports_alert_me_about">আমাকে জানান</string>
     <string name="sports_kind_goals">গোল ও উইকেট</string>
@@ -437,7 +437,7 @@
     <string name="sports_live_card">লাইভ স্কোর কার্ড</string>
     <string name="sports_live_card_offer">লাইভ স্কোর কার্ড দিন</string>
     <string name="sports_live_card_description">খেলা শেষ পর্যন্ত প্রতি 30 সে. আপডেট; কোনো ম্যাচ থেকে চালু করুন</string>
-    <string name="sports_alerts_footnote">OwnTV বন্ধ থাকলে সতর্কতা সাধারণত এক মিনিটের মধ্যে আসে। ফোন অনেকক্ষণ স্ক্রিন বন্ধ করে স্থির পড়ে থাকলে Android এগুলো প্রায় 15 মিনিট পর্যন্ত আটকে রাখতে পারে। লাইভ স্কোর কার্ড আটকায় না।</string>
+    <string name="sports_alerts_footnote">BlankTV বন্ধ থাকলে সতর্কতা সাধারণত এক মিনিটের মধ্যে আসে। ফোন অনেকক্ষণ স্ক্রিন বন্ধ করে স্থির পড়ে থাকলে Android এগুলো প্রায় 15 মিনিট পর্যন্ত আটকে রাখতে পারে। লাইভ স্কোর কার্ড আটকায় না।</string>
     <string name="sports_search_teams">দল, খেলোয়াড়, লিগ খুঁজুন</string>
     <string name="sports_suggested">আপনি যা দেখেন তা থেকে পরামর্শ</string>
     <plurals name="sports_watched_matches">
@@ -446,7 +446,7 @@
     </plurals>
     <string name="sports_league_label">লিগ</string>
     <string name="sports_no_playlist_title">ম্যাচ দেখতে একটি প্লেলিস্ট যোগ করুন</string>
-    <string name="sports_no_playlist_body">স্কোর, টেবিল ও সতর্কতা এটি ছাড়াও চলে। প্লেলিস্ট থাকলে OwnTV এই ম্যাচ দেখানো প্রতিটি চ্যানেল খুঁজে দেয়।</string>
+    <string name="sports_no_playlist_body">স্কোর, টেবিল ও সতর্কতা এটি ছাড়াও চলে। প্লেলিস্ট থাকলে BlankTV এই ম্যাচ দেখানো প্রতিটি চ্যানেল খুঁজে দেয়।</string>
     <string name="sports_add_playlist">প্লেলিস্ট যোগ করুন</string>
     <string name="sports_home_row">লাইভ খেলা</string>
     <string name="sports_home_row_description">ফলো করা ম্যাচ, যখন কোনোটি লাইভ বা শুরু হতে চলেছে</string>
@@ -456,7 +456,7 @@
     <string name="sports_sport_buttons">খেলার বোতাম</string>
     <string name="sports_sport_buttons_mine">আমার খেলা</string>
     <string name="sports_sport_buttons_all">সব খেলা</string>
-    <string name="sports_sport_buttons_description">আমার খেলা: শুধু যা বেছে নিয়েছেন। সব খেলা: OwnTV-র জানা প্রতিটি লিগ, লোড হতে বেশি সময় লাগে।</string>
+    <string name="sports_sport_buttons_description">আমার খেলা: শুধু যা বেছে নিয়েছেন। সব খেলা: BlankTV-র জানা প্রতিটি লিগ, লোড হতে বেশি সময় লাগে।</string>
     <string name="sports_auto_rebuild">স্বয়ংক্রিয় পুনর্নির্মাণ</string>
     <string name="sports_auto_rebuild_description">স্কোর, ম্যাচের বিস্তারিত ও টেবিল কতবার নিজে থেকে আবার আনা হবে</string>
     <plurals name="sports_auto_rebuild_hours">

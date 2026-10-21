@@ -119,8 +119,8 @@
     <string name="update_not_enough_space">Onvoldoende vrije opslag voor de update. Maak ongeveer <xliff:g id="size">%1$s</xliff:g> vrij en probeer het opnieuw.</string>
     <string name="update_damaged_download">De update is niet volledig gedownload. Controleer je verbinding en probeer het opnieuw.</string>
     <string name="update_install_rejected">Het installatieprogramma van het systeem heeft de update geweigerd: <xliff:g id="reason">%1$s</xliff:g></string>
-    <string name="update_ready">OwnTV v<xliff:g id="available">%1$s</xliff:g> staat klaar (je hebt v<xliff:g id="current">%2$s</xliff:g>).</string>
-    <string name="recovery_title">OwnTV kon de database niet openen</string>
+    <string name="update_ready">BlankTV v<xliff:g id="available">%1$s</xliff:g> staat klaar (je hebt v<xliff:g id="current">%2$s</xliff:g>).</string>
+    <string name="recovery_title">BlankTV kon de database niet openen</string>
     <string name="recovery_data_safe_full">Je profielen, afspeellijsten, favorieten en kijkgeschiedenis zijn NIET verwijderd — dit is een mislukte database-upgrade en de gegevens staan nog steeds op dit apparaat.\n\nMeld dit zodat het kan worden opgelost en voeg het onderstaande bericht toe.</string>
     <string name="recovery_retry">Opnieuw proberen</string>
     <string name="recovery_backup_hint">Als je een back-upbestand hebt, kun je de app resetten en de back-up daarna herstellen. Bij het resetten wordt alles verwijderd wat op dit apparaat is opgeslagen.</string>
@@ -213,13 +213,13 @@
     <string name="settings_recording_pre_roll_description">Begin deze tijd vóór de vermelde starttijd, zodat een gids die iets voorloopt het begin toch meeneemt.</string>
     <string name="settings_recording_post_roll">Doorgaan na het einde</string>
     <string name="settings_recording_post_roll_description">Ga deze tijd door na de vermelde eindtijd, zodat een programma dat uitloopt niet wordt afgekapt.</string>
-    <string name="settings_recording_timers_inexact">Dit apparaat staat OwnTV geen exacte wekkers toe, dus een opname kan een paar minuten later beginnen. Opnames starten eerder om dat te compenseren.</string>
+    <string name="settings_recording_timers_inexact">Dit apparaat staat BlankTV geen exacte wekkers toe, dus een opname kan een paar minuten later beginnen. Opnames starten eerder om dat te compenseren.</string>
     <plurals name="recording_minutes">
         <item quantity="one"><xliff:g id="count">%1$d</xliff:g> minuut</item>
         <item quantity="other"><xliff:g id="count">%1$d</xliff:g> minuten</item>
     </plurals>
     <string name="recording_failed_encrypted">Dit kanaal is versleuteld en kan niet worden opgenomen</string>
-    <string name="recording_failed_drm">Dit kanaal is DRM-beveiligd en kan daarom wel worden bekeken, maar niet opgenomen. De beveiliging komt van je provider, niet van OwnTV.</string>
+    <string name="recording_failed_drm">Dit kanaal is DRM-beveiligd en kan daarom wel worden bekeken, maar niet opgenomen. De beveiliging komt van je provider, niet van BlankTV.</string>
     <string name="recording_failed_metered">Niet opgenomen via mobiele data</string>
     <string name="recording_card_empty_title">Nog niets opgenomen</string>
     <string name="recording_card_body">Kies een programma in de tv-gids en kies Opnemen, of houd een zender ingedrukt en plan een tijd. Het komt hier terecht, ook terwijl je iets anders kijkt.</string>
@@ -426,7 +426,7 @@
     <string name="sports_live_refresh_description">Alleen als een sportscherm of uitslag te zien is</string>
     <string name="sports_about">Over sportgegevens</string>
     <string name="sports_about_summary">Uitslagen: ESPN · zenders: je afspeellijst en gids</string>
-    <string name="sports_alerts_when_closed">Meldingen als OwnTV gesloten is</string>
+    <string name="sports_alerts_when_closed">Meldingen als BlankTV gesloten is</string>
     <string name="sports_alerts_when_closed_description">Vraagt één keer om toestemming voor meldingen</string>
     <string name="sports_alert_me_about">Meld me</string>
     <string name="sports_kind_goals">Doelpunten en wickets</string>
@@ -437,7 +437,7 @@
     <string name="sports_live_card">Live-scorekaart</string>
     <string name="sports_live_card_offer">Live-scorekaart aanbieden</string>
     <string name="sports_live_card_description">Ververst elke 30 s tot het einde; je start het vanuit een wedstrijd</string>
-    <string name="sports_alerts_footnote">Als OwnTV gesloten is, komen meldingen meestal binnen een minuut. Ligt de telefoon lang stil met het scherm uit, dan kan Android ze tot ongeveer 15 minuten tegenhouden. De live-scorekaart wordt niet tegengehouden.</string>
+    <string name="sports_alerts_footnote">Als BlankTV gesloten is, komen meldingen meestal binnen een minuut. Ligt de telefoon lang stil met het scherm uit, dan kan Android ze tot ongeveer 15 minuten tegenhouden. De live-scorekaart wordt niet tegengehouden.</string>
     <string name="sports_search_teams">Zoek teams, spelers, competities</string>
     <string name="sports_suggested">Voorstellen op basis van wat je kijkt</string>
     <plurals name="sports_watched_matches">
@@ -446,7 +446,7 @@
     </plurals>
     <string name="sports_league_label">Competitie</string>
     <string name="sports_no_playlist_title">Voeg een afspeellijst toe om wedstrijden te kijken</string>
-    <string name="sports_no_playlist_body">Uitslagen, standen en meldingen werken zonder. Met een afspeellijst vindt OwnTV elke zender die deze wedstrijd uitzendt.</string>
+    <string name="sports_no_playlist_body">Uitslagen, standen en meldingen werken zonder. Met een afspeellijst vindt BlankTV elke zender die deze wedstrijd uitzendt.</string>
     <string name="sports_add_playlist">Afspeellijst toevoegen</string>
     <string name="sports_home_row">Live sport</string>
     <string name="sports_home_row_description">Gevolgde wedstrijden, als er één live is of bijna begint</string>
@@ -456,7 +456,7 @@
     <string name="sports_sport_buttons">Sportknoppen</string>
     <string name="sports_sport_buttons_mine">Mijn sporten</string>
     <string name="sports_sport_buttons_all">Alle sporten</string>
-    <string name="sports_sport_buttons_description">Mijn sporten: alleen wat je koos. Alle sporten: elke competitie die OwnTV kent, wat langer laden kost.</string>
+    <string name="sports_sport_buttons_description">Mijn sporten: alleen wat je koos. Alle sporten: elke competitie die BlankTV kent, wat langer laden kost.</string>
     <string name="sports_auto_rebuild">Automatisch opnieuw opbouwen</string>
     <string name="sports_auto_rebuild_description">Hoe vaak uitslagen, wedstrijddetails en standen vanzelf opnieuw worden opgehaald</string>
     <plurals name="sports_auto_rebuild_hours">

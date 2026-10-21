@@ -53,7 +53,7 @@
     <!-- Translators: Genre label for Sports content. -->
     <string name="content_genre_sport">Sport</string>
     <!-- Translators: Dialog title for the exit-confirmation dialog. -->
-    <string name="content_exit_owntv">Exit OwnTV?</string>
+    <string name="content_exit_owntv">Exit BlankTV?</string>
     <!-- Translators: Body text in the exit-confirmation dialog. -->
     <string name="content_exit_confirmation">Are you sure you want to close the app?</string>
     <!-- Translators: Dialog title shown when a previous restore was interrupted. -->
@@ -328,7 +328,7 @@
     <!-- Translators: Shown when the folder the user had chosen for downloads can no longer be written to, because the permission was withdrawn or the storage was removed. -->
     <string name="content_storage_folder_lost">That folder is no longer available. Choose it again, or pick another.</string>
     <!-- Translators: Shown on the Downloads screen while the folder the user chose for downloads is missing (a USB stick removed, or its permission withdrawn). Downloads go to the app's own folder until it is back; the choice itself is kept. -->
-    <string name="content_storage_folder_fallback">Your download folder isn\'t available right now, so downloads are being saved to OwnTV\'s own folder until it\'s back.</string>
+    <string name="content_storage_folder_fallback">Your download folder isn\'t available right now, so downloads are being saved to BlankTV\'s own folder until it\'s back.</string>
     <!-- Translators: Status text for a download that is queued and waiting to start. -->
     <string name="content_downloads_queued">Queued\u2026</string>
     <!-- Translators: Tab or filter label for downloads waiting to start. -->
@@ -518,8 +518,8 @@
     <string name="content_epg_unfavourite">Unfavorite</string>
     <!-- Translators: Description in the catch-up player-choice dialog. Directs to Settings path. -->
     <string name="content_epg_player_choice_description">Set a permanent choice in Settings \u203a Catch-up.</string>
-    <!-- Translators: Player choice option for catch-up playback using the built-in OwnTV player. "OwnTV" is a brand name. -->
-    <string name="content_epg_own_player">OwnTV player</string>
+    <!-- Translators: Player choice option for catch-up playback using the built-in BlankTV player. "BlankTV" is a brand name. -->
+    <string name="content_epg_own_player">BlankTV player</string>
     <!-- Translators: Player choice option for catch-up playback using an external player app. -->
     <string name="content_epg_external_player">External player</string>
     <!-- Translators: Opens the per-channel adjustment that shifts guide programme times. -->

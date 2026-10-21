@@ -56,7 +56,7 @@ object StorageAccess {
 
     /** App-specific external dir — always writable, no permission. Visible under Android/data/<pkg>/files. */
     fun defaultRoot(context: Context): File =
-        File(context.getExternalFilesDir(null) ?: context.filesDir, "OwnTV").apply { mkdirs() }
+        File(context.getExternalFilesDir(null) ?: context.filesDir, "BlankTV").apply { mkdirs() }
 
     /** The effective base folder: the configured path if usable, else the default. */
     fun resolveRoot(context: Context, configured: String?): File {
@@ -102,7 +102,7 @@ object StorageAccess {
             val removable = dir.absolutePath != internal
             StorageRoot(
                 kind = if (removable) RootKind.REMOVABLE else RootKind.INTERNAL,
-                file = File(dir, "OwnTV").apply { mkdirs() },
+                file = File(dir, "BlankTV").apply { mkdirs() },
                 // …/<volume>/Android/data/<pkg>/files — four levels up is the volume itself.
                 volumeName = dir.parentFile?.parentFile?.parentFile?.parentFile?.name
                     ?.takeIf { removable && it.isNotBlank() },

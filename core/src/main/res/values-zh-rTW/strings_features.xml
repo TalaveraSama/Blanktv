@@ -114,8 +114,8 @@
     <string name="update_not_enough_space">儲存空間不足，無法更新。請釋出約 <xliff:g id="size">%1$s</xliff:g> 後再試一次。</string>
     <string name="update_damaged_download">更新未完整下載。請檢查網路連線後再試一次。</string>
     <string name="update_install_rejected">系統安裝程式拒絕了此更新：<xliff:g id="reason">%1$s</xliff:g></string>
-    <string name="update_ready">OwnTV v<xliff:g id="available">%1$s</xliff:g> 已準備就緒（目前為 v<xliff:g id="current">%2$s</xliff:g>）。</string>
-    <string name="recovery_title">OwnTV 無法開啟其資料庫</string>
+    <string name="update_ready">BlankTV v<xliff:g id="available">%1$s</xliff:g> 已準備就緒（目前為 v<xliff:g id="current">%2$s</xliff:g>）。</string>
+    <string name="recovery_title">BlankTV 無法開啟其資料庫</string>
     <string name="recovery_data_safe_full">您的使用者檔案、播放清單、我的最愛和觀看記錄並未遭到刪除——這是資料庫升級失敗，資料仍保存在此裝置上。\n\n請回報此問題以便修正，並附上以下訊息。</string>
     <string name="recovery_retry">再試一次</string>
     <string name="recovery_backup_hint">如果您有備份檔案，可以重設應用程式，之後再進行還原。重設會刪除此裝置上儲存的所有內容。</string>
@@ -204,12 +204,12 @@
     <string name="settings_recording_pre_roll_description">在指定開始時間之前這麼久開始，這樣即使指南略微提前也不會錯過開頭。</string>
     <string name="settings_recording_post_roll">結束後繼續</string>
     <string name="settings_recording_post_roll_description">在指定結束時間之後繼續這麼久，這樣超時的節目不會被截斷。</string>
-    <string name="settings_recording_timers_inexact">本裝置不允許 OwnTV 設定精確鬧鐘，因此錄影可能會晚幾分鐘開始。錄影會提早啟動以作彌補。</string>
+    <string name="settings_recording_timers_inexact">本裝置不允許 BlankTV 設定精確鬧鐘，因此錄影可能會晚幾分鐘開始。錄影會提早啟動以作彌補。</string>
     <plurals name="recording_minutes">
         <item quantity="other"><xliff:g id="count">%1$d</xliff:g> 分鐘</item>
     </plurals>
     <string name="recording_failed_encrypted">該頻道已加密，無法錄製</string>
-    <string name="recording_failed_drm">此頻道受 DRM 保護，可以觀看但無法錄製。此保護來自你的服務供應商，而非 OwnTV。</string>
+    <string name="recording_failed_drm">此頻道受 DRM 保護，可以觀看但無法錄製。此保護來自你的服務供應商，而非 BlankTV。</string>
     <string name="recording_failed_metered">未透過行動數據錄影</string>
     <string name="recording_card_empty_title">尚無錄影</string>
     <string name="recording_card_body">在電視節目表中選擇節目並選擇錄影，或長按頻道並預約時間。即使你在看其他內容，錄影也會出現在這裡。</string>
@@ -406,7 +406,7 @@
     <string name="sports_live_refresh_description">僅在顯示體育頁面或比分時</string>
     <string name="sports_about">關於體育資料</string>
     <string name="sports_about_summary">比分：ESPN · 頻道：你的播放清單和節目表</string>
-    <string name="sports_alerts_when_closed">OwnTV 關閉時也提醒</string>
+    <string name="sports_alerts_when_closed">BlankTV 關閉時也提醒</string>
     <string name="sports_alerts_when_closed_description">只會要求一次通知權限</string>
     <string name="sports_alert_me_about">提醒我</string>
     <string name="sports_kind_goals">進球和出局</string>
@@ -417,7 +417,7 @@
     <string name="sports_live_card">即時比分卡片</string>
     <string name="sports_live_card_offer">提供即時比分卡片</string>
     <string name="sports_live_card_description">每 30 秒更新至終場；從比賽頁開啟</string>
-    <string name="sports_alerts_footnote">OwnTV 關閉時，提醒通常在一分鐘內送達。若手機長時間靜置且螢幕關閉，Android 可能會延遲最多約 15 分鐘。即時比分卡片不受影響。</string>
+    <string name="sports_alerts_footnote">BlankTV 關閉時，提醒通常在一分鐘內送達。若手機長時間靜置且螢幕關閉，Android 可能會延遲最多約 15 分鐘。即時比分卡片不受影響。</string>
     <string name="sports_search_teams">搜尋球隊、球員、聯賽</string>
     <string name="sports_suggested">根據你的觀看推薦</string>
     <plurals name="sports_watched_matches">
@@ -425,7 +425,7 @@
     </plurals>
     <string name="sports_league_label">聯賽</string>
     <string name="sports_no_playlist_title">新增播放清單即可觀看比賽</string>
-    <string name="sports_no_playlist_body">沒有播放清單也能查看比分、積分榜和提醒。新增後，OwnTV 會找出播出這場比賽的所有頻道。</string>
+    <string name="sports_no_playlist_body">沒有播放清單也能查看比分、積分榜和提醒。新增後，BlankTV 會找出播出這場比賽的所有頻道。</string>
     <string name="sports_add_playlist">新增播放清單</string>
     <string name="sports_home_row">體育直播</string>
     <string name="sports_home_row_description">關注的比賽，在有比賽直播或即將開始時顯示</string>
@@ -435,7 +435,7 @@
     <string name="sports_sport_buttons">運動按鈕</string>
     <string name="sports_sport_buttons_mine">我的運動</string>
     <string name="sports_sport_buttons_all">全部運動</string>
-    <string name="sports_sport_buttons_description">我的運動：僅你選擇的內容。全部運動：OwnTV 已知的所有聯賽，載入時間更長。</string>
+    <string name="sports_sport_buttons_description">我的運動：僅你選擇的內容。全部運動：BlankTV 已知的所有聯賽，載入時間更長。</string>
     <string name="sports_auto_rebuild">自動重建</string>
     <string name="sports_auto_rebuild_description">比分、比賽詳情和積分榜自動重新取得的頻率</string>
     <plurals name="sports_auto_rebuild_hours">

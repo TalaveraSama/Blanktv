@@ -29,15 +29,15 @@
     <string name="setup_get_started">Hasi</string>
     <string name="setup_display_size_title">Egin erosoa irakurtzeko</string>
     <string name="setup_before_you_start">Hasi aurretik</string>
-    <string name="setup_disclaimer">OwnTV multimedia-erreproduzigailu hutsa da. Ez du kanalik, erreprodukzio-zerrendarik edo edukirik barne hartzen. Zure ardura da legez atzitu ditzakezun Xtream, M3U edo Stalker iturburuak gehitzea.</string>
+    <string name="setup_disclaimer">BlankTV multimedia-erreproduzigailu hutsa da. Ez du kanalik, erreprodukzio-zerrendarik edo edukirik barne hartzen. Zure ardura da legez atzitu ditzakezun Xtream, M3U edo Stalker iturburuak gehitzea.</string>
     <string name="setup_i_understand">Ulertzen dut</string>
-    <string name="setup_set_up_owntv">Konfiguratu OwnTV</string>
+    <string name="setup_set_up_owntv">Konfiguratu BlankTV</string>
     <string name="setup_setup_choice_description">Hasi hutsetik, edo ekarri zure profilak, erreprodukzio-zerrendak eta gogokoak babeskopia-fitxategi batetik edo beste gailu batetik.</string>
     <string name="setup_new_profile">Profil berria</string>
     <string name="setup_create_profile_add_sources">Sortu profil bat eta gehitu iturburuak</string>
     <string name="setup_import_profiles_playlists">Inportatu profilak eta erreprodukzio-zerrendak fitxategi batetik</string>
     <string name="setup_sync_device">Beste gailu batetik</string>
-    <string name="setup_sync_device_description">Kopiatu dena zure beste OwnTV gailutik Wi-Fi bidez</string>
+    <string name="setup_sync_device_description">Kopiatu dena zure beste BlankTV gailutik Wi-Fi bidez</string>
     <string name="setup_add_playlist">Gehitu erreprodukzio-zerrenda bat</string>
     <string name="setup_add_playlist_description">Gehitu iturburu bat profil honetarako, edo konfiguratu geroago.</string>
     <string name="setup_existing">Lehendik daudenak</string>
@@ -91,7 +91,7 @@
     <string name="setup_add_source">Gehitu iturburu bat</string>
     <string name="setup_edit_source">Editatu iturburua</string>
     <string name="setup_edit_source_description">Eguneratu iturburu honen datuak, edo aldatu bere freskatze automatikoaren ezarpena.</string>
-    <string name="setup_byo_source_description">OwnTV erreproduzigailua da — ekarri zure Xtream, M3U edo Stalker iturburua.</string>
+    <string name="setup_byo_source_description">BlankTV erreproduzigailua da — ekarri zure Xtream, M3U edo Stalker iturburua.</string>
     <string name="setup_xtream">Xtream</string>
     <string name="setup_m3u">M3U / M3U8</string>
     <string name="setup_stalker_mac">Stalker (MAC)</string>
@@ -155,7 +155,7 @@
     <string name="setup_mag254">MAG254</string>
     <string name="setup_mag270">MAG270</string>
     <string name="setup_mag420">MAG420</string>
-    <string name="companion_pin_page_title">OwnTV — Idatzi PINa</string>
+    <string name="companion_pin_page_title">BlankTV — Idatzi PINa</string>
     <string name="companion_pin_heading">Idatzi PINa</string>
     <string name="companion_pin_description">Idatzi zure telebistan agertzen den 6 digituko PINa jarraitzeko.</string>
     <string name="companion_pin_placeholder">••••••</string>
@@ -170,14 +170,14 @@
     <string name="companion_open_subtitles_description">Hasi saioa OpenSubtitles-en zure telebistarako. Gehitu zure API datu propioak behean baldin badituzu soilik.</string>
     <string name="companion_service_config_sent">Konexio-datuak zure telebistan daude zain orain. Berrikusi eta gorde bertan.</string>
     <string name="companion_service_config_again">Bidali beste konexio-datu batzuk</string>
-    <string name="companion_add_page_title">OwnTV — Gehitu iturburua</string>
+    <string name="companion_add_page_title">BlankTV — Gehitu iturburua</string>
     <string name="companion_add_heading">Gehitu iturburu bat</string>
     <string name="companion_add_description">Bete iturburu bat eta sakatu Bidali. Telebistan agertzen da — hartu urrutiko agintea eta sakatu Hasi inportazioa bertan prest zaudenean.</string>
     <string name="companion_default_playlist">Erreprodukzio-zerrenda lehenetsia</string>
     <string name="companion_send_to_tv">Bidali telebistara</string>
     <string name="companion_sync_xtream_hint">Zer sinkronizatu — Orain lehenik inportatzen da, Geroago atzeko planoan sinkronizatzen da, Desaktibatuta inoiz ez da eskuratzen.</string>
     <string name="companion_sync_stalker_hint">Zer sinkronizatu — Zuzenekoak Orain lehenesten du; Filmak/Telesailak Geroago lehenesten dute (Stalker VOD motela da).</string>
-    <string name="companion_saved_page_title">OwnTV — Bidalita</string>
+    <string name="companion_saved_page_title">BlankTV — Bidalita</string>
     <string name="companion_saved_heading">Zure telebistara bidali da ✓</string>
     <string name="companion_saved_source_body"><xliff:g id="name">%1$s</xliff:g> telebistaren Gehitu iturburua pantailan dago orain. Egiaztatu datuak bertan eta sakatu Hasi inportazioa urrutiko agintean.</string>
     <string name="companion_saved_send_another">Bidali beste iturburu bat</string>
@@ -185,9 +185,9 @@
     <string name="companion_saved_backup_link">Bidali beste fitxategi bat</string>
     <string name="companion_saved_image_body">Zure irudia telebistaren atzealdea da orain.</string>
     <string name="companion_saved_image_link">Bidali beste irudi bat</string>
-    <string name="companion_backup_page_title">OwnTV — Leheneratu babeskopia</string>
+    <string name="companion_backup_page_title">BlankTV — Leheneratu babeskopia</string>
     <string name="companion_backup_heading">Leheneratu babeskopia bat</string>
-    <string name="companion_backup_description">Aukeratu OwnTV babeskopia-fitxategi bat (.own, edo .json zaharrago bat) eta sakatu Bidali. Telebistara transferitzen da — hartu urrutiko agintea eta aukeratu bertan zer leheneratu.</string>
+    <string name="companion_backup_description">Aukeratu BlankTV babeskopia-fitxategi bat (.own, edo .json zaharrago bat) eta sakatu Bidali. Telebistara transferitzen da — hartu urrutiko agintea eta aukeratu bertan zer leheneratu.</string>
     <string name="companion_backup_file">Babeskopia-fitxategia</string>
     <string name="companion_choose_backup">Aukeratu babeskopia-fitxategi bat lehenik.</string>
     <string name="companion_playlist_file">Edo igo erreprodukzio-zerrendaren fitxategi bat</string>
@@ -196,23 +196,23 @@
     <string name="companion_upload_failed">Igoerak huts egin du (HTTP <xliff:g id="status">%1$d</xliff:g>). Egiaztatu PINa eta saiatu berriro.</string>
     <string name="companion_could_not_reach">Ezin izan da telebista atzitu. Jarraitu Wi-Fi sare berean eta saiatu berriro.</string>
     <string name="companion_could_not_read">Ezin izan da fitxategi hori irakurri.</string>
-    <string name="companion_image_page_title">OwnTV — Atzealdeko irudia</string>
+    <string name="companion_image_page_title">BlankTV — Atzealdeko irudia</string>
     <string name="companion_image_heading">Bidali atzealdeko irudi bat</string>
     <string name="companion_image_description">Aukeratu argazki bat (JPG, PNG edo WebP) eta sakatu Bidali. Telebistaren interfazearen atzeko irudia bihurtzen da.</string>
     <string name="companion_image_file">Irudi-fitxategia</string>
     <string name="companion_choose_image">Aukeratu irudi bat lehenik.</string>
     <string name="companion_image_too_large">Irudi hori handiegia da (gehienez 25 MB).</string>
-    <string name="companion_download_page_title">OwnTV — Deskargatu babeskopia</string>
+    <string name="companion_download_page_title">BlankTV — Deskargatu babeskopia</string>
     <string name="companion_download_heading">Deskargatu zure babeskopia</string>
-    <string name="companion_download_description">Zure telebistak OwnTV babeskopia-fitxategi bat prestatu du. Sakatu botoia gailu honetan gordetzeko (owntv-backup.own). Gorde leku seguru batean — geroago leheneratu dezakezu.</string>
+    <string name="companion_download_description">Zure telebistak BlankTV babeskopia-fitxategi bat prestatu du. Sakatu botoia gailu honetan gordetzeko (owntv-backup.own). Gorde leku seguru batean — geroago leheneratu dezakezu.</string>
     <string name="companion_download_backup">Deskargatu babeskopia</string>
     <string name="companion_error_bad_request">Eskaera okerra</string>
     <string name="companion_error_body_too_large">Eskaeraren gorputza handiegia da.</string>
     <string name="companion_error_unauthorized">Baimenik gabe. Egiaztatu PINa eta saiatu berriro.</string>
     <string name="companion_error_not_found">Ez da aurkitu.</string>
     <string name="companion_error_pair_failed">Ezin izan da gailu honekin parekatu.</string>
-    <string name="local_sync_browser_title">OwnTV tokiko sinkronizazioa</string>
-    <string name="local_sync_browser_body">Helbide hau zure beste gailuko OwnTV aplikaziorako da. Ireki Tokiko sinkronizazioa bertan eta aukeratu gailu hau zerrendatik.</string>
+    <string name="local_sync_browser_title">BlankTV tokiko sinkronizazioa</string>
+    <string name="local_sync_browser_body">Helbide hau zure beste gailuko BlankTV aplikaziorako da. Ireki Tokiko sinkronizazioa bertan eta aukeratu gailu hau zerrendatik.</string>
     <string name="companion_error_no_backup">Ez dago babeskopiarik eskuragarri.</string>
     <string name="companion_error_backup_too_large">Babeskopia handiegia da.</string>
     <string name="companion_error_empty_backup">Babeskopia hutsik dago.</string>
@@ -244,7 +244,7 @@
     <string name="setup_hide_new_categories">Ezkutatu kategoria berriak lehenespenez</string>
     <string name="setup_hide_new_categories_description">Profil osoan: etorkizuneko sinkronizazioetan agertzen diren kategoriak ezkutatuta hasten dira. Ikusi edonoiz Pertsonalizatu atalean.</string>
     <string name="setup_display_sub_mobile">Interfazea eta haren testua zein handiak diren telefono honetan. Beheko errenkada aldatu egiten da doitu ahala.</string>
-    <string name="setup_line_app_icon_mobile">Nola agertzen den OwnTV hasierako pantailan</string>
+    <string name="setup_line_app_icon_mobile">Nola agertzen den BlankTV hasierako pantailan</string>
     <plurals name="setup_languages_all">
         <item quantity="one">Hizkuntza <xliff:g id="count">%1$d</xliff:g></item>
         <item quantity="other"><xliff:g id="count">%1$d</xliff:g> hizkuntza guztiak</item>

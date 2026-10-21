@@ -582,7 +582,7 @@
     <string name="settings_guide_synced">Telebista-gida sinkronizatuta</string>
     <string name="settings_guide_sync_failed">Telebista-gidaren sinkronizazioak huts egin du</string>
     <string name="settings_restore_remote_title">Leheneratu beste gailu batetik</string>
-    <string name="settings_restore_remote_description">Wi-Fi sare berean dagoen telefono, tableta edo ordenagailu batean, eskaneatu QRa (edo ireki URLa), idatzi PIN hau, aukeratu zure OwnTV babeskopia-fitxategia eta sakatu Bidali telebistara. Ondoren, hemen aukeratuko duzu zer leheneratu.</string>
+    <string name="settings_restore_remote_description">Wi-Fi sare berean dagoen telefono, tableta edo ordenagailu batean, eskaneatu QRa (edo ireki URLa), idatzi PIN hau, aukeratu zure BlankTV babeskopia-fitxategia eta sakatu Bidali telebistara. Ondoren, hemen aukeratuko duzu zer leheneratu.</string>
     <string name="settings_try_again">Saiatu berriro</string>
     <string name="settings_new_pin">Hasi berriro PIN berri batekin</string>
     <string name="settings_download_remote_title">Deskargatu beste gailu batean</string>
@@ -597,7 +597,7 @@
     <string name="settings_catchup_timezone_automatic">Automatikoa</string>
     <string name="settings_catchup_timezone_device">Gailua</string>
     <string name="settings_catchup_player_ask">Galdetu beti</string>
-    <string name="settings_catchup_player_internal">OwnTV erreproduzigailua</string>
+    <string name="settings_catchup_player_internal">BlankTV erreproduzigailua</string>
     <string name="settings_catchup_player_external">Kanpoko erreproduzigailua</string>
     <string name="settings_download_folder_title">Aukeratu deskarga-karpeta</string>
     <string name="settings_pick_background_title">Aukeratu atzealdeko irudi bat</string>
@@ -1152,7 +1152,7 @@
     <string name="local_sync_received_items">Jasotako elementuak: <xliff:g id="count">%1$d</xliff:g></string>
     <string name="local_sync_sent">Zure datuak bidali dira</string>
     <string name="local_sync_failed">Sinkronizazioak huts egin du</string>
-    <string name="local_sync_error_unreachable">Gailu hori ezin izan da atzitu. Bertan, ireki OwnTV → Ezarpenak → Datuak → Tokiko sinkronizazioa eta aktibatu Sinkronizazio modua. Bi gailuak Wi-Fi sare berean egon behar dute.</string>
+    <string name="local_sync_error_unreachable">Gailu hori ezin izan da atzitu. Bertan, ireki BlankTV → Ezarpenak → Datuak → Tokiko sinkronizazioa eta aktibatu Sinkronizazio modua. Bi gailuak Wi-Fi sare berean egon behar dute.</string>
     <string name="local_sync_error_unauthorized">Beste gailuak ukatu egin du. Baliteke PINa okerra izatea, edo gailu hau ahaztu izana.</string>
     <string name="local_sync_error_bad_payload">Iritsi dena ezin izan da irakurri. Pasahitz bat erabili baduzu, egiaztatu bi gailuetan berdina dela.</string>
     <string name="local_sync_error_unknown">Zerbait gaizki atera da. Saiatu berriro.</string>
@@ -1175,7 +1175,7 @@
     <string name="settings_multiview_use_anyway">Erabili hala ere</string>
     <string name="settings_app_icon">Aplikazioaren ikonoa</string>
     <string name="settings_app_icon_summary">OwnTVren ikonoaren eta logoaren kolorea</string>
-    <string name="settings_app_icon_sheet_mobile">Nola agertzen den OwnTV hasierako pantailan. Aplikazioa behin berrabiaraziko da.</string>
+    <string name="settings_app_icon_sheet_mobile">Nola agertzen den BlankTV hasierako pantailan. Aplikazioa behin berrabiaraziko da.</string>
     <string name="app_icon_petrol">Petrolioa</string>
     <string name="app_icon_sunflower">Eguzkilorea</string>
     <string name="app_icon_cobalt">Kobaltoa</string>
@@ -1184,8 +1184,8 @@
     <string name="app_icon_eggshell">Arrautza-azala</string>
     <string name="app_icon_olive">Oliba</string>
     <string name="app_icon_olive_cream">Oliba krema gainean</string>
-    <string name="app_icon_restart_title">OwnTV berrabiarazi?</string>
-    <string name="app_icon_restart_message">Ikono eta logo berri bat aukeratu duzu. OwnTV berrabiarazi ondoren izango dute eragina.</string>
+    <string name="app_icon_restart_title">BlankTV berrabiarazi?</string>
+    <string name="app_icon_restart_message">Ikono eta logo berri bat aukeratu duzu. BlankTV berrabiarazi ondoren izango dute eragina.</string>
     <string name="app_icon_restart_now">Berrabiarazi orain</string>
     <string name="more_backup_never_body_mobile"><xliff:g id="playlists">%1$s</xliff:g>, <xliff:g id="favorites">%2$s</xliff:g>, <xliff:g id="history">%3$s</xliff:g> eta pertsonalizazio guztiak telefono honetan bakarrik daude.</string>
     <string name="more_backup_now_body_mobile">Gorde fitxategi bat telefono honetan, edo bidali beste gailu batera</string>

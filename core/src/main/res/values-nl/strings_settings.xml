@@ -31,7 +31,7 @@
     <string name="settings_static">Statisch</string>
     <string name="settings_dynamic">Dynamisch</string>
     <string name="settings_use_proxy">Proxy gebruiken</string>
-    <string name="settings_proxy_description">Stuur al het verkeer en afspelen van OwnTV via een HTTP-proxy.</string>
+    <string name="settings_proxy_description">Stuur al het verkeer en afspelen van BlankTV via een HTTP-proxy.</string>
     <string name="settings_host">Host</string>
     <string name="settings_proxy_host_hint">proxy.example.com</string>
     <string name="settings_port">Poort</string>
@@ -249,7 +249,7 @@
     <string name="settings_player_zoom">Zoomniveau van speler</string>
     <string name="settings_app_group">App</string>
     <string name="settings_app_startup">Opstartgedrag van app</string>
-    <string name="settings_app_startup_description">Wat OwnTV opent wanneer de app start</string>
+    <string name="settings_app_startup_description">Wat BlankTV opent wanneer de app start</string>
     <string name="settings_check_updates">Controleren op updates</string>
     <string name="settings_check_updates_description">Download de nieuwste versie via GitHub Releases</string>
     <string name="settings_update_startup">Bij opstarten controleren op updates</string>
@@ -549,7 +549,7 @@
     <string name="settings_guide_synced">Programmagids gesynchroniseerd</string>
     <string name="settings_guide_sync_failed">Synchroniseren van programmagids mislukt</string>
     <string name="settings_restore_remote_title">Herstellen vanaf een ander apparaat</string>
-    <string name="settings_restore_remote_description">Scan op een apparaat met een browser op hetzelfde wifi-netwerk — telefoon, computer of een andere tv — de QR-code (of open de URL), voer deze pincode in, kies je OwnTV-back-upbestand en verstuur het. Daarna kies je hier wat je terugzet.</string>
+    <string name="settings_restore_remote_description">Scan op een apparaat met een browser op hetzelfde wifi-netwerk — telefoon, computer of een andere tv — de QR-code (of open de URL), voer deze pincode in, kies je BlankTV-back-upbestand en verstuur het. Daarna kies je hier wat je terugzet.</string>
     <string name="settings_try_again">Opnieuw proberen</string>
     <string name="settings_new_pin">Opnieuw beginnen met een nieuwe PIN</string>
     <string name="settings_download_remote_title">Downloaden op een ander apparaat</string>
@@ -564,7 +564,7 @@
     <string name="settings_catchup_timezone_automatic">Automatisch</string>
     <string name="settings_catchup_timezone_device">Apparaat</string>
     <string name="settings_catchup_player_ask">Altijd vragen</string>
-    <string name="settings_catchup_player_internal">OwnTV-speler</string>
+    <string name="settings_catchup_player_internal">BlankTV-speler</string>
     <string name="settings_catchup_player_external">Externe speler</string>
     <string name="settings_download_folder_title">Downloadmap kiezen</string>
     <string name="settings_pick_background_title">Achtergrondafbeelding kiezen</string>
@@ -680,9 +680,9 @@
     <string name="settings_sources_info">Info</string>
     <string name="settings_sources_retest">Opnieuw testen</string>
     <string name="settings_sources_probe_title">Deze afspeellijst testen?</string>
-    <string name="settings_sources_probe_warning">Veel providers zeggen nooit hoeveel kanalen je tegelijk mag kijken, dus OwnTV zoekt het uit door er een paar te openen en te kijken welke blijven werken. Alles wat nu speelt, stopt en dit kan tot twee minuten duren.</string>
+    <string name="settings_sources_probe_warning">Veel providers zeggen nooit hoeveel kanalen je tegelijk mag kijken, dus BlankTV zoekt het uit door er een paar te openen en te kijken welke blijven werken. Alles wat nu speelt, stopt en dit kan tot twee minuten duren.</string>
     <string name="settings_sources_probe_running">Bezig met nagaan hoeveel kanalen deze provider toestaat… (<xliff:g id="current">%1$d</xliff:g> van <xliff:g id="total">%2$d</xliff:g>)</string>
-    <string name="settings_sources_probe_unknown">OwnTV kon niet achterhalen hoeveel kanalen deze provider toestaat.</string>
+    <string name="settings_sources_probe_unknown">BlankTV kon niet achterhalen hoeveel kanalen deze provider toestaat.</string>
     <string name="settings_sources_probe_skip">Overslaan</string>
     <string name="settings_sources_auto_refresh">⟳ <xliff:g id="mode">%1$s</xliff:g></string>
     <string name="settings_sources_default">STANDAARD</string>
@@ -921,7 +921,7 @@
     <string name="settings_move_category_keep">Ook in “<xliff:g id="name">%1$s</xliff:g>” behouden</string>
     <string name="settings_move_category_action">Verplaatsen</string>
     <string name="settings_dns_description">Een aangepaste DNS-server gebruiken om domeinnamen op te zoeken</string>
-    <string name="settings_dns_toggle_description">Alle domeinnamen die OwnTV opzoekt via een aangepaste DNS-server laten omzetten.</string>
+    <string name="settings_dns_toggle_description">Alle domeinnamen die BlankTV opzoekt via een aangepaste DNS-server laten omzetten.</string>
     <string name="settings_dns_use_custom">Aangepaste DNS gebruiken</string>
     <string name="settings_dns_server_missing">Aangepaste DNS is ingeschakeld, maar er is geen server geconfigureerd. Voer een serveradres in en selecteer Opslaan, of schakel deze optie uit.</string>
     <string name="settings_dns_server">DNS-server</string>
@@ -967,7 +967,7 @@
     <string name="settings_live_preroll">Livestreams vooraf bufferen</string>
     <string name="settings_live_preroll_description">Buffer zoveel video voordat een live zender begint met afspelen, en opnieuw na een hapering. Dit is een hoeveelheid video, geen aftelling. Uit zorgt voor de snelst mogelijke start.</string>
     <string name="settings_live_tune_timeout">Kanaal opgeven na</string>
-    <string name="settings_live_tune_timeout_description">Als een livekanaal binnen deze tijd geen beeld heeft laten zien, stopt OwnTV met proberen en laat het je weten, in plaats van een zwart scherm te tonen terwijl het alle spelers een voor een afgaat. ‘Nooit’ blijft proberen, wat op een kanaal dat je provider heeft verwijderd ruim een minuut kan duren. Wachttijden waar je provider zelf om vraagt, tellen niet mee.</string>
+    <string name="settings_live_tune_timeout_description">Als een livekanaal binnen deze tijd geen beeld heeft laten zien, stopt BlankTV met proberen en laat het je weten, in plaats van een zwart scherm te tonen terwijl het alle spelers een voor een afgaat. ‘Nooit’ blijft proberen, wat op een kanaal dat je provider heeft verwijderd ruim een minuut kan duren. Wachttijden waar je provider zelf om vraagt, tellen niet mee.</string>
     <string name="settings_live_preroll_per_playlist">Vooraf bufferen per afspeellijst</string>
     <string name="settings_live_preroll_per_playlist_description">Overschrijf de bovenstaande instelling voor één afspeellijst terwijl je andere afspeellijsten snel blijven.</string>
     <string name="settings_live_engine_per_playlist">Speler voor live-tv per afspeellijst</string>
@@ -989,7 +989,7 @@
     <string name="settings_surround_auto_description_mobile">Auto — probeer Dolby/DTS-surround en schakel automatisch terug naar stereo als de luidspreker, koptelefoon of aangesloten ontvanger het niet afspeelt. Aanbevolen.</string>
     <string name="settings_surround_stereo_description">Alleen stereo — decodeer altijd in de app en stuur gewoon 2.0-geluid. Gebruik dit op tv-luidsprekers of een stereo-soundbar, of als audio achterloopt op het beeld.</string>
     <string name="settings_surround_stereo_description_mobile">Alleen stereo — decodeer altijd in de app en stuur gewoon 2.0-geluid. Gebruik dit voor de ingebouwde luidspreker, een koptelefoon of een stereo-soundbar, of als audio achterloopt op het beeld.</string>
-    <string name="settings_surround_forced_description">Surround — stuur Dolby/DTS naar een echte 5.1/7.1-receiver. Als het stil wordt of hapert, valt OwnTV alsnog terug op stereo en meldt je dat.</string>
+    <string name="settings_surround_forced_description">Surround — stuur Dolby/DTS naar een echte 5.1/7.1-receiver. Als het stil wordt of hapert, valt BlankTV alsnog terug op stereo en meldt je dat.</string>
     <string name="settings_panel_width">Paneelbreedte aanpassen</string>
     <string name="settings_panel_width_description">Pas de categorie-, lijst- en voorbeeldpanelen aan in Live-tv, films en series.</string>
     <string name="settings_vod_layout">Indeling van Films en Series</string>
@@ -1040,8 +1040,8 @@
     <string name="settings_auto_frame_rate_warning_suffix">Niet aanbevolen op deze tv: onder Android 12 kan de framesnelheid niet soepel worden gewijzigd.</string>
     <string name="settings_auto_frame_rate_warning_title">Niet aanbevolen op deze tv</string>
     <string name="settings_auto_frame_rate_warning_title_mobile">Niet aanbevolen op dit apparaat</string>
-    <string name="settings_auto_frame_rate_warning_description">Dit apparaat draait op Android <xliff:g id="android_version">%1$s</xliff:g>. Onder Android 12 kan de tv OwnTV niet vertellen naar welke verversingsfrequenties hij soepel kan overschakelen, dus het wijzigen van de frequentie kan het scherm een seconde of twee zwart maken — soms meerdere keren tijdens een programma.\n\nWe raden aan om Automatische framesnelheid hier uit te laten staan. Als je tv probleemloos overschakelt, zet je hem aan en kijk je: je kunt hem op elk moment weer uitzetten.</string>
-    <string name="settings_auto_frame_rate_warning_description_mobile">Dit apparaat draait op Android <xliff:g id="android_version">%1$s</xliff:g>. Onder Android 12 kan het apparaat OwnTV niet vertellen naar welke verversingsfrequenties het soepel kan overschakelen, dus het wijzigen van de frequentie kan het scherm een seconde of twee zwart maken — soms meerdere keren tijdens een programma.\n\nWe raden aan om Automatische framesnelheid hier uit te laten staan. Als je scherm probleemloos overschakelt, zet je hem aan en kijk je: je kunt hem op elk moment weer uitzetten.</string>
+    <string name="settings_auto_frame_rate_warning_description">Dit apparaat draait op Android <xliff:g id="android_version">%1$s</xliff:g>. Onder Android 12 kan de tv BlankTV niet vertellen naar welke verversingsfrequenties hij soepel kan overschakelen, dus het wijzigen van de frequentie kan het scherm een seconde of twee zwart maken — soms meerdere keren tijdens een programma.\n\nWe raden aan om Automatische framesnelheid hier uit te laten staan. Als je tv probleemloos overschakelt, zet je hem aan en kijk je: je kunt hem op elk moment weer uitzetten.</string>
+    <string name="settings_auto_frame_rate_warning_description_mobile">Dit apparaat draait op Android <xliff:g id="android_version">%1$s</xliff:g>. Onder Android 12 kan het apparaat BlankTV niet vertellen naar welke verversingsfrequenties het soepel kan overschakelen, dus het wijzigen van de frequentie kan het scherm een seconde of twee zwart maken — soms meerdere keren tijdens een programma.\n\nWe raden aan om Automatische framesnelheid hier uit te laten staan. Als je scherm probleemloos overschakelt, zet je hem aan en kijk je: je kunt hem op elk moment weer uitzetten.</string>
     <string name="settings_auto_frame_rate_keep_off">Uit laten staan</string>
     <string name="settings_auto_frame_rate_turn_on_anyway">Toch inschakelen</string>
     <string name="settings_language_request_workflow">Wil je een taal toevoegen die niet in de lijst staat? Dien dan eerst een taalverzoek in. Een beheerder registreert de taal en bereidt de basisvertalingsbestanden voor; zodra deze op Hosted Weblate verschijnt, kun je beginnen met bijdragen.</string>
@@ -1166,7 +1166,7 @@
     <string name="local_sync_received_items">Ontvangen items: <xliff:g id="count">%1$d</xliff:g></string>
     <string name="local_sync_sent">Je gegevens zijn verstuurd</string>
     <string name="local_sync_failed">Synchroniseren mislukt</string>
-    <string name="local_sync_error_unreachable">Dit apparaat was niet bereikbaar. Open daarop OwnTV → Instellingen → Gegevens → Lokaal synchroniseren en zet Synchronisatiemodus aan. Beide apparaten moeten op hetzelfde wifinetwerk zitten.</string>
+    <string name="local_sync_error_unreachable">Dit apparaat was niet bereikbaar. Open daarop BlankTV → Instellingen → Gegevens → Lokaal synchroniseren en zet Synchronisatiemodus aan. Beide apparaten moeten op hetzelfde wifinetwerk zitten.</string>
     <string name="local_sync_error_unauthorized">Het andere apparaat weigerde. De pincode klopt mogelijk niet, of het is dit apparaat vergeten.</string>
     <string name="local_sync_error_bad_payload">Wat binnenkwam kon niet worden gelezen. Als je een wachtwoord gebruikte, controleer of het op beide apparaten hetzelfde is.</string>
     <string name="local_sync_error_unknown">Er is iets misgegaan. Probeer het opnieuw.</string>
@@ -1254,8 +1254,8 @@
     <string name="settings_multiview_keep_two">Hou 2</string>
     <string name="settings_multiview_use_anyway">Toch gebruiken</string>
     <string name="settings_app_icon">App-pictogram</string>
-    <string name="settings_app_icon_summary">Kleur van het OwnTV-pictogram en -logo</string>
-    <string name="settings_app_icon_sheet_mobile">Hoe OwnTV op je startscherm verschijnt. De app start één keer opnieuw.</string>
+    <string name="settings_app_icon_summary">Kleur van het BlankTV-pictogram en -logo</string>
+    <string name="settings_app_icon_sheet_mobile">Hoe BlankTV op je startscherm verschijnt. De app start één keer opnieuw.</string>
     <string name="settings_brand_accent">Logo in accentkleur</string>
     <string name="app_icon_petrol">Petrol</string>
     <string name="app_icon_sunflower">Zonnebloem</string>
@@ -1266,8 +1266,8 @@
     <string name="app_icon_olive">Olijf</string>
     <string name="app_icon_olive_cream">Olijf op crème</string>
     <string name="app_icon_pixel">Pixel</string>
-    <string name="app_icon_restart_title">OwnTV opnieuw starten?</string>
-    <string name="app_icon_restart_message">Je hebt een nieuw pictogram en logo gekozen. Ze worden actief nadat OwnTV opnieuw is gestart.</string>
+    <string name="app_icon_restart_title">BlankTV opnieuw starten?</string>
+    <string name="app_icon_restart_message">Je hebt een nieuw pictogram en logo gekozen. Ze worden actief nadat BlankTV opnieuw is gestart.</string>
     <string name="app_icon_restart_now">Nu opnieuw starten</string>
     <string name="settings_navigation">Navigatie</string>
     <string name="settings_navigation_description">Hoe het menu links zich gedraagt</string>
@@ -1431,10 +1431,10 @@
     <string name="settings_help_epg_sources">Voeg een XMLTV-gidsbron toe via de link, vernieuw hem of verwijder hem. Bronnen vullen de tv-gids en de programmaregels in Live tv.</string>
     <string name="settings_help_guide_days">Hoeveel dagen aan programma’s de gids vooruit bewaart. Minder dagen maken het vernieuwen sneller en de database kleiner.</string>
     <string name="settings_help_catchup_timezone">Terugkijken speelt programma’s af uit het archief van je aanbieder. Automatisch gebruikt de tijdzone die je aanbieder doorgeeft, of de klok van de tv als hij er geen doorgeeft; kies een vaste UTC-verschuiving als terugkijken nog steeds op het verkeerde moment begint. Hier kies je ook welke speler terugkijken gebruikt.</string>
-    <string name="settings_help_theme">OwnTV is ontworpen voor donker. Systeem volgt de instelling van de tv, als die er is; licht past bij een lichte kamer.</string>
+    <string name="settings_help_theme">BlankTV is ontworpen voor donker. Systeem volgt de instelling van de tv, als die er is; licht past bij een lichte kamer.</string>
     <string name="settings_help_accent">Kleurt knoppen, de focusgloed, voortgangsbalken en accenten overal. Kies een voorinstelling of druk op OK voor het palet en elke hexcode.</string>
     <string name="settings_help_focus">De rand rond wat de focus heeft. Kies kleur en dikte zodat je hem vanaf de bank goed kunt volgen.</string>
-    <string name="settings_help_fonts">Het lettertype in heel OwnTV en hoe groot tekst is. Pop-ups gebruiken hetzelfde lettertype.</string>
+    <string name="settings_help_fonts">Het lettertype in heel BlankTV en hoe groot tekst is. Pop-ups gebruiken hetzelfde lettertype.</string>
     <string name="settings_help_popup_size">Maakt pop-ups, menu’s en dialogen als geheel groter of kleiner. Handig als ze krap aanvoelen of te veel van het scherm bedekken.</string>
     <string name="settings_help_zoom">Schaalt alles op het scherm. Groter leest makkelijker op afstand; kleiner past meer. Onder 85%% kunnen tv-boxen met weinig geheugen zonder geheugen raken.</string>
     <string name="settings_help_animations">Aan laat panelen, menu’s en focus soepel bewegen. Uit maakt elke wijziging direct.</string>
@@ -1444,11 +1444,11 @@
     <string name="settings_help_vod_layout">Bioscoop toont de afbeelding van de geselecteerde titel achter een raster van posters. Apart toont categorieën, titels en details naast elkaar.</string>
     <string name="settings_help_home">Kies welke rijen Start toont en in welke volgorde, en hoe de rij Nu populair eruitziet.</string>
     <string name="settings_help_customize">Verberg categorieën en items die je nooit bekijkt, geef categorieën je eigen namen en zet ze in jouw volgorde. Verborgen dingen komen hier terug, nooit kwijt.</string>
-    <string name="settings_help_app_icon">Het OwnTV-pictogram op het startscherm van je tv. Het kan even duren voordat de launcher de wijziging toont.</string>
-    <string name="settings_help_brand_accent">Het OwnTV-logo in het menu, Over en de installatie toont de afspeeldriehoek in je accentkleur. Het pictogram op het startscherm houdt zijn eigen kleuren.</string>
-    <string name="settings_help_startup">Wat OwnTV toont bij het starten: Start, het laatst bekeken kanaal, je favorieten of een kanaal naar keuze.</string>
-    <string name="settings_help_check_updates">Zoekt nu op GitHub naar een nieuwere OwnTV en biedt aan die te installeren. Je afspeellijsten, favorieten en instellingen blijven zoals ze zijn.</string>
-    <string name="settings_help_update_startup">Zoekt bij elke start van OwnTV naar een nieuwe versie en meldt het als die er is. Er wordt niets geïnstalleerd zonder te vragen.</string>
+    <string name="settings_help_app_icon">Het BlankTV-pictogram op het startscherm van je tv. Het kan even duren voordat de launcher de wijziging toont.</string>
+    <string name="settings_help_brand_accent">Het BlankTV-logo in het menu, Over en de installatie toont de afspeeldriehoek in je accentkleur. Het pictogram op het startscherm houdt zijn eigen kleuren.</string>
+    <string name="settings_help_startup">Wat BlankTV toont bij het starten: Start, het laatst bekeken kanaal, je favorieten of een kanaal naar keuze.</string>
+    <string name="settings_help_check_updates">Zoekt nu op GitHub naar een nieuwere BlankTV en biedt aan die te installeren. Je afspeellijsten, favorieten en instellingen blijven zoals ze zijn.</string>
+    <string name="settings_help_update_startup">Zoekt bij elke start van BlankTV naar een nieuwe versie en meldt het als die er is. Er wordt niets geïnstalleerd zonder te vragen.</string>
     <string name="settings_help_dns">Zoekt de adressen van je aanbieder op met een DNS-server naar keuze in plaats van die van je netwerk — handig als je netwerk ze blokkeert of omleidt.</string>
     <string name="settings_help_live_engine">ExoPlayer opent zenders veel sneller en is de enige met live-ondertitels. mpv speelt zenders af die ExoPlayer niet aankan, ook wat ongebruikelijk geluid. De gecombineerde opties proberen de andere speler als de eerste faalt.</string>
     <string name="settings_help_hw">Gebruikt de hardwaredecoder van de tv: vloeiende 4K en minder warmte. Zet het alleen uit als streams haperen of blokjes tonen; dan doet de softwaredecoder het werk.</string>
@@ -1472,8 +1472,8 @@
     <string name="settings_profile_add">Profiel toevoegen</string>
     <string name="settings_profile_add_line">Een kijker met eigen favorieten, geschiedenis en instellingen</string>
     <plurals name="settings_help_language">
-        <item quantity="one">De taal van alle menu’s en meldingen in OwnTV. <xliff:g id="count">%1$d</xliff:g> taal; volgt de taal van de tv tot je er een kiest.</item>
-        <item quantity="other">De taal van alle menu’s en meldingen in OwnTV. <xliff:g id="count">%1$d</xliff:g> talen; volgt de taal van de tv tot je er een kiest.</item>
+        <item quantity="one">De taal van alle menu’s en meldingen in BlankTV. <xliff:g id="count">%1$d</xliff:g> taal; volgt de taal van de tv tot je er een kiest.</item>
+        <item quantity="other">De taal van alle menu’s en meldingen in BlankTV. <xliff:g id="count">%1$d</xliff:g> talen; volgt de taal van de tv tot je er een kiest.</item>
     </plurals>
     <plurals name="settings_profile_count">
         <item quantity="one"><xliff:g id="count">%1$d</xliff:g> profiel</item>
@@ -1510,8 +1510,8 @@
     <string name="settings_home_show_row">Deze rij tonen</string>
     <string name="settings_home_move_row">Verplaatsen (▲ ▼, dan OK)</string>
     <string name="settings_line_remote_shortcuts_on">Uit behoudt je toewijzingen</string>
-    <string name="settings_language_system_help">OwnTV volgt de taal van de tv (nu <xliff:g id="language">%1$s</xliff:g>). Kies hieronder een taal om die alleen in OwnTV te gebruiken.</string>
-    <string name="settings_language_pick_help"><xliff:g id="language">%1$s</xliff:g> gebruiken in OwnTV, ongeacht de taal van de tv.</string>
+    <string name="settings_language_system_help">BlankTV volgt de taal van de tv (nu <xliff:g id="language">%1$s</xliff:g>). Kies hieronder een taal om die alleen in BlankTV te gebruiken.</string>
+    <string name="settings_language_pick_help"><xliff:g id="language">%1$s</xliff:g> gebruiken in BlankTV, ongeacht de taal van de tv.</string>
     <string name="settings_key_use">Gebruiken</string>
     <string name="settings_line_metadata_source">Waar de details van films &amp; series vandaan komen</string>
     <string name="settings_line_metadata_language">Plots, genres en titels van TMDB</string>
@@ -1560,7 +1560,7 @@
     <string name="settings_line_glass_bg">Achtergrond, beeldstijl, glas</string>
     <string name="settings_bg_background">Achtergrond</string>
     <string name="settings_line_bg_background">Wat er achter elk scherm staat</string>
-    <string name="settings_help_bg_background">Stage toont de eigen zachte kleuren van OwnTV. Afbeelding toont een eigen afbeelding achter elk scherm. Effen is een vlakke donkere vulling.</string>
+    <string name="settings_help_bg_background">Stage toont de eigen zachte kleuren van BlankTV. Afbeelding toont een eigen afbeelding achter elk scherm. Effen is een vlakke donkere vulling.</string>
     <string name="settings_bg_stage">Stage</string>
     <string name="settings_bg_picture">Afbeelding</string>
     <string name="settings_bg_plain">Effen</string>

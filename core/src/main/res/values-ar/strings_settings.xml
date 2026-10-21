@@ -31,7 +31,7 @@
     <string name="settings_static">ثابت</string>
     <string name="settings_dynamic">ديناميكي</string>
     <string name="settings_use_proxy">استخدام الوكيل</string>
-    <string name="settings_proxy_description">إرسال كل حركة بيانات OwnTV والتشغيل عبر وكيل HTTP.</string>
+    <string name="settings_proxy_description">إرسال كل حركة بيانات BlankTV والتشغيل عبر وكيل HTTP.</string>
     <string name="settings_host">المضيف</string>
     <string name="settings_proxy_host_hint">proxy.example.com</string>
     <string name="settings_port">المنفذ</string>
@@ -257,7 +257,7 @@
     <string name="settings_player_zoom">تكبير المشغّل</string>
     <string name="settings_app_group">التطبيق</string>
     <string name="settings_app_startup">بدء تشغيل التطبيق</string>
-    <string name="settings_app_startup_description">ما يفتحه OwnTV عند بدء تشغيله</string>
+    <string name="settings_app_startup_description">ما يفتحه BlankTV عند بدء تشغيله</string>
     <string name="settings_check_updates">التحقق من وجود تحديثات</string>
     <string name="settings_check_updates_description">الحصول على أحدث إصدار من GitHub Releases</string>
     <string name="settings_update_startup">التحقق من التحديثات عند بدء التشغيل</string>
@@ -561,7 +561,7 @@
     <string name="settings_guide_synced">تمت مزامنة دليل البرامج التلفزيونية</string>
     <string name="settings_guide_sync_failed">فشلت مزامنة دليل البرامج التلفزيونية</string>
     <string name="settings_restore_remote_title">الاستعادة من جهاز آخر</string>
-    <string name="settings_restore_remote_description">على أي جهاز فيه متصفح على شبكة Wi-Fi نفسها — هاتف أو حاسوب أو تلفاز آخر — امسح رمز QR (أو افتح العنوان)، وأدخل رمز PIN هذا، واختر ملف النسخة الاحتياطية من OwnTV وأرسله. ثم تختار هنا ما تريد استعادته.</string>
+    <string name="settings_restore_remote_description">على أي جهاز فيه متصفح على شبكة Wi-Fi نفسها — هاتف أو حاسوب أو تلفاز آخر — امسح رمز QR (أو افتح العنوان)، وأدخل رمز PIN هذا، واختر ملف النسخة الاحتياطية من BlankTV وأرسله. ثم تختار هنا ما تريد استعادته.</string>
     <string name="settings_try_again">إعادة المحاولة</string>
     <string name="settings_new_pin">البدء من جديد باستخدام PIN جديد</string>
     <string name="settings_download_remote_title">التنزيل على جهاز آخر</string>
@@ -576,7 +576,7 @@
     <string name="settings_catchup_timezone_automatic">تلقائي</string>
     <string name="settings_catchup_timezone_device">الجهاز</string>
     <string name="settings_catchup_player_ask">السؤال دائمًا</string>
-    <string name="settings_catchup_player_internal">مشغّل OwnTV</string>
+    <string name="settings_catchup_player_internal">مشغّل BlankTV</string>
     <string name="settings_catchup_player_external">مشغّل خارجي</string>
     <string name="settings_download_folder_title">اختيار مجلد التنزيل</string>
     <string name="settings_pick_background_title">اختيار صورة خلفية</string>
@@ -700,9 +700,9 @@
     <string name="settings_sources_info">معلومات</string>
     <string name="settings_sources_retest">إعادة الاختبار</string>
     <string name="settings_sources_probe_title">اختبار هذه القائمة؟</string>
-    <string name="settings_sources_probe_warning">لا يذكر كثير من المزوّدين عدد القنوات التي يمكنك مشاهدتها في وقت واحد، لذا يكتشف OwnTV ذلك بفتح بضع قنوات ومعرفة أيها يستمر. سيتوقف كل ما يعمل الآن، وقد يستغرق هذا حتى دقيقتين.</string>
+    <string name="settings_sources_probe_warning">لا يذكر كثير من المزوّدين عدد القنوات التي يمكنك مشاهدتها في وقت واحد، لذا يكتشف BlankTV ذلك بفتح بضع قنوات ومعرفة أيها يستمر. سيتوقف كل ما يعمل الآن، وقد يستغرق هذا حتى دقيقتين.</string>
     <string name="settings_sources_probe_running">جارٍ التحقق من عدد القنوات التي يسمح بها هذا المزوّد… (<xliff:g id="current">%1$d</xliff:g> من <xliff:g id="total">%2$d</xliff:g>)</string>
-    <string name="settings_sources_probe_unknown">تعذّر على OwnTV تحديد عدد القنوات التي يسمح بها هذا المزوّد.</string>
+    <string name="settings_sources_probe_unknown">تعذّر على BlankTV تحديد عدد القنوات التي يسمح بها هذا المزوّد.</string>
     <string name="settings_sources_probe_skip">تخطّي</string>
     <string name="settings_sources_auto_refresh">⟳ <xliff:g id="mode">%1$s</xliff:g></string>
     <string name="settings_sources_default">افتراضي</string>
@@ -993,7 +993,7 @@
     <string name="settings_move_category_keep">أبقِه أيضًا ضمن «<xliff:g id="name">%1$s</xliff:g>»</string>
     <string name="settings_move_category_action">نقل</string>
     <string name="settings_dns_description">استخدام خادم DNS مخصص لاستعلامات النطاقات</string>
-    <string name="settings_dns_toggle_description">حلّ جميع أسماء النطاقات التي يستعلم عنها OwnTV عبر خادم DNS مخصص.</string>
+    <string name="settings_dns_toggle_description">حلّ جميع أسماء النطاقات التي يستعلم عنها BlankTV عبر خادم DNS مخصص.</string>
     <string name="settings_dns_use_custom">استخدام DNS مخصص</string>
     <string name="settings_dns_server_missing">تم تمكين DNS المخصص، ولكن لم تتم تهيئة أي خادم. أدخل عنوان خادم وحدد حفظ، أو أوقف هذا الخيار.</string>
     <string name="settings_dns_server">خادم DNS</string>
@@ -1039,7 +1039,7 @@
     <string name="settings_live_preroll">التخزين المسبق للبث المباشر</string>
     <string name="settings_live_preroll_description">اجمع هذا القدر من الفيديو قبل أن تبدأ القناة المباشرة في التشغيل، ومرة أخرى بعد أي توقف مؤقت. هذه كمية فيديو وليست عدًّا تنازليًا. الإيقاف يضمن أسرع بداية ممكنة.</string>
     <string name="settings_live_tune_timeout">التخلي عن القناة بعد</string>
-    <string name="settings_live_tune_timeout_description">إذا لم تظهر أي صورة على قناة مباشرة خلال هذه المدة، يتوقف OwnTV عن المحاولة ويخبرك بذلك، بدلاً من ترك شاشة سوداء بينما يجرّب كل مشغّل لديه. الخيار «أبدًا» يواصل المحاولة، وقد يستغرق ذلك أكثر من دقيقة على قناة أزالها مزوّدك. لا تُحتسب فترات الانتظار التي يطلبها المزوّد.</string>
+    <string name="settings_live_tune_timeout_description">إذا لم تظهر أي صورة على قناة مباشرة خلال هذه المدة، يتوقف BlankTV عن المحاولة ويخبرك بذلك، بدلاً من ترك شاشة سوداء بينما يجرّب كل مشغّل لديه. الخيار «أبدًا» يواصل المحاولة، وقد يستغرق ذلك أكثر من دقيقة على قناة أزالها مزوّدك. لا تُحتسب فترات الانتظار التي يطلبها المزوّد.</string>
     <string name="settings_live_preroll_per_playlist">التخزين المسبق لكل قائمة تشغيل</string>
     <string name="settings_live_preroll_per_playlist_description">تجاوز الإعداد أعلاه لقائمة تشغيل واحدة مع الحفاظ على سرعة بقية قوائم التشغيل.</string>
     <string name="settings_live_engine_per_playlist">مشغّل البث المباشر لكل قائمة تشغيل</string>
@@ -1065,7 +1065,7 @@
     <string name="settings_surround_auto_description_mobile">تلقائي — جرّب صوت Dolby/DTS المحيطي، وارجع إلى الستيريو تلقائيًا إذا لم تشغّله السماعة أو سماعات الرأس أو جهاز الاستقبال المتصل. موصى به.</string>
     <string name="settings_surround_stereo_description">ستيريو فقط — فكّ الترميز دائمًا داخل التطبيق وأرسل صوت 2.0 عاديًا. استخدم هذا مع مكبرات صوت التلفزيون أو شريط ستيريو، أو إذا تأخر الصوت خلف الصورة.</string>
     <string name="settings_surround_stereo_description_mobile">ستيريو فقط — فكّ الترميز دائمًا داخل التطبيق وأرسل صوت 2.0 عاديًا. استخدم هذا مع السماعة المدمجة أو سماعات الرأس أو شريط ستيريو، أو إذا تأخر الصوت خلف الصورة.</string>
-    <string name="settings_surround_forced_description">صوت محيطي — أرسل Dolby/DTS إلى مستقبل 5.1/7.1 حقيقي. إذا انقطع الصوت أو تذبذب، يعود OwnTV إلى الستيريو ويخبرك.</string>
+    <string name="settings_surround_forced_description">صوت محيطي — أرسل Dolby/DTS إلى مستقبل 5.1/7.1 حقيقي. إذا انقطع الصوت أو تذبذب، يعود BlankTV إلى الستيريو ويخبرك.</string>
     <string name="settings_panel_width">ضبط عرض اللوحة</string>
     <string name="settings_panel_width_description">غيّر حجم لوحات الفئة والقائمة والمعاينة في تلفزيون مباشر والأفلام والمسلسلات.</string>
     <string name="settings_vod_layout">تخطيط الأفلام والمسلسلات</string>
@@ -1116,8 +1116,8 @@
     <string name="settings_auto_frame_rate_warning_suffix">غير موصى به على هذا التلفزيون: لا يمكن تغيير معدل الإطارات بسلاسة على الإصدارات الأقدم من Android 12.</string>
     <string name="settings_auto_frame_rate_warning_title">غير موصى به على هذا التلفزيون</string>
     <string name="settings_auto_frame_rate_warning_title_mobile">غير موصى به على هذا الجهاز</string>
-    <string name="settings_auto_frame_rate_warning_description">يعمل هذا الجهاز بنظام Android <xliff:g id="android_version">%1$s</xliff:g>. على الإصدارات الأقدم من Android 12، لا يستطيع التلفزيون إخبار OwnTV بمعدلات التحديث التي يمكنه التبديل إليها بسلاسة، لذا قد يؤدي تغيير معدل الإطارات إلى اسوداد الشاشة لثانية أو ثانيتين — وأحيانًا أكثر من مرة أثناء البرنامج.\n\nنوصي بترك معدل الإطارات التلقائي معطّلًا هنا. إذا كان تلفزيونك ينتقل بين معدلات التحديث بسلاسة، فعّله وجرّب: يمكنك تغييره مرة أخرى في أي وقت.</string>
-    <string name="settings_auto_frame_rate_warning_description_mobile">يعمل هذا الجهاز بنظام Android <xliff:g id="android_version">%1$s</xliff:g>. على الإصدارات الأقدم من Android 12، لا يستطيع الجهاز إخبار OwnTV بمعدلات التحديث التي يمكنه التبديل إليها بسلاسة، لذا قد يؤدي تغيير معدل الإطارات إلى اسوداد الشاشة لثانية أو ثانيتين — وأحيانًا أكثر من مرة أثناء البرنامج.\n\nنوصي بترك معدل الإطارات التلقائي معطّلًا هنا. إذا كانت شاشتك تنتقل بين معدلات التحديث بسلاسة، فعّله وجرّب: يمكنك تغييره مرة أخرى في أي وقت.</string>
+    <string name="settings_auto_frame_rate_warning_description">يعمل هذا الجهاز بنظام Android <xliff:g id="android_version">%1$s</xliff:g>. على الإصدارات الأقدم من Android 12، لا يستطيع التلفزيون إخبار BlankTV بمعدلات التحديث التي يمكنه التبديل إليها بسلاسة، لذا قد يؤدي تغيير معدل الإطارات إلى اسوداد الشاشة لثانية أو ثانيتين — وأحيانًا أكثر من مرة أثناء البرنامج.\n\nنوصي بترك معدل الإطارات التلقائي معطّلًا هنا. إذا كان تلفزيونك ينتقل بين معدلات التحديث بسلاسة، فعّله وجرّب: يمكنك تغييره مرة أخرى في أي وقت.</string>
+    <string name="settings_auto_frame_rate_warning_description_mobile">يعمل هذا الجهاز بنظام Android <xliff:g id="android_version">%1$s</xliff:g>. على الإصدارات الأقدم من Android 12، لا يستطيع الجهاز إخبار BlankTV بمعدلات التحديث التي يمكنه التبديل إليها بسلاسة، لذا قد يؤدي تغيير معدل الإطارات إلى اسوداد الشاشة لثانية أو ثانيتين — وأحيانًا أكثر من مرة أثناء البرنامج.\n\nنوصي بترك معدل الإطارات التلقائي معطّلًا هنا. إذا كانت شاشتك تنتقل بين معدلات التحديث بسلاسة، فعّله وجرّب: يمكنك تغييره مرة أخرى في أي وقت.</string>
     <string name="settings_auto_frame_rate_keep_off">إبقاؤه معطّلًا</string>
     <string name="settings_auto_frame_rate_turn_on_anyway">تفعيله على أي حال</string>
     <string name="settings_language_request_workflow">هل تريد إضافة لغة غير مدرجة؟ قدّم طلب لغة أولاً. سيقوم أحد المشرفين بتسجيلها وتجهيز ملفات الترجمة الأساسية؛ وبمجرد ظهورها على Hosted Weblate، يمكنك البدء في المساهمة.</string>
@@ -1250,7 +1250,7 @@
     <string name="local_sync_received_items">عناصر مستلمة: <xliff:g id="count">%1$d</xliff:g></string>
     <string name="local_sync_sent">تم إرسال بياناتك</string>
     <string name="local_sync_failed">فشلت المزامنة</string>
-    <string name="local_sync_error_unreachable">تعذّر الوصول إلى هذا الجهاز. افتح عليه OwnTV ← الإعدادات ← البيانات ← المزامنة المحلية وفعّل وضع المزامنة. يجب أن يكون الجهازان على نفس شبكة الواي فاي.</string>
+    <string name="local_sync_error_unreachable">تعذّر الوصول إلى هذا الجهاز. افتح عليه BlankTV ← الإعدادات ← البيانات ← المزامنة المحلية وفعّل وضع المزامنة. يجب أن يكون الجهازان على نفس شبكة الواي فاي.</string>
     <string name="local_sync_error_unauthorized">رفض الجهاز الآخر الاتصال. قد يكون رمز PIN خاطئًا أو ربما نسي هذا الجهاز.</string>
     <string name="local_sync_error_bad_payload">تعذّرت قراءة ما وصل. إذا استخدمت كلمة مرور، فتأكد من أنها نفسها على الجهازين.</string>
     <string name="local_sync_error_unknown">حدث خطأ ما. حاول مرة أخرى.</string>
@@ -1362,8 +1362,8 @@
     <string name="settings_multiview_keep_two">أبقِ 2</string>
     <string name="settings_multiview_use_anyway">استخدم على أي حال</string>
     <string name="settings_app_icon">أيقونة التطبيق</string>
-    <string name="settings_app_icon_summary">لون أيقونة OwnTV وشعاره</string>
-    <string name="settings_app_icon_sheet_mobile">طريقة ظهور OwnTV على شاشتك الرئيسية. يُعاد تشغيل التطبيق مرة واحدة.</string>
+    <string name="settings_app_icon_summary">لون أيقونة BlankTV وشعاره</string>
+    <string name="settings_app_icon_sheet_mobile">طريقة ظهور BlankTV على شاشتك الرئيسية. يُعاد تشغيل التطبيق مرة واحدة.</string>
     <string name="settings_brand_accent">شعار بلون التمييز</string>
     <string name="app_icon_petrol">بترولي</string>
     <string name="app_icon_sunflower">عبّاد الشمس</string>
@@ -1374,8 +1374,8 @@
     <string name="app_icon_olive">زيتوني</string>
     <string name="app_icon_olive_cream">زيتوني على كريمي</string>
     <string name="app_icon_pixel">Pixel</string>
-    <string name="app_icon_restart_title">إعادة تشغيل OwnTV؟</string>
-    <string name="app_icon_restart_message">اخترت أيقونة وشعارًا جديدين. سيُطبَّقان بعد إعادة تشغيل OwnTV.</string>
+    <string name="app_icon_restart_title">إعادة تشغيل BlankTV؟</string>
+    <string name="app_icon_restart_message">اخترت أيقونة وشعارًا جديدين. سيُطبَّقان بعد إعادة تشغيل BlankTV.</string>
     <string name="app_icon_restart_now">إعادة التشغيل الآن</string>
     <string name="settings_navigation">التنقل</string>
     <string name="settings_navigation_description">كيف تتصرف القائمة الجانبية</string>
@@ -1543,10 +1543,10 @@
     <string name="settings_help_epg_sources">أضف مصدر دليل XMLTV عبر رابطه، أو حدّثه، أو احذفه. تملأ المصادر دليل التلفاز وسطور البرامج في البث المباشر.</string>
     <string name="settings_help_guide_days">عدد أيام البرامج التي يخزنها الدليل مسبقًا. أيام أقل تعني تحديثًا أسرع للدليل وقاعدة بيانات أصغر.</string>
     <string name="settings_help_catchup_timezone">تشغّل المشاهدة الاستدراكية البرامج من أرشيف مزوّدك. يستخدم الوضع التلقائي المنطقة الزمنية التي يعلنها مزوّدك، أو ساعة التلفاز نفسها إن لم يعلن عنها؛ اختر إزاحة UTC ثابتة إذا ظلت المشاهدة تبدأ في وقت خاطئ. ومن هنا أيضًا تختار المشغّل الذي تستخدمه.</string>
-    <string name="settings_help_theme">صُمّم OwnTV للوضع الداكن. يتبع خيار النظام إعداد التلفاز إن وُجد، ويناسب الوضع الفاتح الغرف المضيئة.</string>
+    <string name="settings_help_theme">صُمّم BlankTV للوضع الداكن. يتبع خيار النظام إعداد التلفاز إن وُجد، ويناسب الوضع الفاتح الغرف المضيئة.</string>
     <string name="settings_help_accent">يلوّن الأزرار وتوهج التركيز وأشرطة التقدم والتمييزات في كل مكان. اختر لونًا جاهزًا، أو اضغط OK لفتح لوحة الألوان وإدخال أي رمز سداسي.</string>
     <string name="settings_help_focus">الحلقة المرسومة حول العنصر المحدد. اختر لونها وسُمكها لتبقى سهلة التتبع من الأريكة.</string>
-    <string name="settings_help_fonts">الخط المستخدم في كل OwnTV وحجم النص. تستخدم النوافذ المنبثقة الخط نفسه.</string>
+    <string name="settings_help_fonts">الخط المستخدم في كل BlankTV وحجم النص. تستخدم النوافذ المنبثقة الخط نفسه.</string>
     <string name="settings_help_popup_size">يكبّر النوافذ المنبثقة والقوائم ومربعات الحوار أو يصغّرها كاملة. استخدمه عندما تبدو النوافذ ضيقة أو تغطي جزءًا كبيرًا من الشاشة.</string>
     <string name="settings_help_zoom">يغيّر حجم كل شيء على الشاشة. الأكبر أسهل للقراءة من بعيد، والأصغر يعرض محتوى أكثر. تحت ‎85%%‎ قد تنفد ذاكرة أجهزة التلفاز ذات الذاكرة القليلة.</string>
     <string name="settings_help_animations">عند التشغيل تتحرك الألواح والقوائم والتركيز بسلاسة. عند الإيقاف يصبح كل تغيير فوريًا.</string>
@@ -1556,11 +1556,11 @@
     <string name="settings_help_vod_layout">يعرض السينمائي صورة العنوان المحدد خلف شبكة من الملصقات. أما المنفصل فيعرض الفئات والعناوين والتفاصيل جنبًا إلى جنب.</string>
     <string name="settings_help_home">اختر الصفوف التي تعرضها الصفحة الرئيسية وترتيبها، وشكل صف الأكثر رواجًا الآن.</string>
     <string name="settings_help_customize">أخفِ الفئات والعناصر التي لا تشاهدها أبدًا، وامنح الفئات أسماءك الخاصة ورتّبها كما تريد. ما تخفيه يعود من هنا، ولا يضيع أبدًا.</string>
-    <string name="settings_help_app_icon">أيقونة OwnTV على الشاشة الرئيسية للتلفاز. قد يحتاج المشغّل لحظة لإظهار التغيير.</string>
-    <string name="settings_help_brand_accent">يعرض شعار OwnTV في القائمة وصفحة «حول» والإعداد مثلث التشغيل بلون التمييز الذي اخترته. أما الأيقونة على الشاشة الرئيسية فتحتفظ بألوانها.</string>
-    <string name="settings_help_startup">ما يعرضه OwnTV عند بدء تشغيله: الصفحة الرئيسية، أو آخر قناة شاهدتها، أو مفضلاتك، أو قناة تختارها.</string>
-    <string name="settings_help_check_updates">يبحث الآن في GitHub عن إصدار أحدث من OwnTV ويعرض تثبيته. تبقى قوائم التشغيل والمفضلات والإعدادات كما هي.</string>
-    <string name="settings_help_update_startup">يبحث عن إصدار جديد في كل مرة يبدأ فيها OwnTV ويخبرك عند توفره. لا يُثبَّت أي شيء دون سؤالك.</string>
+    <string name="settings_help_app_icon">أيقونة BlankTV على الشاشة الرئيسية للتلفاز. قد يحتاج المشغّل لحظة لإظهار التغيير.</string>
+    <string name="settings_help_brand_accent">يعرض شعار BlankTV في القائمة وصفحة «حول» والإعداد مثلث التشغيل بلون التمييز الذي اخترته. أما الأيقونة على الشاشة الرئيسية فتحتفظ بألوانها.</string>
+    <string name="settings_help_startup">ما يعرضه BlankTV عند بدء تشغيله: الصفحة الرئيسية، أو آخر قناة شاهدتها، أو مفضلاتك، أو قناة تختارها.</string>
+    <string name="settings_help_check_updates">يبحث الآن في GitHub عن إصدار أحدث من BlankTV ويعرض تثبيته. تبقى قوائم التشغيل والمفضلات والإعدادات كما هي.</string>
+    <string name="settings_help_update_startup">يبحث عن إصدار جديد في كل مرة يبدأ فيها BlankTV ويخبرك عند توفره. لا يُثبَّت أي شيء دون سؤالك.</string>
     <string name="settings_help_dns">يبحث عن عناوين مزوّدك عبر خادم DNS تختاره بدلًا من خادم شبكتك — مفيد عندما تحظرها شبكتك أو تعيد توجيهها.</string>
     <string name="settings_help_live_engine">يفتح ExoPlayer القنوات أسرع بكثير وهو الوحيد الذي يدعم الترجمة المباشرة. يشغّل mpv قنوات لا يستطيع ExoPlayer تشغيلها، ومنها بعض الصوت غير المعتاد. تجرّب الخيارات المركّبة المشغّل الآخر عند فشل الأول.</string>
     <string name="settings_help_hw">يستخدم وحدة فك الترميز في عتاد التلفاز: 4K سلس وحرارة أقل. أوقفه فقط إذا تقطّعت بعض البثوث أو ظهرت فيها مربعات؛ عندها يتولى فك الترميز البرمجي العمل.</string>
@@ -1584,12 +1584,12 @@
     <string name="settings_profile_add">إضافة ملف شخصي</string>
     <string name="settings_profile_add_line">مشاهد له مفضلاته وسجله وإعداداته الخاصة</string>
     <plurals name="settings_help_language">
-        <item quantity="zero">لغة كل القوائم والرسائل في OwnTV. <xliff:g id="count">%1$d</xliff:g> لغة؛ تتبع لغة التلفاز حتى تختار لغة.</item>
-        <item quantity="one">لغة كل القوائم والرسائل في OwnTV. <xliff:g id="count">%1$d</xliff:g> لغة؛ تتبع لغة التلفاز حتى تختار لغة.</item>
-        <item quantity="two">لغة كل القوائم والرسائل في OwnTV. <xliff:g id="count">%1$d</xliff:g> لغة؛ تتبع لغة التلفاز حتى تختار لغة.</item>
-        <item quantity="few">لغة كل القوائم والرسائل في OwnTV. <xliff:g id="count">%1$d</xliff:g> لغات؛ تتبع لغة التلفاز حتى تختار لغة.</item>
-        <item quantity="many">لغة كل القوائم والرسائل في OwnTV. <xliff:g id="count">%1$d</xliff:g> لغة؛ تتبع لغة التلفاز حتى تختار لغة.</item>
-        <item quantity="other">لغة كل القوائم والرسائل في OwnTV. <xliff:g id="count">%1$d</xliff:g> لغة؛ تتبع لغة التلفاز حتى تختار لغة.</item>
+        <item quantity="zero">لغة كل القوائم والرسائل في BlankTV. <xliff:g id="count">%1$d</xliff:g> لغة؛ تتبع لغة التلفاز حتى تختار لغة.</item>
+        <item quantity="one">لغة كل القوائم والرسائل في BlankTV. <xliff:g id="count">%1$d</xliff:g> لغة؛ تتبع لغة التلفاز حتى تختار لغة.</item>
+        <item quantity="two">لغة كل القوائم والرسائل في BlankTV. <xliff:g id="count">%1$d</xliff:g> لغة؛ تتبع لغة التلفاز حتى تختار لغة.</item>
+        <item quantity="few">لغة كل القوائم والرسائل في BlankTV. <xliff:g id="count">%1$d</xliff:g> لغات؛ تتبع لغة التلفاز حتى تختار لغة.</item>
+        <item quantity="many">لغة كل القوائم والرسائل في BlankTV. <xliff:g id="count">%1$d</xliff:g> لغة؛ تتبع لغة التلفاز حتى تختار لغة.</item>
+        <item quantity="other">لغة كل القوائم والرسائل في BlankTV. <xliff:g id="count">%1$d</xliff:g> لغة؛ تتبع لغة التلفاز حتى تختار لغة.</item>
     </plurals>
     <plurals name="settings_profile_count">
         <item quantity="zero"><xliff:g id="count">%1$d</xliff:g> ملف شخصي</item>
@@ -1634,8 +1634,8 @@
     <string name="settings_home_show_row">إظهار هذا الصف</string>
     <string name="settings_home_move_row">نقل (▲ ▼ ثم OK)</string>
     <string name="settings_line_remote_shortcuts_on">الإيقاف يحتفظ بتعييناتك</string>
-    <string name="settings_language_system_help">يتبع OwnTV لغة التلفاز (حاليًا <xliff:g id="language">%1$s</xliff:g>). اختر لغة أدناه لاستخدامها في OwnTV فقط.</string>
-    <string name="settings_language_pick_help">استخدام <xliff:g id="language">%1$s</xliff:g> في OwnTV بغض النظر عن لغة التلفاز.</string>
+    <string name="settings_language_system_help">يتبع BlankTV لغة التلفاز (حاليًا <xliff:g id="language">%1$s</xliff:g>). اختر لغة أدناه لاستخدامها في BlankTV فقط.</string>
+    <string name="settings_language_pick_help">استخدام <xliff:g id="language">%1$s</xliff:g> في BlankTV بغض النظر عن لغة التلفاز.</string>
     <string name="settings_key_use">استخدام</string>
     <string name="settings_line_metadata_source">مصدر تفاصيل الأفلام والمسلسلات</string>
     <string name="settings_line_metadata_language">الملخصات والأنواع والعناوين من TMDB</string>
@@ -1696,7 +1696,7 @@
     <string name="settings_line_glass_bg">الخلفية، مظهر الصورة، الزجاج</string>
     <string name="settings_bg_background">الخلفية</string>
     <string name="settings_line_bg_background">ما يظهر خلف كل شاشة</string>
-    <string name="settings_help_bg_background">يعرض Stage ألوان OwnTV الهادئة الخاصة. تعرض صورة صورتك الخاصة خلف كل شاشة. سادة تعبئة داكنة مسطحة.</string>
+    <string name="settings_help_bg_background">يعرض Stage ألوان BlankTV الهادئة الخاصة. تعرض صورة صورتك الخاصة خلف كل شاشة. سادة تعبئة داكنة مسطحة.</string>
     <string name="settings_bg_stage">Stage</string>
     <string name="settings_bg_picture">صورة</string>
     <string name="settings_bg_plain">سادة</string>
